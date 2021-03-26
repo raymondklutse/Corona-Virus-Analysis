@@ -1,0 +1,43 @@
+,Age_Band,Estimated_Percentage_People,Num_Infections,Sex,Country
+0,Age 16 - 24,0.295,840000,Male,England
+1,Age 25 - 34,0.241,911000,Male,England
+2,Age 35 - 49,0.24,1285000,Male,England
+3,Age 50 - 69,0.281,1875000,Male,England
+4,Age 70 - 74,0.523,873000,Male,England
+5,Age 75 - 79,0.649,648000,Male,England
+6,Age 80+,0.742,529000,Male,England
+7,Age 16 - 24,0.346,935000,Female,England
+8,Age 25 - 34,0.315,1176000,Female,England
+9,Age 35 - 49,0.308,1681000,Female,England
+10,Age 50 - 69,0.315,2186000,Female,England
+11,Age 70 - 74,0.567,1190000,Female,England
+12,Age 75 - 79,0.722,839000,Female,England
+13,Age 80+,0.772,584000,Female,England
+14,Age 16 - 34,0.186,68000,Male,Wales
+15,Age 35 - 49,0.161,43000,Male,Wales
+16,Age 50 - 69,0.265,105000,Male,Wales
+17,Age 70+,0.472,102000,Male,Wales
+21,Age 16 - 34,0.283,98000,Female,Wales
+22,Age 35 - 49,0.343,95000,Female,Wales
+23,Age 50 - 69,0.283,118000,Female,Wales
+24,Age 70+,0.573,144000,Female,Wales
+28,Age 16 - 34,0.226,51000,Male,Nothern_Ireland
+29,Age 35 - 49,0.207,37000,Male,Nothern_Ireland
+30,Age 50 - 69,0.334,75000,Male,Nothern_Ireland
+31,Age 70+,0.447,44000,Male,Nothern_Ireland
+35,Age 16 - 34,0.314,69000,Female,Nothern_Ireland
+36,Age 35 - 49,0.277,52000,Female,Nothern_Ireland
+37,Age 50 - 69,0.356,83000,Female,Nothern_Ireland
+38,Age 70+,0.44,53000,Female,Nothern_Ireland
+42,Age 16 - 24,0.177,49000,Male,Scotland
+43,Age 25 - 34,0.101,37000,Male,Scotland
+44,Age 35 - 49,0.142,69000,Male,Scotland
+45,Age 50 - 69,0.171,116000,Male,Scotland
+46,Age 70 - 74,0.393,73000,Male,Scotland
+47,Age 75+,0.483,68000,Male,Scotland
+49,Age 16 - 24,0.21,57000,Female,Scotland
+50,Age 25 - 34,0.194,72000,Female,Scotland
+51,Age 35 - 49,0.174,90000,Female,Scotland
+52,Age 50 - 69,0.248,184000,Female,Scotland
+53,Age 70 - 74,0.385,87000,Female,Scotland
+54,Age 75+,0.474,93000,Female,Scotland

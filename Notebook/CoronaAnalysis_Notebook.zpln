@@ -1,0 +1,2040 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Corona Virus Pandemic Data Analysis\n\nCorona Virus has made waves all over the world since it\u0027s appearance on December 2019. This virus has taken the lives of many people and also had a huge impact on economies world wide. Amongst these economies, the UK has been hit hard by this pandemic in terms of the lives lost and the economic strain it has left of the government. In this project, we analyse some data made available on [The Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases), to gain insights into how the pandemic is spreading and also its economic impacts.",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 11:53:49.035",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eCorona Virus Pandemic Data Analysis\u003c/h1\u003e\n\u003cp\u003eCorona Virus has made waves all over the world since it\u0026rsquo;s appearance on December 2019. This virus has taken the lives of many people and also had a huge impact on economies world wide. Amongst these economies, the UK has been hit hard by this pandemic in terms of the lives lost and the economic strain it has left of the government. In this project, we analyse some data made available on \u003ca href\u003d\"https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases\"\u003eThe Office for National Statistics\u003c/a\u003e, to gain insights into how the pandemic is spreading and also its economic impacts.\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616502131050_840458227",
+      "id": "paragraph_1616502131050_840458227",
+      "dateCreated": "2021-03-23 12:22:11.050",
+      "dateStarted": "2021-03-26 11:53:49.057",
+      "dateFinished": "2021-03-26 11:53:49.444",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n# Data Extraction \n\nThe data used in this project was download from [The Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases) website and stored in a directory on my local machine. The various datasets downloaded were\n* [Covid Infections](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/bulletins/coronaviruscovid19infectionsurveypilot/19march2021) \n* [Mortality](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) \n*  [Economic Effects](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/methodologies/onlineweeklypricechangesmethodology)  ",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:16:46.062",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eData Extraction\u003c/h1\u003e\n\u003cp\u003eThe data used in this project was download from \u003ca href\u003d\"https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases\"\u003eThe Office for National Statistics\u003c/a\u003e website and stored in a directory on my local machine. The various datasets downloaded were\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/bulletins/coronaviruscovid19infectionsurveypilot/19march2021\"\u003eCovid Infections\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales\"\u003eMortality\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/methodologies/onlineweeklypricechangesmethodology\"\u003eEconomic Effects\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616502165647_763438518",
+      "id": "paragraph_1616502165647_763438518",
+      "dateCreated": "2021-03-23 12:22:45.647",
+      "dateStarted": "2021-03-26 10:16:46.068",
+      "dateFinished": "2021-03-26 10:16:46.094",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n### Covid Infections\n\nThis data contains infections recorded from 4th February to 3 March 2021",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:28.688",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eCovid Infections\u003c/h3\u003e\n\u003cp\u003eThis data contains infections recorded from 4th February to 3 March 2021\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616518699947_1069370122",
+      "id": "paragraph_1616518699947_1069370122",
+      "dateCreated": "2021-03-23 16:58:19.947",
+      "dateStarted": "2021-03-26 09:41:28.726",
+      "dateFinished": "2021-03-26 09:41:28.758",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Path to data file\nval dataFilePath \u003d \"file:///zeppelin/seed/Infections/infections_by_country_age_and_sex.csv\"\n\n// Read data into a spark DataFrame\nval infectionsData \u003d spark\n                    .read\n                    .option(\"inferSchema\",\"true\")\n                    .option(\"header\",\"true\")\n                    .csv(path \u003d dataFilePath).toDF();",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:28.825",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdataFilePath\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m \u003d file:///zeppelin/seed/Infections/infections_by_country_age_and_sex.csv\n\u001b[1m\u001b[34minfectionsData\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [_c0: int, Age_Band: string ... 4 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d0"
+            },
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d1"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616497736700_470615654",
+      "id": "paragraph_1616497736700_470615654",
+      "dateCreated": "2021-03-23 11:08:56.701",
+      "dateStarted": "2021-03-26 09:41:28.850",
+      "dateFinished": "2021-03-26 09:41:33.609",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Display data schema\ninfectionsData.printSchema()\n\n// Display first 20 rows of dataset\ninfectionsData.show(5)",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:33.665",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- _c0: integer (nullable \u003d true)\n |-- Age_Band: string (nullable \u003d true)\n |-- Estimated_Percentage_People: double (nullable \u003d true)\n |-- Num_Infections: integer (nullable \u003d true)\n |-- Sex: string (nullable \u003d true)\n |-- Country: string (nullable \u003d true)\n\n+---+-----------+---------------------------+--------------+----+-------+\n|_c0|   Age_Band|Estimated_Percentage_People|Num_Infections| Sex|Country|\n+---+-----------+---------------------------+--------------+----+-------+\n|  0|Age 16 - 24|                      0.295|        840000|Male|England|\n|  1|Age 25 - 34|                      0.241|        911000|Male|England|\n|  2|Age 35 - 49|                       0.24|       1285000|Male|England|\n|  3|Age 50 - 69|                      0.281|       1875000|Male|England|\n|  4|Age 70 - 74|                      0.523|        873000|Male|England|\n+---+-----------+---------------------------+--------------+----+-------+\nonly showing top 5 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d2"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616500951838_2111104326",
+      "id": "paragraph_1616500951838_2111104326",
+      "dateCreated": "2021-03-23 12:02:31.841",
+      "dateStarted": "2021-03-26 09:41:33.695",
+      "dateFinished": "2021-03-26 09:41:34.510",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Compress Data into parquet format\ninfectionsData.write\n                .format(\"parquet\")\n                .mode(\"overwrite\")\n                .option(\"compression\",\"gzip\")\n                .save(\"file:///zeppelin/seed/Infections/infections_parquet\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:34.599",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d3"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616518125999_1812690333",
+      "id": "paragraph_1616518125999_1812690333",
+      "dateCreated": "2021-03-23 16:48:46.000",
+      "dateStarted": "2021-03-26 09:41:34.648",
+      "dateFinished": "2021-03-26 09:41:36.744",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n### Mortality Data",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:36.753",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eMortality Data\u003c/h3\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616518668050_2050147525",
+      "id": "paragraph_1616518668050_2050147525",
+      "dateCreated": "2021-03-23 16:57:48.051",
+      "dateStarted": "2021-03-26 09:41:36.813",
+      "dateFinished": "2021-03-26 09:41:36.824",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Path to data file\nval dataFilePath \u003d \"file:///zeppelin/seed/Mortality/deaths_registered_cleaned.csv\"\n\n// Read data into a spark DataFrame\nval mortalityData \u003d spark\n                    .read\n                    .option(\"inferSchema\",\"true\")\n                    .option(\"header\",\"true\")\n                    .csv(path \u003d dataFilePath).toDF();",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:36.913",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdataFilePath\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m \u003d file:///zeppelin/seed/Mortality/deaths_registered_cleaned.csv\n\u001b[1m\u001b[34mmortalityData\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [_c0: int, Year: int ... 4 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d4"
+            },
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d5"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616518023661_608860924",
+      "id": "paragraph_1616518023661_608860924",
+      "dateCreated": "2021-03-23 16:47:03.662",
+      "dateStarted": "2021-03-26 09:41:36.935",
+      "dateFinished": "2021-03-26 09:41:37.506",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Display data schema\nmortalityData.printSchema()\n\n// Display first 20 rows of dataset\nmortalityData.show(5)",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:37.536",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- _c0: integer (nullable \u003d true)\n |-- Year: integer (nullable \u003d true)\n |-- Week_no: string (nullable \u003d true)\n |-- Deaths_except_COVID19: integer (nullable \u003d true)\n |-- All_deaths_5_year_avg: integer (nullable \u003d true)\n |-- Deaths_COVID: integer (nullable \u003d true)\n\n+---+----+-------+---------------------+---------------------+------------+\n|_c0|Year|Week_no|Deaths_except_COVID19|All_deaths_5_year_avg|Deaths_COVID|\n+---+----+-------+---------------------+---------------------+------------+\n|  0|2020| Week 1|                12254|                12175|           0|\n|  1|2020| Week 2|                14058|                13822|           0|\n|  2|2020| Week 3|                12990|                13216|           0|\n|  3|2020| Week 4|                11856|                12760|           0|\n|  4|2020| Week 5|                11612|                12206|           0|\n+---+----+-------+---------------------+---------------------+------------+\nonly showing top 5 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d6"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616518082135_287413230",
+      "id": "paragraph_1616518082135_287413230",
+      "dateCreated": "2021-03-23 16:48:02.138",
+      "dateStarted": "2021-03-26 09:41:37.571",
+      "dateFinished": "2021-03-26 09:41:38.043",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\nIn order to permit future parallel processing of our data, we convert our DataFrame to Parquet file format since it enables splitting and filtering. We choose GZIP as our compression code for this proceess.",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:38.071",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eIn order to permit future parallel processing of our data, we convert our DataFrame to Parquet file format since it enables splitting and filtering. We choose GZIP as our compression code for this proceess.\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616506593521_193509663",
+      "id": "paragraph_1616506593521_193509663",
+      "dateCreated": "2021-03-23 13:36:33.529",
+      "dateStarted": "2021-03-26 09:41:38.123",
+      "dateFinished": "2021-03-26 09:41:38.138",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Compress Data into parquet format\nmortalityData.write\n                .format(\"parquet\")\n                .mode(\"overwrite\")\n                .option(\"compression\",\"gzip\")\n                .partitionBy(\"Year\")\n                .save(\"file:///zeppelin/seed/Mortality/mortality_parquet\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:17:36.786",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d31"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616509354753_1350385592",
+      "id": "paragraph_1616509354753_1350385592",
+      "dateCreated": "2021-03-23 14:22:34.753",
+      "dateStarted": "2021-03-26 10:17:36.839",
+      "dateFinished": "2021-03-26 10:17:39.396",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n### Economic Challenges",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:38.867",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eEconomic Challenges\u003c/h3\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616750695051_1800893304",
+      "id": "paragraph_1616750695051_1800893304",
+      "dateCreated": "2021-03-26 09:24:55.051",
+      "dateStarted": "2021-03-26 09:41:38.898",
+      "dateFinished": "2021-03-26 09:41:38.912",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Path to data file\nval dataFilePath \u003d \"file:///zeppelin/seed/OnlinePrice/onlinepricechanges.csv\"\n\n// Read data into a spark DataFrame\nval onlinePriceData \u003d spark\n                    .read\n                    .option(\"inferSchema\",\"true\")\n                    .option(\"header\",\"true\")\n                    .csv(path \u003d dataFilePath).toDF();\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:38.996",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdataFilePath\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m \u003d file:///zeppelin/seed/OnlinePrice/onlinepricechanges.csv\n\u001b[1m\u001b[34monlinePriceData\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [_c0: int, Date: string ... 3 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d8"
+            },
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d9"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616750739387_842446030",
+      "id": "paragraph_1616750739387_842446030",
+      "dateCreated": "2021-03-26 09:25:39.388",
+      "dateStarted": "2021-03-26 09:41:39.023",
+      "dateFinished": "2021-03-26 09:41:39.766",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Display data schema\nonlinePriceData.printSchema()\n\n// Display first 20 rows of dataset\nonlinePriceData.show(5)",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:39.826",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- _c0: integer (nullable \u003d true)\n |-- Date: string (nullable \u003d true)\n |-- Price: double (nullable \u003d true)\n |-- Category: string (nullable \u003d true)\n |-- Item: string (nullable \u003d true)\n\n+---+----------+-----+----------+----------+\n|_c0|      Date|Price|  Category|      Item|\n+---+----------+-----+----------+----------+\n|  0|07-06-2020|100.0|Aggregated|Aggregated|\n|  1|14-06-2020|100.0|Aggregated|Aggregated|\n|  2|21-06-2020| 99.9|Aggregated|Aggregated|\n|  3|28-06-2020| 99.8|Aggregated|Aggregated|\n|  4|05-07-2020| 99.7|Aggregated|Aggregated|\n+---+----------+-----+----------+----------+\nonly showing top 5 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d10"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616750807681_1608664100",
+      "id": "paragraph_1616750807681_1608664100",
+      "dateCreated": "2021-03-26 09:26:47.681",
+      "dateStarted": "2021-03-26 09:41:39.863",
+      "dateFinished": "2021-03-26 09:41:40.372",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Compress Data into parquet format\nonlinePriceData.write\n                .format(\"parquet\")\n                .mode(\"overwrite\")\n                .option(\"compression\",\"gzip\")\n                .save(\"file:///zeppelin/seed/OnlinePrice/onlinepricechanges_parquet\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:40.462",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d11"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616750834447_1005226881",
+      "id": "paragraph_1616750834447_1005226881",
+      "dateCreated": "2021-03-26 09:27:14.447",
+      "dateStarted": "2021-03-26 09:41:40.501",
+      "dateFinished": "2021-03-26 09:41:41.407",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n# Data Visualization\n\nNow that our data has been created in the expected format, we will read it and process it",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:41.506",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eData Visualization\u003c/h1\u003e\n\u003cp\u003eNow that our data has been created in the expected format, we will read it and process it\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616508198546_1301542845",
+      "id": "paragraph_1616508198546_1301542845",
+      "dateCreated": "2021-03-23 14:03:18.546",
+      "dateStarted": "2021-03-26 09:41:41.533",
+      "dateFinished": "2021-03-26 09:41:41.550",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n### Covid Infections",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:41.633",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eCovid Infections\u003c/h3\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616519504449_1104846649",
+      "id": "paragraph_1616519504449_1104846649",
+      "dateCreated": "2021-03-23 17:11:44.451",
+      "dateStarted": "2021-03-26 09:41:41.676",
+      "dateFinished": "2021-03-26 09:41:41.688",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Read data into a pqarquet file\nval infectionsDataParquet \u003d spark\n                          .read\n                          .parquet(path \u003d \"file:///zeppelin/seed//Infections/infections_parquet\")\n                          \n// Display physical plan \ninfectionsDataParquet.explain\n\n// Create view to allow data query\ninfectionsDataParquet.createOrReplaceTempView(\"infectionsDataParquet\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:49:15.793",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003d\u003d Physical Plan \u003d\u003d\n*(1) FileScan parquet [_c0#415,Age_Band#416,Estimated_Percentage_People#417,Num_Infections#418,Sex#419,Country#420] Batched: true, Format: Parquet, Location: InMemoryFileIndex[file:/zeppelin/seed/Infections/infections_parquet], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003c_c0:int,Age_Band:string,Estimated_Percentage_People:double,Num_Infections:int,Sex:string,C...\n\u001b[1m\u001b[34minfectionsDataParquet\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [_c0: int, Age_Band: string ... 4 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d34"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616508289901_1176791880",
+      "id": "paragraph_1616508289901_1176791880",
+      "dateCreated": "2021-03-23 14:04:49.902",
+      "dateStarted": "2021-03-26 10:47:33.299",
+      "dateFinished": "2021-03-26 10:47:34.758",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n\nSELECT *\nFROM infectionsDataParquet\nWHERE COUNTRY \u003d \"Wales\" or COUNTRY \u003d \"Nothern_Ireland\"\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:42.533",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "Category0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Num_items1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1.0,
+                      "paginationPageSize": 250.0
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "_c0": "string",
+                      "Age_Band": "string",
+                      "Estimated_Percentage_People": "string",
+                      "Num_Infections": "string",
+                      "Sex": "string",
+                      "Country": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "rotate",
+                  "stacked": false
+                },
+                "pieChart": {},
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default",
+                  "style": "stack"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Age_Band",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Sex",
+                  "index": 4.0,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "Estimated_Percentage_People",
+                  "index": 2.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          },
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Category": "string",
+                      "Num_items": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "_c0\tAge_Band\tEstimated_Percentage_People\tNum_Infections\tSex\tCountry\n14\tAge 16 - 34\t0.186\t68000\tMale\tWales\n15\tAge 35 - 49\t0.161\t43000\tMale\tWales\n16\tAge 50 - 69\t0.265\t105000\tMale\tWales\n17\tAge 70+\t0.472\t102000\tMale\tWales\n21\tAge 16 - 34\t0.283\t98000\tFemale\tWales\n22\tAge 35 - 49\t0.343\t95000\tFemale\tWales\n23\tAge 50 - 69\t0.283\t118000\tFemale\tWales\n24\tAge 70+\t0.573\t144000\tFemale\tWales\n28\tAge 16 - 34\t0.226\t51000\tMale\tNothern_Ireland\n29\tAge 35 - 49\t0.207\t37000\tMale\tNothern_Ireland\n30\tAge 50 - 69\t0.334\t75000\tMale\tNothern_Ireland\n31\tAge 70+\t0.447\t44000\tMale\tNothern_Ireland\n35\tAge 16 - 34\t0.314\t69000\tFemale\tNothern_Ireland\n36\tAge 35 - 49\t0.277\t52000\tFemale\tNothern_Ireland\n37\tAge 50 - 69\t0.356\t83000\tFemale\tNothern_Ireland\n38\tAge 70+\t0.44\t53000\tFemale\tNothern_Ireland\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d13"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616519779963_828328081",
+      "id": "paragraph_1616519779963_828328081",
+      "dateCreated": "2021-03-23 17:16:19.963",
+      "dateStarted": "2021-03-26 09:41:42.561",
+      "dateFinished": "2021-03-26 09:41:43.219",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\nWe observe a greater proportion of people over 70 got infected during this period. Also, a generable observation shows us that females are being infected more than males.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:43.265",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eWe observe a greater proportion of people over 70 got infected during this period. Also, a generable observation shows us that females are being infected more than males.\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616691989349_886480576",
+      "id": "paragraph_1616691989349_886480576",
+      "dateCreated": "2021-03-25 17:06:29.354",
+      "dateStarted": "2021-03-26 09:41:43.295",
+      "dateFinished": "2021-03-26 09:41:43.307",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n\nSELECT Age_Band, Num_Infections,Country\nFROM infectionsDataParquet\nWHERE COUNTRY \u003d \"England\" or COUNTRY \u003d \"Scotland\"\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:43.395",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "stackedAreaChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Age_Band": "string",
+                      "Num_Infections": "string",
+                      "Country": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default",
+                  "stacked": false
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Age_Band",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Country",
+                  "index": 2.0,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "Num_Infections",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Age_Band\tNum_Infections\tCountry\nAge 16 - 24\t840000\tEngland\nAge 25 - 34\t911000\tEngland\nAge 35 - 49\t1285000\tEngland\nAge 50 - 69\t1875000\tEngland\nAge 70 - 74\t873000\tEngland\nAge 75 - 79\t648000\tEngland\nAge 80+\t529000\tEngland\nAge 16 - 24\t935000\tEngland\nAge 25 - 34\t1176000\tEngland\nAge 35 - 49\t1681000\tEngland\nAge 50 - 69\t2186000\tEngland\nAge 70 - 74\t1190000\tEngland\nAge 75 - 79\t839000\tEngland\nAge 80+\t584000\tEngland\nAge 16 - 24\t49000\tScotland\nAge 25 - 34\t37000\tScotland\nAge 35 - 49\t69000\tScotland\nAge 50 - 69\t116000\tScotland\nAge 70 - 74\t73000\tScotland\nAge 75+\t68000\tScotland\nAge 16 - 24\t57000\tScotland\nAge 25 - 34\t72000\tScotland\nAge 35 - 49\t90000\tScotland\nAge 50 - 69\t184000\tScotland\nAge 70 - 74\t87000\tScotland\nAge 75+\t93000\tScotland\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d14"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616692077080_1057244418",
+      "id": "paragraph_1616692077080_1057244418",
+      "dateCreated": "2021-03-25 17:07:57.080",
+      "dateStarted": "2021-03-26 09:41:43.420",
+      "dateFinished": "2021-03-26 09:41:43.682",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\nWe observe that more people in between the ages ofo 50-69 in England and Scotland were infected during this period, with a higher number being reorded in Scotland",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:41:43.720",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eWe observe that more people in between the ages ofo 50-69 in England and Scotland were infected during this period, with a higher number being reorded in Scotland\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616692167336_430493241",
+      "id": "paragraph_1616692167336_430493241",
+      "dateCreated": "2021-03-25 17:09:27.338",
+      "dateStarted": "2021-03-26 09:41:43.738",
+      "dateFinished": "2021-03-26 09:41:43.751",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n### Mortality",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:57:08.226",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eMortality\u003c/h3\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616519446045_168111313",
+      "id": "paragraph_1616519446045_168111313",
+      "dateCreated": "2021-03-23 17:10:46.046",
+      "dateStarted": "2021-03-26 09:57:08.229",
+      "dateFinished": "2021-03-26 09:57:08.241",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Read data into a spark DataFrame\nval mortalityDataParquet \u003d spark\n                         .read\n                         .parquet(path \u003d \"file:///zeppelin/seed/Mortality/mortality_parquet/Year\u003d2020\")\n                         \n// Display physical plan \nmortalityDataParquet.explain\n\n// Create view to allow data query\nmortalityDataParquet.createOrReplaceTempView(\"mortalityDataParquet\")   ",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:49:29.718",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003d\u003d Physical Plan \u003d\u003d\n*(1) FileScan parquet [_c0#428,Week_no#429,Deaths_except_COVID19#430,All_deaths_5_year_avg#431,Deaths_COVID#432] Batched: true, Format: Parquet, Location: InMemoryFileIndex[file:/zeppelin/seed/Mortality/mortality_parquet/Year\u003d2020], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003c_c0:int,Week_no:string,Deaths_except_COVID19:int,All_deaths_5_year_avg:int,Deaths_COVID:int\u003e\n\u001b[1m\u001b[34mmortalityDataParquet\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [_c0: int, Week_no: string ... 3 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d35"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616519743772_1452198484",
+      "id": "paragraph_1616519743772_1452198484",
+      "dateCreated": "2021-03-23 17:15:43.773",
+      "dateStarted": "2021-03-26 10:49:29.802",
+      "dateFinished": "2021-03-26 10:49:30.646",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n\nSELECT Week_no, Deaths_except_COVID19,Deaths_COVID\nFROM mortalityDataParquet",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:18:46.575",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Week_no": "string",
+                      "Deaths_except_COVID19": "string",
+                      "Deaths_COVID": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default",
+                  "stacked": true
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "scatterChart": {
+                  "xAxis": {
+                    "name": "Week_no",
+                    "index": 0.0,
+                    "aggr": "sum"
+                  },
+                  "group": {
+                    "name": "Year",
+                    "index": 1.0,
+                    "aggr": "sum"
+                  },
+                  "yAxis": {
+                    "name": "Deaths_COVID",
+                    "index": 2.0,
+                    "aggr": "sum"
+                  }
+                },
+                "pieChart": {}
+              },
+              "keys": [
+                {
+                  "name": "Week_no",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "Deaths_COVID",
+                  "index": 2.0,
+                  "aggr": "sum"
+                },
+                {
+                  "name": "Deaths_except_COVID19",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ],
+              "commonSetting": {}
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Week_no\tDeaths_except_COVID19\tDeaths_COVID\nWeek 1\t12254\t0\nWeek 2\t14058\t0\nWeek 3\t12990\t0\nWeek 4\t11856\t0\nWeek 5\t11612\t0\nWeek 6\t10986\t0\nWeek 7\t10944\t0\nWeek 8\t10841\t0\nWeek 9\t10816\t0\nWeek 10\t10895\t0\nWeek 11\t11014\t5\nWeek 12\t10542\t103\nWeek 13\t10602\t539\nWeek 14\t12912\t3475\nWeek 15\t12303\t6213\nWeek 16\t13593\t8758\nWeek 17\t13760\t8237\nWeek 18\t11918\t6035\nWeek 19\t8727\t3930\nWeek 20\t10763\t3810\nWeek 21\t9699\t2589\nWeek 22\t8002\t1822\nWeek 23\t9121\t1588\nWeek 24\t8862\t1114\nWeek 25\t8556\t783\nWeek 26\t8373\t606\nWeek 27\t8608\t532\nWeek 28\t8324\t366\nWeek 29\t8528\t295\nWeek 30\t8674\t217\nWeek 31\t8753\t193\nWeek 32\t8793\t152\nWeek 33\t9253\t139\nWeek 34\t9493\t138\nWeek 35\t8931\t101\nWeek 36\t7661\t78\nWeek 37\t9712\t99\nWeek 38\t9384\t139\nWeek 39\t9419\t215\nWeek 40\t9624\t321\nWeek 41\t9516\t438\nWeek 42\t9864\t670\nWeek 43\t9761\t978\nWeek 44\t9508\t1379\nWeek 45\t9875\t1937\nWeek 46\t9788\t2466\nWeek 47\t9838\t2697\nWeek 48\t9416\t3040\nWeek 49\t9468\t2835\nWeek 50\t9536\t2756\nWeek 51\t10025\t2986\nWeek 52\t8608\t2912\nWeek 53\t6925\t3144\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d33"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616507843970_551139932",
+      "id": "paragraph_1616507843970_551139932",
+      "dateCreated": "2021-03-23 13:57:23.970",
+      "dateStarted": "2021-03-26 10:18:46.615",
+      "dateFinished": "2021-03-26 10:18:46.917",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\nAccording to [Epoch Coverter](https://www.epochconverter.com/weeks/2020), week 12 represents March 16, 2020\tto March 22, 2020. \n\nThe first confirmed cases of coronavirus in the UK were on January 29, when two Chinese nationals fell ill at the Staycity Aparthotel in York – with the news being officially made public on January 31 2020[[Metro](https://metro.co.uk/2021/01/31/coronavirus-uk-when-was-the-first-case-of-covid-19-in-the-uk-13995173/)]\n\nFrom the diagram above, we observe that although COVID19 has taken the lives of many people, it isn\u0027t the major cause of death in the UK since 2020.",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:58:27.240",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eAccording to \u003ca href\u003d\"https://www.epochconverter.com/weeks/2020\"\u003eEpoch Coverter\u003c/a\u003e, week 12 represents March 16, 2020\tto March 22, 2020.\u003c/p\u003e\n\u003cp\u003eThe first confirmed cases of coronavirus in the UK were on January 29, when two Chinese nationals fell ill at the Staycity Aparthotel in York – with the news being officially made public on January 31 2020[\u003ca href\u003d\"https://metro.co.uk/2021/01/31/coronavirus-uk-when-was-the-first-case-of-covid-19-in-the-uk-13995173/\"\u003eMetro\u003c/a\u003e]\u003c/p\u003e\n\u003cp\u003eFrom the diagram above, we observe that although COVID19 has taken the lives of many people, it isn\u0026rsquo;t the major cause of death in the UK since 2020.\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616595294853_1356758173",
+      "id": "paragraph_1616595294853_1356758173",
+      "dateCreated": "2021-03-24 14:14:54.863",
+      "dateStarted": "2021-03-26 09:58:27.241",
+      "dateFinished": "2021-03-26 09:58:27.255",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n### Economic Effects",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 09:50:49.467",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eEconomic Effects\u003c/h3\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616508394161_348118387",
+      "id": "paragraph_1616508394161_348118387",
+      "dateCreated": "2021-03-23 14:06:34.162",
+      "dateStarted": "2021-03-26 09:50:49.471",
+      "dateFinished": "2021-03-26 09:50:49.501",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Read data into a spark DataFrame\nval onlinePriceDataParquet \u003d spark\n                         .read\n                         .parquet(path \u003d \"file:///zeppelin/seed/OnlinePrice/onlinepricechanges_parquet\")\n\n// Display physical plan \nonlinePriceDataParquet.explain\n\n// Create view to allow data query\nonlinePriceDataParquet.createOrReplaceTempView(\"onlinePriceDataParquet\") ",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:49:56.457",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003d\u003d Physical Plan \u003d\u003d\n*(1) FileScan parquet [_c0#439,Date#440,Price#441,Category#442,Item#443] Batched: true, Format: Parquet, Location: InMemoryFileIndex[file:/zeppelin/seed/OnlinePrice/onlinepricechanges_parquet], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003c_c0:int,Date:string,Price:double,Category:string,Item:string\u003e\n\u001b[1m\u001b[34monlinePriceDataParquet\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [_c0: int, Date: string ... 3 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d36"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616508580807_327713499",
+      "id": "paragraph_1616508580807_327713499",
+      "dateCreated": "2021-03-23 14:09:40.808",
+      "dateStarted": "2021-03-26 10:49:56.536",
+      "dateFinished": "2021-03-26 10:49:57.213",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n\nSELECT COUNT(DISTINCT Category) as Num_Categories,COUNT(DISTINCT Item) as Num_Items\nFROM onlinePriceDataParquet\nWHERE Category !\u003d \"Aggregated\" ",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:02:51.176",
+      "progress": 67,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Num_Categories": "string",
+                      "Num_Items": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Num_Categories",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": []
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Num_Categories\tNum_Items\n14\t139\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d30"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616751253892_285505705",
+      "id": "paragraph_1616751253892_285505705",
+      "dateCreated": "2021-03-26 09:34:13.893",
+      "dateStarted": "2021-03-26 10:02:46.997",
+      "dateFinished": "2021-03-26 10:02:50.050",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n\nSELECT *\nFROM onlinePriceDataParquet\nWHERE Item !\u003d \"Aggregated\" ",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:03:02.144",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "lineChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "_c0": "string",
+                      "Date": "string",
+                      "Price": "string",
+                      "Category": "string",
+                      "Item": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default",
+                  "style": "stack"
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "scatterChart": {
+                  "xAxis": {
+                    "name": "Date",
+                    "index": 1.0,
+                    "aggr": "sum"
+                  },
+                  "yAxis": {
+                    "name": "Price",
+                    "index": 2.0,
+                    "aggr": "sum"
+                  },
+                  "group": {
+                    "name": "Category",
+                    "index": 3.0,
+                    "aggr": "sum"
+                  }
+                }
+              },
+              "keys": [
+                {
+                  "name": "Date",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Item",
+                  "index": 4.0,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "Price",
+                  "index": 2.0,
+                  "aggr": "sum"
+                }
+              ],
+              "commonSetting": {}
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "_c0\tDate\tPrice\tCategory\tItem\n82\t07-06-2020\t100.0\tBeer\tLager beer\n83\t14-06-2020\t99.6\tBeer\tLager beer\n84\t21-06-2020\t99.5\tBeer\tLager beer\n85\t28-06-2020\t99.5\tBeer\tLager beer\n86\t05-07-2020\t99.4\tBeer\tLager beer\n87\t12-07-2020\t99.7\tBeer\tLager beer\n88\t19-07-2020\t99.8\tBeer\tLager beer\n89\t26-07-2020\t99.8\tBeer\tLager beer\n90\t02-08-2020\t99.7\tBeer\tLager beer\n91\t09-08-2020\t99.6\tBeer\tLager beer\n92\t16-08-2020\t99.0\tBeer\tLager beer\n93\t23-08-2020\t98.5\tBeer\tLager beer\n94\t30-08-2020\t98.3\tBeer\tLager beer\n95\t06-09-2020\t98.4\tBeer\tLager beer\n96\t13-09-2020\t98.4\tBeer\tLager beer\n97\t20-09-2020\t98.5\tBeer\tLager beer\n98\t27-09-2020\t98.5\tBeer\tLager beer\n99\t04-10-2020\t98.8\tBeer\tLager beer\n100\t11-10-2020\t99.3\tBeer\tLager beer\n101\t18-10-2020\t99.1\tBeer\tLager beer\n102\t25-10-2020\t99.1\tBeer\tLager beer\n103\t01-11-2020\t98.5\tBeer\tLager beer\n104\t08-11-2020\t98.3\tBeer\tLager beer\n105\t15-11-2020\t98.4\tBeer\tLager beer\n106\t22-11-2020\t98.5\tBeer\tLager beer\n107\t29-11-2020\t98.6\tBeer\tLager beer\n108\t06-12-2020\t98.3\tBeer\tLager beer\n109\t13-12-2020\t97.7\tBeer\tLager beer\n110\t20-12-2020\t97.5\tBeer\tLager beer\n111\t27-12-2020\t97.4\tBeer\tLager beer\n112\t03-01-2021\t97.6\tBeer\tLager beer\n113\t10-01-2021\t99.5\tBeer\tLager beer\n114\t17-01-2021\t99.5\tBeer\tLager beer\n115\t24-01-2021\t99.6\tBeer\tLager beer\n116\t31-01-2021\t99.8\tBeer\tLager beer\n117\t07-02-2021\t99.8\tBeer\tLager beer\n118\t14-02-2021\t99.4\tBeer\tLager beer\n119\t21-02-2021\t99.0\tBeer\tLager beer\n120\t28-02-2021\t98.8\tBeer\tLager beer\n121\t07-03-2021\t99.1\tBeer\tLager beer\n122\t14-03-2021\t99.0\tBeer\tLager beer\n123\t07-06-2020\t100.0\tBeer\tOther alcoholic beer\n124\t14-06-2020\t99.9\tBeer\tOther alcoholic beer\n125\t21-06-2020\t100.0\tBeer\tOther alcoholic beer\n126\t28-06-2020\t100.0\tBeer\tOther alcoholic beer\n127\t05-07-2020\t100.2\tBeer\tOther alcoholic beer\n128\t12-07-2020\t100.0\tBeer\tOther alcoholic beer\n129\t19-07-2020\t99.5\tBeer\tOther alcoholic beer\n130\t26-07-2020\t99.4\tBeer\tOther alcoholic beer\n131\t02-08-2020\t99.5\tBeer\tOther alcoholic beer\n132\t09-08-2020\t99.5\tBeer\tOther alcoholic beer\n133\t16-08-2020\t99.1\tBeer\tOther alcoholic beer\n134\t23-08-2020\t98.9\tBeer\tOther alcoholic beer\n135\t30-08-2020\t98.8\tBeer\tOther alcoholic beer\n136\t06-09-2020\t99.3\tBeer\tOther alcoholic beer\n137\t13-09-2020\t99.6\tBeer\tOther alcoholic beer\n138\t20-09-2020\t99.6\tBeer\tOther alcoholic beer\n139\t27-09-2020\t99.5\tBeer\tOther alcoholic beer\n140\t04-10-2020\t99.5\tBeer\tOther alcoholic beer\n141\t11-10-2020\t99.6\tBeer\tOther alcoholic beer\n142\t18-10-2020\t99.5\tBeer\tOther alcoholic beer\n143\t25-10-2020\t99.5\tBeer\tOther alcoholic beer\n144\t01-11-2020\t99.4\tBeer\tOther alcoholic beer\n145\t08-11-2020\t99.5\tBeer\tOther alcoholic beer\n146\t15-11-2020\t99.5\tBeer\tOther alcoholic beer\n147\t22-11-2020\t99.5\tBeer\tOther alcoholic beer\n148\t29-11-2020\t99.4\tBeer\tOther alcoholic beer\n149\t06-12-2020\t99.0\tBeer\tOther alcoholic beer\n150\t13-12-2020\t98.7\tBeer\tOther alcoholic beer\n151\t20-12-2020\t98.6\tBeer\tOther alcoholic beer\n152\t27-12-2020\t98.4\tBeer\tOther alcoholic beer\n153\t03-01-2021\t98.1\tBeer\tOther alcoholic beer\n154\t10-01-2021\t99.9\tBeer\tOther alcoholic beer\n155\t17-01-2021\t99.9\tBeer\tOther alcoholic beer\n156\t24-01-2021\t99.8\tBeer\tOther alcoholic beer\n157\t31-01-2021\t99.7\tBeer\tOther alcoholic beer\n158\t07-02-2021\t99.7\tBeer\tOther alcoholic beer\n159\t14-02-2021\t99.7\tBeer\tOther alcoholic beer\n160\t21-02-2021\t99.3\tBeer\tOther alcoholic beer\n161\t28-02-2021\t99.1\tBeer\tOther alcoholic beer\n162\t07-03-2021\t99.2\tBeer\tOther alcoholic beer\n163\t14-03-2021\t99.5\tBeer\tOther alcoholic beer\n205\t07-06-2020\t100.0\tBread and cereals\tBread\n206\t14-06-2020\t100.1\tBread and cereals\tBread\n207\t21-06-2020\t100.2\tBread and cereals\tBread\n208\t28-06-2020\t100.2\tBread and cereals\tBread\n209\t05-07-2020\t100.0\tBread and cereals\tBread\n210\t12-07-2020\t99.9\tBread and cereals\tBread\n211\t19-07-2020\t99.7\tBread and cereals\tBread\n212\t26-07-2020\t99.6\tBread and cereals\tBread\n213\t02-08-2020\t99.5\tBread and cereals\tBread\n214\t09-08-2020\t99.6\tBread and cereals\tBread\n215\t16-08-2020\t99.8\tBread and cereals\tBread\n216\t23-08-2020\t100.0\tBread and cereals\tBread\n217\t30-08-2020\t99.8\tBread and cereals\tBread\n218\t06-09-2020\t99.6\tBread and cereals\tBread\n219\t13-09-2020\t99.6\tBread and cereals\tBread\n220\t20-09-2020\t99.2\tBread and cereals\tBread\n221\t27-09-2020\t99.3\tBread and cereals\tBread\n222\t04-10-2020\t99.3\tBread and cereals\tBread\n223\t11-10-2020\t99.8\tBread and cereals\tBread\n224\t18-10-2020\t99.3\tBread and cereals\tBread\n225\t25-10-2020\t99.1\tBread and cereals\tBread\n226\t01-11-2020\t99.1\tBread and cereals\tBread\n227\t08-11-2020\t99.4\tBread and cereals\tBread\n228\t15-11-2020\t99.4\tBread and cereals\tBread\n229\t22-11-2020\t99.6\tBread and cereals\tBread\n230\t29-11-2020\t99.5\tBread and cereals\tBread\n231\t06-12-2020\t99.6\tBread and cereals\tBread\n232\t13-12-2020\t99.9\tBread and cereals\tBread\n233\t20-12-2020\t100.0\tBread and cereals\tBread\n234\t27-12-2020\t100.1\tBread and cereals\tBread\n235\t03-01-2021\t100.2\tBread and cereals\tBread\n236\t10-01-2021\t100.5\tBread and cereals\tBread\n237\t17-01-2021\t100.6\tBread and cereals\tBread\n238\t24-01-2021\t100.8\tBread and cereals\tBread\n239\t31-01-2021\t101.4\tBread and cereals\tBread\n240\t07-02-2021\t101.3\tBread and cereals\tBread\n241\t14-02-2021\t101.3\tBread and cereals\tBread\n242\t21-02-2021\t100.9\tBread and cereals\tBread\n243\t28-02-2021\t100.8\tBread and cereals\tBread\n244\t07-03-2021\t100.8\tBread and cereals\tBread\n245\t14-03-2021\t101.1\tBread and cereals\tBread\n246\t07-06-2020\t100.0\tBread and cereals\tBreakfast cereal\n247\t14-06-2020\t100.0\tBread and cereals\tBreakfast cereal\n248\t21-06-2020\t100.2\tBread and cereals\tBreakfast cereal\n249\t28-06-2020\t99.0\tBread and cereals\tBreakfast cereal\n250\t05-07-2020\t99.6\tBread and cereals\tBreakfast cereal\n251\t12-07-2020\t97.8\tBread and cereals\tBreakfast cereal\n252\t19-07-2020\t96.6\tBread and cereals\tBreakfast cereal\n253\t26-07-2020\t97.3\tBread and cereals\tBreakfast cereal\n254\t02-08-2020\t100.6\tBread and cereals\tBreakfast cereal\n255\t09-08-2020\t100.1\tBread and cereals\tBreakfast cereal\n256\t16-08-2020\t99.9\tBread and cereals\tBreakfast cereal\n257\t23-08-2020\t99.3\tBread and cereals\tBreakfast cereal\n258\t30-08-2020\t98.4\tBread and cereals\tBreakfast cereal\n259\t06-09-2020\t98.8\tBread and cereals\tBreakfast cereal\n260\t13-09-2020\t97.9\tBread and cereals\tBreakfast cereal\n261\t20-09-2020\t98.1\tBread and cereals\tBreakfast cereal\n262\t27-09-2020\t98.8\tBread and cereals\tBreakfast cereal\n263\t04-10-2020\t101.1\tBread and cereals\tBreakfast cereal\n264\t11-10-2020\t101.4\tBread and cereals\tBreakfast cereal\n265\t18-10-2020\t101.2\tBread and cereals\tBreakfast cereal\n266\t25-10-2020\t101.2\tBread and cereals\tBreakfast cereal\n267\t01-11-2020\t100.3\tBread and cereals\tBreakfast cereal\n268\t08-11-2020\t99.7\tBread and cereals\tBreakfast cereal\n269\t15-11-2020\t98.2\tBread and cereals\tBreakfast cereal\n270\t22-11-2020\t98.5\tBread and cereals\tBreakfast cereal\n271\t29-11-2020\t98.4\tBread and cereals\tBreakfast cereal\n272\t06-12-2020\t100.6\tBread and cereals\tBreakfast cereal\n273\t13-12-2020\t102.0\tBread and cereals\tBreakfast cereal\n274\t20-12-2020\t102.3\tBread and cereals\tBreakfast cereal\n275\t27-12-2020\t102.2\tBread and cereals\tBreakfast cereal\n276\t03-01-2021\t99.7\tBread and cereals\tBreakfast cereal\n277\t10-01-2021\t97.2\tBread and cereals\tBreakfast cereal\n278\t17-01-2021\t97.2\tBread and cereals\tBreakfast cereal\n279\t24-01-2021\t97.5\tBread and cereals\tBreakfast cereal\n280\t31-01-2021\t103.1\tBread and cereals\tBreakfast cereal\n281\t07-02-2021\t103.2\tBread and cereals\tBreakfast cereal\n282\t14-02-2021\t102.2\tBread and cereals\tBreakfast cereal\n283\t21-02-2021\t99.0\tBread and cereals\tBreakfast cereal\n284\t28-02-2021\t98.0\tBread and cereals\tBreakfast cereal\n285\t07-03-2021\t98.6\tBread and cereals\tBreakfast cereal\n286\t14-03-2021\t100.7\tBread and cereals\tBreakfast cereal\n287\t07-06-2020\t100.0\tBread and cereals\tBreakfast cereal gf\n288\t14-06-2020\t100.8\tBread and cereals\tBreakfast cereal gf\n289\t21-06-2020\t99.6\tBread and cereals\tBreakfast cereal gf\n290\t28-06-2020\t99.3\tBread and cereals\tBreakfast cereal gf\n291\t05-07-2020\t98.3\tBread and cereals\tBreakfast cereal gf\n292\t12-07-2020\t98.1\tBread and cereals\tBreakfast cereal gf\n293\t19-07-2020\t98.1\tBread and cereals\tBreakfast cereal gf\n294\t26-07-2020\t98.1\tBread and cereals\tBreakfast cereal gf\n295\t02-08-2020\t99.9\tBread and cereals\tBreakfast cereal gf\n296\t09-08-2020\t100.9\tBread and cereals\tBreakfast cereal gf\n297\t16-08-2020\t100.4\tBread and cereals\tBreakfast cereal gf\n298\t23-08-2020\t100.6\tBread and cereals\tBreakfast cereal gf\n299\t30-08-2020\t99.8\tBread and cereals\tBreakfast cereal gf\n300\t06-09-2020\t99.3\tBread and cereals\tBreakfast cereal gf\n301\t13-09-2020\t99.9\tBread and cereals\tBreakfast cereal gf\n302\t20-09-2020\t100.3\tBread and cereals\tBreakfast cereal gf\n303\t27-09-2020\t99.6\tBread and cereals\tBreakfast cereal gf\n304\t04-10-2020\t99.2\tBread and cereals\tBreakfast cereal gf\n305\t11-10-2020\t98.1\tBread and cereals\tBreakfast cereal gf\n306\t18-10-2020\t93.5\tBread and cereals\tBreakfast cereal gf\n307\t25-10-2020\t93.3\tBread and cereals\tBreakfast cereal gf\n308\t01-11-2020\t94.3\tBread and cereals\tBreakfast cereal gf\n309\t08-11-2020\t94.4\tBread and cereals\tBreakfast cereal gf\n310\t15-11-2020\t91.9\tBread and cereals\tBreakfast cereal gf\n311\t22-11-2020\t92.1\tBread and cereals\tBreakfast cereal gf\n312\t29-11-2020\t91.6\tBread and cereals\tBreakfast cereal gf\n313\t06-12-2020\t93.4\tBread and cereals\tBreakfast cereal gf\n314\t13-12-2020\t94.8\tBread and cereals\tBreakfast cereal gf\n315\t20-12-2020\t95.1\tBread and cereals\tBreakfast cereal gf\n316\t27-12-2020\t95.5\tBread and cereals\tBreakfast cereal gf\n317\t03-01-2021\t94.9\tBread and cereals\tBreakfast cereal gf\n318\t10-01-2021\t92.8\tBread and cereals\tBreakfast cereal gf\n319\t17-01-2021\t92.8\tBread and cereals\tBreakfast cereal gf\n320\t24-01-2021\t94.2\tBread and cereals\tBreakfast cereal gf\n321\t31-01-2021\t93.3\tBread and cereals\tBreakfast cereal gf\n322\t07-02-2021\t94.9\tBread and cereals\tBreakfast cereal gf\n323\t14-02-2021\t95.5\tBread and cereals\tBreakfast cereal gf\n324\t21-02-2021\t94.9\tBread and cereals\tBreakfast cereal gf\n325\t28-02-2021\t94.9\tBread and cereals\tBreakfast cereal gf\n326\t07-03-2021\t94.0\tBread and cereals\tBreakfast cereal gf\n327\t14-03-2021\t93.6\tBread and cereals\tBreakfast cereal gf\n328\t07-06-2020\t100.0\tBread and cereals\tCakes\n329\t14-06-2020\t100.0\tBread and cereals\tCakes\n330\t21-06-2020\t100.0\tBread and cereals\tCakes\n331\t28-06-2020\t100.5\tBread and cereals\tCakes\n332\t05-07-2020\t100.5\tBread and cereals\tCakes\n333\t12-07-2020\t100.3\tBread and cereals\tCakes\n334\t19-07-2020\t99.7\tBread and cereals\tCakes\n335\t26-07-2020\t99.6\tBread and cereals\tCakes\n336\t02-08-2020\t99.7\tBread and cereals\tCakes\n337\t09-08-2020\t100.1\tBread and cereals\tCakes\n338\t16-08-2020\t100.1\tBread and cereals\tCakes\n339\t23-08-2020\t99.6\tBread and cereals\tCakes\n340\t30-08-2020\t98.9\tBread and cereals\tCakes\n341\t06-09-2020\t98.9\tBread and cereals\tCakes\n342\t13-09-2020\t99.0\tBread and cereals\tCakes\n343\t20-09-2020\t98.3\tBread and cereals\tCakes\n344\t27-09-2020\t98.1\tBread and cereals\tCakes\n345\t04-10-2020\t98.4\tBread and cereals\tCakes\n346\t11-10-2020\t99.8\tBread and cereals\tCakes\n347\t18-10-2020\t100.2\tBread and cereals\tCakes\n348\t25-10-2020\t100.2\tBread and cereals\tCakes\n349\t01-11-2020\t100.3\tBread and cereals\tCakes\n350\t08-11-2020\t99.8\tBread and cereals\tCakes\n351\t15-11-2020\t99.6\tBread and cereals\tCakes\n352\t22-11-2020\t99.7\tBread and cereals\tCakes\n353\t29-11-2020\t100.0\tBread and cereals\tCakes\n354\t06-12-2020\t100.8\tBread and cereals\tCakes\n355\t13-12-2020\t101.2\tBread and cereals\tCakes\n356\t20-12-2020\t101.3\tBread and cereals\tCakes\n357\t27-12-2020\t100.8\tBread and cereals\tCakes\n358\t03-01-2021\t99.4\tBread and cereals\tCakes\n359\t10-01-2021\t99.3\tBread and cereals\tCakes\n360\t17-01-2021\t99.5\tBread and cereals\tCakes\n361\t24-01-2021\t99.7\tBread and cereals\tCakes\n362\t31-01-2021\t100.2\tBread and cereals\tCakes\n363\t07-02-2021\t100.1\tBread and cereals\tCakes\n364\t14-02-2021\t99.4\tBread and cereals\tCakes\n365\t21-02-2021\t99.1\tBread and cereals\tCakes\n366\t28-02-2021\t99.3\tBread and cereals\tCakes\n367\t07-03-2021\t99.6\tBread and cereals\tCakes\n368\t14-03-2021\t99.6\tBread and cereals\tCakes\n369\t07-06-2020\t100.0\tBread and cereals\tCereal bars\n370\t14-06-2020\t99.8\tBread and cereals\tCereal bars\n371\t21-06-2020\t99.4\tBread and cereals\tCereal bars\n372\t28-06-2020\t99.5\tBread and cereals\tCereal bars\n373\t05-07-2020\t98.5\tBread and cereals\tCereal bars\n374\t12-07-2020\t99.5\tBread and cereals\tCereal bars\n375\t19-07-2020\t99.7\tBread and cereals\tCereal bars\n376\t26-07-2020\t99.3\tBread and cereals\tCereal bars\n377\t02-08-2020\t101.5\tBread and cereals\tCereal bars\n378\t09-08-2020\t102.4\tBread and cereals\tCereal bars\n379\t16-08-2020\t99.2\tBread and cereals\tCereal bars\n380\t23-08-2020\t100.1\tBread and cereals\tCereal bars\n381\t30-08-2020\t97.0\tBread and cereals\tCereal bars\n382\t06-09-2020\t96.3\tBread and cereals\tCereal bars\n383\t13-09-2020\t93.7\tBread and cereals\tCereal bars\n384\t20-09-2020\t94.7\tBread and cereals\tCereal bars\n385\t27-09-2020\t95.7\tBread and cereals\tCereal bars\n386\t04-10-2020\t99.4\tBread and cereals\tCereal bars\n387\t11-10-2020\t99.6\tBread and cereals\tCereal bars\n388\t18-10-2020\t100.0\tBread and cereals\tCereal bars\n389\t25-10-2020\t100.0\tBread and cereals\tCereal bars\n390\t01-11-2020\t100.8\tBread and cereals\tCereal bars\n391\t08-11-2020\t101.6\tBread and cereals\tCereal bars\n392\t15-11-2020\t102.3\tBread and cereals\tCereal bars\n393\t22-11-2020\t101.5\tBread and cereals\tCereal bars\n394\t29-11-2020\t101.3\tBread and cereals\tCereal bars\n395\t06-12-2020\t104.1\tBread and cereals\tCereal bars\n396\t13-12-2020\t108.3\tBread and cereals\tCereal bars\n397\t20-12-2020\t109.5\tBread and cereals\tCereal bars\n398\t27-12-2020\t107.3\tBread and cereals\tCereal bars\n399\t03-01-2021\t101.8\tBread and cereals\tCereal bars\n400\t10-01-2021\t97.6\tBread and cereals\tCereal bars\n401\t17-01-2021\t97.6\tBread and cereals\tCereal bars\n402\t24-01-2021\t97.4\tBread and cereals\tCereal bars\n403\t31-01-2021\t101.5\tBread and cereals\tCereal bars\n404\t07-02-2021\t103.3\tBread and cereals\tCereal bars\n405\t14-02-2021\t105.7\tBread and cereals\tCereal bars\n406\t21-02-2021\t107.0\tBread and cereals\tCereal bars\n407\t28-02-2021\t104.5\tBread and cereals\tCereal bars\n408\t07-03-2021\t102.1\tBread and cereals\tCereal bars\n409\t14-03-2021\t99.9\tBread and cereals\tCereal bars\n410\t07-06-2020\t100.0\tBread and cereals\tChocolate biscuits\n411\t14-06-2020\t100.4\tBread and cereals\tChocolate biscuits\n412\t21-06-2020\t98.1\tBread and cereals\tChocolate biscuits\n413\t28-06-2020\t97.5\tBread and cereals\tChocolate biscuits\n414\t05-07-2020\t96.3\tBread and cereals\tChocolate biscuits\n415\t12-07-2020\t97.7\tBread and cereals\tChocolate biscuits\n416\t19-07-2020\t96.8\tBread and cereals\tChocolate biscuits\n417\t26-07-2020\t94.6\tBread and cereals\tChocolate biscuits\n418\t02-08-2020\t94.2\tBread and cereals\tChocolate biscuits\n419\t09-08-2020\t93.9\tBread and cereals\tChocolate biscuits\n420\t16-08-2020\t95.1\tBread and cereals\tChocolate biscuits\n421\t23-08-2020\t96.7\tBread and cereals\tChocolate biscuits\n422\t30-08-2020\t97.1\tBread and cereals\tChocolate biscuits\n423\t06-09-2020\t97.5\tBread and cereals\tChocolate biscuits\n424\t13-09-2020\t94.3\tBread and cereals\tChocolate biscuits\n425\t20-09-2020\t93.8\tBread and cereals\tChocolate biscuits\n426\t27-09-2020\t94.3\tBread and cereals\tChocolate biscuits\n427\t04-10-2020\t95.4\tBread and cereals\tChocolate biscuits\n428\t11-10-2020\t95.5\tBread and cereals\tChocolate biscuits\n429\t18-10-2020\t95.6\tBread and cereals\tChocolate biscuits\n430\t25-10-2020\t95.9\tBread and cereals\tChocolate biscuits\n431\t01-11-2020\t95.1\tBread and cereals\tChocolate biscuits\n432\t08-11-2020\t94.3\tBread and cereals\tChocolate biscuits\n433\t15-11-2020\t94.6\tBread and cereals\tChocolate biscuits\n434\t22-11-2020\t95.8\tBread and cereals\tChocolate biscuits\n435\t29-11-2020\t96.0\tBread and cereals\tChocolate biscuits\n436\t06-12-2020\t94.7\tBread and cereals\tChocolate biscuits\n437\t13-12-2020\t92.1\tBread and cereals\tChocolate biscuits\n438\t20-12-2020\t92.0\tBread and cereals\tChocolate biscuits\n439\t27-12-2020\t91.7\tBread and cereals\tChocolate biscuits\n440\t03-01-2021\t93.3\tBread and cereals\tChocolate biscuits\n441\t10-01-2021\t96.6\tBread and cereals\tChocolate biscuits\n442\t17-01-2021\t96.6\tBread and cereals\tChocolate biscuits\n443\t24-01-2021\t95.8\tBread and cereals\tChocolate biscuits\n444\t31-01-2021\t94.6\tBread and cereals\tChocolate biscuits\n445\t07-02-2021\t94.5\tBread and cereals\tChocolate biscuits\n446\t14-02-2021\t96.1\tBread and cereals\tChocolate biscuits\n447\t21-02-2021\t97.4\tBread and cereals\tChocolate biscuits\n448\t28-02-2021\t96.7\tBread and cereals\tChocolate biscuits\n449\t07-03-2021\t94.7\tBread and cereals\tChocolate biscuits\n450\t14-03-2021\t94.5\tBread and cereals\tChocolate biscuits\n451\t07-06-2020\t100.0\tBread and cereals\tCream crackers\n452\t14-06-2020\t99.2\tBread and cereals\tCream crackers\n453\t21-06-2020\t99.3\tBread and cereals\tCream crackers\n454\t28-06-2020\t99.6\tBread and cereals\tCream crackers\n455\t05-07-2020\t100.2\tBread and cereals\tCream crackers\n456\t12-07-2020\t99.0\tBread and cereals\tCream crackers\n457\t19-07-2020\t99.4\tBread and cereals\tCream crackers\n458\t26-07-2020\t99.5\tBread and cereals\tCream crackers\n459\t02-08-2020\t99.5\tBread and cereals\tCream crackers\n460\t09-08-2020\t99.3\tBread and cereals\tCream crackers\n461\t16-08-2020\t98.7\tBread and cereals\tCream crackers\n462\t23-08-2020\t98.2\tBread and cereals\tCream crackers\n463\t30-08-2020\t98.4\tBread and cereals\tCream crackers\n464\t06-09-2020\t98.4\tBread and cereals\tCream crackers\n465\t13-09-2020\t97.5\tBread and cereals\tCream crackers\n466\t20-09-2020\t97.6\tBread and cereals\tCream crackers\n467\t27-09-2020\t98.9\tBread and cereals\tCream crackers\n468\t04-10-2020\t99.8\tBread and cereals\tCream crackers\n469\t11-10-2020\t100.1\tBread and cereals\tCream crackers\n470\t18-10-2020\t98.5\tBread and cereals\tCream crackers\n471\t25-10-2020\t98.1\tBread and cereals\tCream crackers\n472\t01-11-2020\t98.0\tBread and cereals\tCream crackers\n473\t08-11-2020\t98.1\tBread and cereals\tCream crackers\n474\t15-11-2020\t98.2\tBread and cereals\tCream crackers\n475\t22-11-2020\t98.6\tBread and cereals\tCream crackers\n476\t29-11-2020\t98.5\tBread and cereals\tCream crackers\n477\t06-12-2020\t98.0\tBread and cereals\tCream crackers\n478\t13-12-2020\t97.6\tBread and cereals\tCream crackers\n479\t20-12-2020\t97.5\tBread and cereals\tCream crackers\n480\t27-12-2020\t97.4\tBread and cereals\tCream crackers\n481\t03-01-2021\t98.0\tBread and cereals\tCream crackers\n482\t10-01-2021\t99.5\tBread and cereals\tCream crackers\n483\t17-01-2021\t99.5\tBread and cereals\tCream crackers\n484\t24-01-2021\t98.6\tBread and cereals\tCream crackers\n485\t31-01-2021\t98.0\tBread and cereals\tCream crackers\n486\t07-02-2021\t98.9\tBread and cereals\tCream crackers\n487\t14-02-2021\t99.7\tBread and cereals\tCream crackers\n488\t21-02-2021\t100.3\tBread and cereals\tCream crackers\n489\t28-02-2021\t101.5\tBread and cereals\tCream crackers\n490\t07-03-2021\t101.2\tBread and cereals\tCream crackers\n491\t14-03-2021\t99.6\tBread and cereals\tCream crackers\n492\t07-06-2020\t100.0\tBread and cereals\tCrumpets\n493\t14-06-2020\t100.3\tBread and cereals\tCrumpets\n494\t21-06-2020\t100.3\tBread and cereals\tCrumpets\n495\t28-06-2020\t99.2\tBread and cereals\tCrumpets\n496\t05-07-2020\t99.8\tBread and cereals\tCrumpets\n497\t12-07-2020\t100.0\tBread and cereals\tCrumpets\n498\t19-07-2020\t101.2\tBread and cereals\tCrumpets\n499\t26-07-2020\t101.3\tBread and cereals\tCrumpets\n500\t02-08-2020\t99.3\tBread and cereals\tCrumpets\n501\t09-08-2020\t98.7\tBread and cereals\tCrumpets\n502\t16-08-2020\t97.8\tBread and cereals\tCrumpets\n503\t23-08-2020\t98.7\tBread and cereals\tCrumpets\n504\t30-08-2020\t99.4\tBread and cereals\tCrumpets\n505\t06-09-2020\t100.4\tBread and cereals\tCrumpets\n506\t13-09-2020\t99.5\tBread and cereals\tCrumpets\n507\t20-09-2020\t98.9\tBread and cereals\tCrumpets\n508\t27-09-2020\t99.0\tBread and cereals\tCrumpets\n509\t04-10-2020\t99.4\tBread and cereals\tCrumpets\n510\t11-10-2020\t99.8\tBread and cereals\tCrumpets\n511\t18-10-2020\t99.4\tBread and cereals\tCrumpets\n512\t25-10-2020\t98.6\tBread and cereals\tCrumpets\n513\t01-11-2020\t98.1\tBread and cereals\tCrumpets\n514\t08-11-2020\t97.3\tBread and cereals\tCrumpets\n515\t15-11-2020\t97.4\tBread and cereals\tCrumpets\n516\t22-11-2020\t98.8\tBread and cereals\tCrumpets\n517\t29-11-2020\t99.1\tBread and cereals\tCrumpets\n518\t06-12-2020\t99.7\tBread and cereals\tCrumpets\n519\t13-12-2020\t98.8\tBread and cereals\tCrumpets\n520\t20-12-2020\t98.6\tBread and cereals\tCrumpets\n521\t27-12-2020\t98.6\tBread and cereals\tCrumpets\n522\t03-01-2021\t99.7\tBread and cereals\tCrumpets\n523\t10-01-2021\t101.1\tBread and cereals\tCrumpets\n524\t17-01-2021\t100.9\tBread and cereals\tCrumpets\n525\t24-01-2021\t100.0\tBread and cereals\tCrumpets\n526\t31-01-2021\t98.4\tBread and cereals\tCrumpets\n527\t07-02-2021\t98.6\tBread and cereals\tCrumpets\n528\t14-02-2021\t97.6\tBread and cereals\tCrumpets\n529\t21-02-2021\t96.4\tBread and cereals\tCrumpets\n530\t28-02-2021\t95.5\tBread and cereals\tCrumpets\n531\t07-03-2021\t96.1\tBread and cereals\tCrumpets\n532\t14-03-2021\t96.5\tBread and cereals\tCrumpets\n533\t07-06-2020\t100.0\tBread and cereals\tDoughnut\n534\t14-06-2020\t100.0\tBread and cereals\tDoughnut\n535\t21-06-2020\t102.1\tBread and cereals\tDoughnut\n536\t28-06-2020\t101.0\tBread and cereals\tDoughnut\n537\t05-07-2020\t101.0\tBread and cereals\tDoughnut\n538\t12-07-2020\t101.0\tBread and cereals\tDoughnut\n539\t19-07-2020\t102.5\tBread and cereals\tDoughnut\n540\t26-07-2020\t102.5\tBread and cereals\tDoughnut\n541\t02-08-2020\t102.0\tBread and cereals\tDoughnut\n542\t09-08-2020\t98.7\tBread and cereals\tDoughnut\n543\t16-08-2020\t98.9\tBread and cereals\tDoughnut\n544\t23-08-2020\t99.3\tBread and cereals\tDoughnut\n545\t30-08-2020\t101.8\tBread and cereals\tDoughnut\n546\t06-09-2020\t101.8\tBread and cereals\tDoughnut\n547\t13-09-2020\t100.6\tBread and cereals\tDoughnut\n548\t20-09-2020\t102.3\tBread and cereals\tDoughnut\n549\t27-09-2020\t103.2\tBread and cereals\tDoughnut\n550\t04-10-2020\t103.1\tBread and cereals\tDoughnut\n551\t11-10-2020\t102.7\tBread and cereals\tDoughnut\n552\t18-10-2020\t102.7\tBread and cereals\tDoughnut\n553\t25-10-2020\t102.7\tBread and cereals\tDoughnut\n554\t01-11-2020\t101.7\tBread and cereals\tDoughnut\n555\t08-11-2020\t101.5\tBread and cereals\tDoughnut\n556\t15-11-2020\t101.5\tBread and cereals\tDoughnut\n557\t22-11-2020\t102.3\tBread and cereals\tDoughnut\n558\t29-11-2020\t102.7\tBread and cereals\tDoughnut\n559\t06-12-2020\t102.7\tBread and cereals\tDoughnut\n560\t13-12-2020\t101.7\tBread and cereals\tDoughnut\n561\t20-12-2020\t101.1\tBread and cereals\tDoughnut\n562\t27-12-2020\t100.9\tBread and cereals\tDoughnut\n563\t03-01-2021\t101.0\tBread and cereals\tDoughnut\n564\t10-01-2021\t100.8\tBread and cereals\tDoughnut\n565\t17-01-2021\t100.8\tBread and cereals\tDoughnut\n566\t24-01-2021\t101.6\tBread and cereals\tDoughnut\n567\t31-01-2021\t102.4\tBread and cereals\tDoughnut\n568\t07-02-2021\t102.5\tBread and cereals\tDoughnut\n569\t14-02-2021\t100.7\tBread and cereals\tDoughnut\n570\t21-02-2021\t100.9\tBread and cereals\tDoughnut\n571\t28-02-2021\t100.9\tBread and cereals\tDoughnut\n572\t07-03-2021\t102.1\tBread and cereals\tDoughnut\n573\t14-03-2021\t102.2\tBread and cereals\tDoughnut\n574\t07-06-2020\t100.0\tBread and cereals\tDried potted snack\n575\t14-06-2020\t96.2\tBread and cereals\tDried potted snack\n576\t21-06-2020\t97.0\tBread and cereals\tDried potted snack\n577\t28-06-2020\t98.6\tBread and cereals\tDried potted snack\n578\t05-07-2020\t99.8\tBread and cereals\tDried potted snack\n579\t12-07-2020\t98.5\tBread and cereals\tDried potted snack\n580\t19-07-2020\t99.7\tBread and cereals\tDried potted snack\n581\t26-07-2020\t96.8\tBread and cereals\tDried potted snack\n582\t02-08-2020\t90.1\tBread and cereals\tDried potted snack\n583\t09-08-2020\t88.7\tBread and cereals\tDried potted snack\n584\t16-08-2020\t89.6\tBread and cereals\tDried potted snack\n585\t23-08-2020\t98.2\tBread and cereals\tDried potted snack\n586\t30-08-2020\t95.2\tBread and cereals\tDried potted snack\n587\t06-09-2020\t93.1\tBread and cereals\tDried potted snack\n588\t13-09-2020\t84.5\tBread and cereals\tDried potted snack\n589\t20-09-2020\t84.0\tBread and cereals\tDried potted snack\n590\t27-09-2020\t86.0\tBread and cereals\tDried potted snack\n591\t04-10-2020\t89.2\tBread and cereals\tDried potted snack\n592\t11-10-2020\t89.0\tBread and cereals\tDried potted snack\n593\t18-10-2020\t88.4\tBread and cereals\tDried potted snack\n594\t25-10-2020\t88.3\tBread and cereals\tDried potted snack\n595\t01-11-2020\t90.4\tBread and cereals\tDried potted snack\n596\t08-11-2020\t90.9\tBread and cereals\tDried potted snack\n597\t15-11-2020\t90.4\tBread and cereals\tDried potted snack\n598\t22-11-2020\t88.7\tBread and cereals\tDried potted snack\n599\t29-11-2020\t88.4\tBread and cereals\tDried potted snack\n600\t06-12-2020\t92.5\tBread and cereals\tDried potted snack\n601\t13-12-2020\t95.5\tBread and cereals\tDried potted snack\n602\t20-12-2020\t94.3\tBread and cereals\tDried potted snack\n603\t27-12-2020\t92.5\tBread and cereals\tDried potted snack\n604\t03-01-2021\t85.6\tBread and cereals\tDried potted snack\n605\t10-01-2021\t80.9\tBread and cereals\tDried potted snack\n606\t17-01-2021\t81.2\tBread and cereals\tDried potted snack\n607\t24-01-2021\t84.0\tBread and cereals\tDried potted snack\n608\t31-01-2021\t89.2\tBread and cereals\tDried potted snack\n609\t07-02-2021\t90.0\tBread and cereals\tDried potted snack\n610\t14-02-2021\t88.9\tBread and cereals\tDried potted snack\n611\t21-02-2021\t86.0\tBread and cereals\tDried potted snack\n612\t28-02-2021\t83.2\tBread and cereals\tDried potted snack\n613\t07-03-2021\t83.4\tBread and cereals\tDried potted snack\n614\t14-03-2021\t84.0\tBread and cereals\tDried potted snack\n615\t07-06-2020\t100.0\tBread and cereals\tFlour\n616\t14-06-2020\t100.0\tBread and cereals\tFlour\n617\t21-06-2020\t100.0\tBread and cereals\tFlour\n618\t28-06-2020\t100.0\tBread and cereals\tFlour\n619\t05-07-2020\t100.0\tBread and cereals\tFlour\n620\t12-07-2020\t100.2\tBread and cereals\tFlour\n621\t19-07-2020\t100.3\tBread and cereals\tFlour\n622\t26-07-2020\t100.2\tBread and cereals\tFlour\n623\t02-08-2020\t100.2\tBread and cereals\tFlour\n624\t09-08-2020\t100.2\tBread and cereals\tFlour\n625\t16-08-2020\t100.1\tBread and cereals\tFlour\n626\t23-08-2020\t99.8\tBread and cereals\tFlour\n627\t30-08-2020\t99.0\tBread and cereals\tFlour\n628\t06-09-2020\t98.9\tBread and cereals\tFlour\n629\t13-09-2020\t98.6\tBread and cereals\tFlour\n630\t20-09-2020\t98.5\tBread and cereals\tFlour\n631\t27-09-2020\t98.4\tBread and cereals\tFlour\n632\t04-10-2020\t98.5\tBread and cereals\tFlour\n633\t11-10-2020\t98.5\tBread and cereals\tFlour\n634\t18-10-2020\t95.9\tBread and cereals\tFlour\n635\t25-10-2020\t95.5\tBread and cereals\tFlour\n636\t01-11-2020\t95.0\tBread and cereals\tFlour\n637\t08-11-2020\t94.0\tBread and cereals\tFlour\n638\t15-11-2020\t93.4\tBread and cereals\tFlour\n639\t22-11-2020\t93.6\tBread and cereals\tFlour\n640\t29-11-2020\t92.5\tBread and cereals\tFlour\n641\t06-12-2020\t91.2\tBread and cereals\tFlour\n642\t13-12-2020\t90.6\tBread and cereals\tFlour\n643\t20-12-2020\t89.5\tBread and cereals\tFlour\n644\t27-12-2020\t89.4\tBread and cereals\tFlour\n645\t03-01-2021\t90.3\tBread and cereals\tFlour\n646\t10-01-2021\t91.9\tBread and cereals\tFlour\n647\t17-01-2021\t92.4\tBread and cereals\tFlour\n648\t24-01-2021\t92.6\tBread and cereals\tFlour\n649\t31-01-2021\t91.3\tBread and cereals\tFlour\n650\t07-02-2021\t90.4\tBread and cereals\tFlour\n651\t14-02-2021\t89.6\tBread and cereals\tFlour\n652\t21-02-2021\t87.5\tBread and cereals\tFlour\n653\t28-02-2021\t87.4\tBread and cereals\tFlour\n654\t07-03-2021\t88.5\tBread and cereals\tFlour\n655\t14-03-2021\t88.6\tBread and cereals\tFlour\n656\t07-06-2020\t100.0\tBread and cereals\tPasta\n657\t14-06-2020\t99.4\tBread and cereals\tPasta\n658\t21-06-2020\t99.4\tBread and cereals\tPasta\n659\t28-06-2020\t99.3\tBread and cereals\tPasta\n660\t05-07-2020\t99.2\tBread and cereals\tPasta\n661\t12-07-2020\t98.7\tBread and cereals\tPasta\n662\t19-07-2020\t98.6\tBread and cereals\tPasta\n663\t26-07-2020\t97.8\tBread and cereals\tPasta\n664\t02-08-2020\t96.3\tBread and cereals\tPasta\n665\t09-08-2020\t96.3\tBread and cereals\tPasta\n666\t16-08-2020\t97.8\tBread and cereals\tPasta\n667\t23-08-2020\t97.9\tBread and cereals\tPasta\n668\t30-08-2020\t97.3\tBread and cereals\tPasta\n669\t06-09-2020\t96.0\tBread and cereals\tPasta\n670\t13-09-2020\t94.1\tBread and cereals\tPasta\n671\t20-09-2020\t93.1\tBread and cereals\tPasta\n672\t27-09-2020\t91.9\tBread and cereals\tPasta\n673\t04-10-2020\t91.4\tBread and cereals\tPasta\n674\t11-10-2020\t89.9\tBread and cereals\tPasta\n675\t18-10-2020\t88.6\tBread and cereals\tPasta\n676\t25-10-2020\t88.8\tBread and cereals\tPasta\n677\t01-11-2020\t88.8\tBread and cereals\tPasta\n678\t08-11-2020\t89.0\tBread and cereals\tPasta\n679\t15-11-2020\t89.6\tBread and cereals\tPasta\n680\t22-11-2020\t90.5\tBread and cereals\tPasta\n681\t29-11-2020\t90.5\tBread and cereals\tPasta\n682\t06-12-2020\t90.2\tBread and cereals\tPasta\n683\t13-12-2020\t90.3\tBread and cereals\tPasta\n684\t20-12-2020\t90.3\tBread and cereals\tPasta\n685\t27-12-2020\t90.3\tBread and cereals\tPasta\n686\t03-01-2021\t89.9\tBread and cereals\tPasta\n687\t10-01-2021\t88.4\tBread and cereals\tPasta\n688\t17-01-2021\t88.7\tBread and cereals\tPasta\n689\t24-01-2021\t88.3\tBread and cereals\tPasta\n690\t31-01-2021\t89.5\tBread and cereals\tPasta\n691\t07-02-2021\t89.8\tBread and cereals\tPasta\n692\t14-02-2021\t90.2\tBread and cereals\tPasta\n693\t21-02-2021\t89.0\tBread and cereals\tPasta\n694\t28-02-2021\t88.6\tBread and cereals\tPasta\n695\t07-03-2021\t88.8\tBread and cereals\tPasta\n696\t14-03-2021\t88.8\tBread and cereals\tPasta\n697\t07-06-2020\t100.0\tBread and cereals\tPizza\n698\t14-06-2020\t100.6\tBread and cereals\tPizza\n699\t21-06-2020\t100.9\tBread and cereals\tPizza\n700\t28-06-2020\t100.6\tBread and cereals\tPizza\n701\t05-07-2020\t99.0\tBread and cereals\tPizza\n702\t12-07-2020\t97.9\tBread and cereals\tPizza\n703\t19-07-2020\t97.7\tBread and cereals\tPizza\n704\t26-07-2020\t97.9\tBread and cereals\tPizza\n705\t02-08-2020\t100.1\tBread and cereals\tPizza\n706\t09-08-2020\t100.0\tBread and cereals\tPizza\n707\t16-08-2020\t99.2\tBread and cereals\tPizza\n708\t23-08-2020\t99.7\tBread and cereals\tPizza\n709\t30-08-2020\t97.2\tBread and cereals\tPizza\n710\t06-09-2020\t97.3\tBread and cereals\tPizza\n711\t13-09-2020\t97.5\tBread and cereals\tPizza\n712\t20-09-2020\t100.0\tBread and cereals\tPizza\n713\t27-09-2020\t102.2\tBread and cereals\tPizza\n714\t04-10-2020\t100.5\tBread and cereals\tPizza\n715\t11-10-2020\t97.6\tBread and cereals\tPizza\n716\t18-10-2020\t99.3\tBread and cereals\tPizza\n717\t25-10-2020\t99.6\tBread and cereals\tPizza\n718\t01-11-2020\t100.7\tBread and cereals\tPizza\n719\t08-11-2020\t100.3\tBread and cereals\tPizza\n720\t15-11-2020\t99.3\tBread and cereals\tPizza\n721\t22-11-2020\t97.4\tBread and cereals\tPizza\n722\t29-11-2020\t97.3\tBread and cereals\tPizza\n723\t06-12-2020\t97.8\tBread and cereals\tPizza\n724\t13-12-2020\t99.9\tBread and cereals\tPizza\n725\t20-12-2020\t101.3\tBread and cereals\tPizza\n726\t27-12-2020\t102.0\tBread and cereals\tPizza\n727\t03-01-2021\t99.9\tBread and cereals\tPizza\n728\t10-01-2021\t98.7\tBread and cereals\tPizza\n729\t17-01-2021\t99.1\tBread and cereals\tPizza\n730\t24-01-2021\t99.0\tBread and cereals\tPizza\n731\t31-01-2021\t100.3\tBread and cereals\tPizza\n732\t07-02-2021\t100.0\tBread and cereals\tPizza\n733\t14-02-2021\t100.4\tBread and cereals\tPizza\n734\t21-02-2021\t99.7\tBread and cereals\tPizza\n735\t28-02-2021\t99.5\tBread and cereals\tPizza\n736\t07-03-2021\t100.4\tBread and cereals\tPizza\n737\t14-03-2021\t100.3\tBread and cereals\tPizza\n738\t07-06-2020\t100.0\tBread and cereals\tPlain biscuits\n739\t14-06-2020\t100.4\tBread and cereals\tPlain biscuits\n740\t21-06-2020\t99.3\tBread and cereals\tPlain biscuits\n741\t28-06-2020\t99.1\tBread and cereals\tPlain biscuits\n742\t05-07-2020\t98.7\tBread and cereals\tPlain biscuits\n743\t12-07-2020\t98.5\tBread and cereals\tPlain biscuits\n744\t19-07-2020\t97.8\tBread and cereals\tPlain biscuits\n745\t26-07-2020\t97.8\tBread and cereals\tPlain biscuits\n746\t02-08-2020\t96.9\tBread and cereals\tPlain biscuits\n747\t09-08-2020\t96.2\tBread and cereals\tPlain biscuits\n748\t16-08-2020\t95.6\tBread and cereals\tPlain biscuits\n749\t23-08-2020\t95.3\tBread and cereals\tPlain biscuits\n750\t30-08-2020\t96.7\tBread and cereals\tPlain biscuits\n751\t06-09-2020\t96.9\tBread and cereals\tPlain biscuits\n752\t13-09-2020\t97.6\tBread and cereals\tPlain biscuits\n753\t20-09-2020\t96.8\tBread and cereals\tPlain biscuits\n754\t27-09-2020\t96.9\tBread and cereals\tPlain biscuits\n755\t04-10-2020\t96.7\tBread and cereals\tPlain biscuits\n756\t11-10-2020\t97.0\tBread and cereals\tPlain biscuits\n757\t18-10-2020\t98.2\tBread and cereals\tPlain biscuits\n758\t25-10-2020\t98.3\tBread and cereals\tPlain biscuits\n759\t01-11-2020\t98.7\tBread and cereals\tPlain biscuits\n760\t08-11-2020\t98.5\tBread and cereals\tPlain biscuits\n761\t15-11-2020\t98.3\tBread and cereals\tPlain biscuits\n762\t22-11-2020\t97.6\tBread and cereals\tPlain biscuits\n763\t29-11-2020\t98.1\tBread and cereals\tPlain biscuits\n764\t06-12-2020\t97.9\tBread and cereals\tPlain biscuits\n765\t13-12-2020\t98.1\tBread and cereals\tPlain biscuits\n766\t20-12-2020\t97.6\tBread and cereals\tPlain biscuits\n767\t27-12-2020\t96.7\tBread and cereals\tPlain biscuits\n768\t03-01-2021\t93.4\tBread and cereals\tPlain biscuits\n769\t10-01-2021\t96.2\tBread and cereals\tPlain biscuits\n770\t17-01-2021\t96.6\tBread and cereals\tPlain biscuits\n771\t24-01-2021\t96.3\tBread and cereals\tPlain biscuits\n772\t31-01-2021\t96.3\tBread and cereals\tPlain biscuits\n773\t07-02-2021\t96.4\tBread and cereals\tPlain biscuits\n774\t14-02-2021\t96.4\tBread and cereals\tPlain biscuits\n775\t21-02-2021\t95.5\tBread and cereals\tPlain biscuits\n776\t28-02-2021\t95.7\tBread and cereals\tPlain biscuits\n777\t07-03-2021\t95.9\tBread and cereals\tPlain biscuits\n778\t14-03-2021\t96.8\tBread and cereals\tPlain biscuits\n779\t07-06-2020\t100.0\tBread and cereals\tPopcorn\n780\t14-06-2020\t100.1\tBread and cereals\tPopcorn\n781\t21-06-2020\t102.2\tBread and cereals\tPopcorn\n782\t28-06-2020\t103.8\tBread and cereals\tPopcorn\n783\t05-07-2020\t103.9\tBread and cereals\tPopcorn\n784\t12-07-2020\t99.7\tBread and cereals\tPopcorn\n785\t19-07-2020\t100.1\tBread and cereals\tPopcorn\n786\t26-07-2020\t98.4\tBread and cereals\tPopcorn\n787\t02-08-2020\t100.0\tBread and cereals\tPopcorn\n788\t09-08-2020\t100.1\tBread and cereals\tPopcorn\n789\t16-08-2020\t99.3\tBread and cereals\tPopcorn\n790\t23-08-2020\t97.6\tBread and cereals\tPopcorn\n791\t30-08-2020\t96.6\tBread and cereals\tPopcorn\n792\t06-09-2020\t95.0\tBread and cereals\tPopcorn\n793\t13-09-2020\t98.3\tBread and cereals\tPopcorn\n794\t20-09-2020\t101.1\tBread and cereals\tPopcorn\n795\t27-09-2020\t101.7\tBread and cereals\tPopcorn\n796\t04-10-2020\t102.8\tBread and cereals\tPopcorn\n797\t11-10-2020\t98.6\tBread and cereals\tPopcorn\n798\t18-10-2020\t97.1\tBread and cereals\tPopcorn\n799\t25-10-2020\t97.1\tBread and cereals\tPopcorn\n800\t01-11-2020\t98.0\tBread and cereals\tPopcorn\n801\t08-11-2020\t98.6\tBread and cereals\tPopcorn\n802\t15-11-2020\t99.7\tBread and cereals\tPopcorn\n803\t22-11-2020\t100.5\tBread and cereals\tPopcorn\n804\t29-11-2020\t101.4\tBread and cereals\tPopcorn\n805\t06-12-2020\t100.2\tBread and cereals\tPopcorn\n806\t13-12-2020\t100.2\tBread and cereals\tPopcorn\n807\t20-12-2020\t100.2\tBread and cereals\tPopcorn\n808\t27-12-2020\t99.9\tBread and cereals\tPopcorn\n809\t03-01-2021\t100.2\tBread and cereals\tPopcorn\n810\t10-01-2021\t100.4\tBread and cereals\tPopcorn\n811\t17-01-2021\t100.5\tBread and cereals\tPopcorn\n812\t24-01-2021\t100.1\tBread and cereals\tPopcorn\n813\t31-01-2021\t99.2\tBread and cereals\tPopcorn\n814\t07-02-2021\t99.4\tBread and cereals\tPopcorn\n815\t14-02-2021\t101.5\tBread and cereals\tPopcorn\n816\t21-02-2021\t102.5\tBread and cereals\tPopcorn\n817\t28-02-2021\t103.0\tBread and cereals\tPopcorn\n818\t07-03-2021\t101.2\tBread and cereals\tPopcorn\n819\t14-03-2021\t101.0\tBread and cereals\tPopcorn\n820\t07-06-2020\t100.0\tBread and cereals\tPorridge oats\n821\t14-06-2020\t99.4\tBread and cereals\tPorridge oats\n822\t21-06-2020\t99.5\tBread and cereals\tPorridge oats\n823\t28-06-2020\t99.4\tBread and cereals\tPorridge oats\n824\t05-07-2020\t100.3\tBread and cereals\tPorridge oats\n825\t12-07-2020\t100.1\tBread and cereals\tPorridge oats\n826\t19-07-2020\t98.1\tBread and cereals\tPorridge oats\n827\t26-07-2020\t98.1\tBread and cereals\tPorridge oats\n828\t02-08-2020\t100.4\tBread and cereals\tPorridge oats\n829\t09-08-2020\t100.1\tBread and cereals\tPorridge oats\n830\t16-08-2020\t101.5\tBread and cereals\tPorridge oats\n831\t23-08-2020\t99.9\tBread and cereals\tPorridge oats\n832\t30-08-2020\t95.9\tBread and cereals\tPorridge oats\n833\t06-09-2020\t95.3\tBread and cereals\tPorridge oats\n834\t13-09-2020\t94.5\tBread and cereals\tPorridge oats\n835\t20-09-2020\t96.3\tBread and cereals\tPorridge oats\n836\t27-09-2020\t96.1\tBread and cereals\tPorridge oats\n837\t04-10-2020\t98.0\tBread and cereals\tPorridge oats\n838\t11-10-2020\t95.9\tBread and cereals\tPorridge oats\n839\t18-10-2020\t97.1\tBread and cereals\tPorridge oats\n840\t25-10-2020\t96.8\tBread and cereals\tPorridge oats\n841\t01-11-2020\t97.2\tBread and cereals\tPorridge oats\n842\t08-11-2020\t97.5\tBread and cereals\tPorridge oats\n843\t15-11-2020\t96.9\tBread and cereals\tPorridge oats\n844\t22-11-2020\t98.3\tBread and cereals\tPorridge oats\n845\t29-11-2020\t98.0\tBread and cereals\tPorridge oats\n846\t06-12-2020\t98.8\tBread and cereals\tPorridge oats\n847\t13-12-2020\t98.6\tBread and cereals\tPorridge oats\n848\t20-12-2020\t98.4\tBread and cereals\tPorridge oats\n849\t27-12-2020\t98.6\tBread and cereals\tPorridge oats\n850\t03-01-2021\t96.4\tBread and cereals\tPorridge oats\n851\t10-01-2021\t92.8\tBread and cereals\tPorridge oats\n852\t17-01-2021\t92.4\tBread and cereals\tPorridge oats\n853\t24-01-2021\t94.0\tBread and cereals\tPorridge oats\n854\t31-01-2021\t96.6\tBread and cereals\tPorridge oats\n855\t07-02-2021\t95.7\tBread and cereals\tPorridge oats\n856\t14-02-2021\t94.8\tBread and cereals\tPorridge oats\n857\t21-02-2021\t93.8\tBread and cereals\tPorridge oats\n858\t28-02-2021\t93.9\tBread and cereals\tPorridge oats\n859\t07-03-2021\t95.7\tBread and cereals\tPorridge oats\n860\t14-03-2021\t96.6\tBread and cereals\tPorridge oats\n861\t07-06-2020\t100.0\tBread and cereals\tQuiche\n862\t14-06-2020\t101.2\tBread and cereals\tQuiche\n863\t21-06-2020\t101.6\tBread and cereals\tQuiche\n864\t28-06-2020\t101.6\tBread and cereals\tQuiche\n865\t05-07-2020\t100.7\tBread and cereals\tQuiche\n866\t12-07-2020\t100.1\tBread and cereals\tQuiche\n867\t19-07-2020\t100.0\tBread and cereals\tQuiche\n868\t26-07-2020\t99.6\tBread and cereals\tQuiche\n869\t02-08-2020\t99.9\tBread and cereals\tQuiche\n870\t09-08-2020\t100.2\tBread and cereals\tQuiche\n871\t16-08-2020\t98.0\tBread and cereals\tQuiche\n872\t23-08-2020\t97.9\tBread and cereals\tQuiche\n873\t30-08-2020\t99.7\tBread and cereals\tQuiche\n874\t06-09-2020\t101.8\tBread and cereals\tQuiche\n875\t13-09-2020\t102.2\tBread and cereals\tQuiche\n876\t20-09-2020\t101.5\tBread and cereals\tQuiche\n877\t27-09-2020\t100.9\tBread and cereals\tQuiche\n878\t04-10-2020\t100.1\tBread and cereals\tQuiche\n879\t11-10-2020\t100.7\tBread and cereals\tQuiche\n880\t18-10-2020\t101.7\tBread and cereals\tQuiche\n881\t25-10-2020\t102.1\tBread and cereals\tQuiche\n882\t01-11-2020\t102.7\tBread and cereals\tQuiche\n883\t08-11-2020\t102.9\tBread and cereals\tQuiche\n884\t15-11-2020\t102.9\tBread and cereals\tQuiche\n885\t22-11-2020\t102.2\tBread and cereals\tQuiche\n886\t29-11-2020\t102.0\tBread and cereals\tQuiche\n887\t06-12-2020\t101.9\tBread and cereals\tQuiche\n888\t13-12-2020\t103.1\tBread and cereals\tQuiche\n889\t20-12-2020\t103.3\tBread and cereals\tQuiche\n890\t27-12-2020\t103.3\tBread and cereals\tQuiche\n891\t03-01-2021\t102.8\tBread and cereals\tQuiche\n892\t10-01-2021\t102.6\tBread and cereals\tQuiche\n893\t17-01-2021\t102.5\tBread and cereals\tQuiche\n894\t24-01-2021\t102.6\tBread and cereals\tQuiche\n895\t31-01-2021\t103.2\tBread and cereals\tQuiche\n896\t07-02-2021\t102.5\tBread and cereals\tQuiche\n897\t14-02-2021\t101.8\tBread and cereals\tQuiche\n898\t21-02-2021\t101.9\tBread and cereals\tQuiche\n899\t28-02-2021\t101.7\tBread and cereals\tQuiche\n900\t07-03-2021\t100.7\tBread and cereals\tQuiche\n901\t14-03-2021\t98.1\tBread and cereals\tQuiche\n902\t07-06-2020\t100.0\tBread and cereals\tRice\n903\t14-06-2020\t99.5\tBread and cereals\tRice\n904\t21-06-2020\t99.0\tBread and cereals\tRice\n905\t28-06-2020\t99.2\tBread and cereals\tRice\n906\t05-07-2020\t99.4\tBread and cereals\tRice\n907\t12-07-2020\t98.9\tBread and cereals\tRice\n908\t19-07-2020\t97.1\tBread and cereals\tRice\n909\t26-07-2020\t96.1\tBread and cereals\tRice\n910\t02-08-2020\t95.9\tBread and cereals\tRice\n911\t09-08-2020\t95.6\tBread and cereals\tRice\n912\t16-08-2020\t94.9\tBread and cereals\tRice\n913\t23-08-2020\t93.8\tBread and cereals\tRice\n914\t30-08-2020\t91.3\tBread and cereals\tRice\n915\t06-09-2020\t91.3\tBread and cereals\tRice\n916\t13-09-2020\t90.9\tBread and cereals\tRice\n917\t20-09-2020\t91.2\tBread and cereals\tRice\n918\t27-09-2020\t91.3\tBread and cereals\tRice\n919\t04-10-2020\t91.0\tBread and cereals\tRice\n920\t11-10-2020\t89.3\tBread and cereals\tRice\n921\t18-10-2020\t88.8\tBread and cereals\tRice\n922\t25-10-2020\t88.9\tBread and cereals\tRice\n923\t01-11-2020\t89.9\tBread and cereals\tRice\n924\t08-11-2020\t90.8\tBread and cereals\tRice\n925\t15-11-2020\t91.0\tBread and cereals\tRice\n926\t22-11-2020\t90.3\tBread and cereals\tRice\n927\t29-11-2020\t90.3\tBread and cereals\tRice\n928\t06-12-2020\t90.0\tBread and cereals\tRice\n929\t13-12-2020\t90.2\tBread and cereals\tRice\n930\t20-12-2020\t90.4\tBread and cereals\tRice\n931\t27-12-2020\t90.7\tBread and cereals\tRice\n932\t03-01-2021\t90.6\tBread and cereals\tRice\n933\t10-01-2021\t89.8\tBread and cereals\tRice\n934\t17-01-2021\t90.0\tBread and cereals\tRice\n935\t24-01-2021\t90.5\tBread and cereals\tRice\n936\t31-01-2021\t91.6\tBread and cereals\tRice\n937\t07-02-2021\t91.8\tBread and cereals\tRice\n938\t14-02-2021\t91.4\tBread and cereals\tRice\n939\t21-02-2021\t90.0\tBread and cereals\tRice\n940\t28-02-2021\t89.4\tBread and cereals\tRice\n941\t07-03-2021\t89.7\tBread and cereals\tRice\n942\t14-03-2021\t90.6\tBread and cereals\tRice\n984\t07-06-2020\t100.0\tCoffee, tea and cocoa\tCoffee\n985\t14-06-2020\t99.8\tCoffee, tea and cocoa\tCoffee\n986\t21-06-2020\t101.3\tCoffee, tea and cocoa\tCoffee\n987\t28-06-2020\t101.3\tCoffee, tea and cocoa\tCoffee\n988\t05-07-2020\t101.6\tCoffee, tea and cocoa\tCoffee\n989\t12-07-2020\t100.3\tCoffee, tea and cocoa\tCoffee\n990\t19-07-2020\t99.4\tCoffee, tea and cocoa\tCoffee\n991\t26-07-2020\t98.8\tCoffee, tea and cocoa\tCoffee\n992\t02-08-2020\t101.3\tCoffee, tea and cocoa\tCoffee\n993\t09-08-2020\t101.7\tCoffee, tea and cocoa\tCoffee\n994\t16-08-2020\t101.7\tCoffee, tea and cocoa\tCoffee\n995\t23-08-2020\t100.9\tCoffee, tea and cocoa\tCoffee\n996\t30-08-2020\t99.9\tCoffee, tea and cocoa\tCoffee\n997\t06-09-2020\t101.7\tCoffee, tea and cocoa\tCoffee\n998\t13-09-2020\t101.8\tCoffee, tea and cocoa\tCoffee\n999\t20-09-2020\t100.9\tCoffee, tea and cocoa\tCoffee\n1000\t27-09-2020\t99.6\tCoffee, tea and cocoa\tCoffee\n1001\t04-10-2020\t101.6\tCoffee, tea and cocoa\tCoffee\n1002\t11-10-2020\t102.1\tCoffee, tea and cocoa\tCoffee\n1003\t18-10-2020\t103.2\tCoffee, tea and cocoa\tCoffee\n1004\t25-10-2020\t103.4\tCoffee, tea and cocoa\tCoffee\n1005\t01-11-2020\t102.2\tCoffee, tea and cocoa\tCoffee\n1006\t08-11-2020\t102.0\tCoffee, tea and cocoa\tCoffee\n1007\t15-11-2020\t101.8\tCoffee, tea and cocoa\tCoffee\n1008\t22-11-2020\t102.1\tCoffee, tea and cocoa\tCoffee\n1009\t29-11-2020\t102.0\tCoffee, tea and cocoa\tCoffee\n1010\t06-12-2020\t101.5\tCoffee, tea and cocoa\tCoffee\n1011\t13-12-2020\t102.4\tCoffee, tea and cocoa\tCoffee\n1012\t20-12-2020\t102.7\tCoffee, tea and cocoa\tCoffee\n1013\t27-12-2020\t102.5\tCoffee, tea and cocoa\tCoffee\n1014\t03-01-2021\t102.4\tCoffee, tea and cocoa\tCoffee\n1015\t10-01-2021\t103.1\tCoffee, tea and cocoa\tCoffee\n1016\t17-01-2021\t103.2\tCoffee, tea and cocoa\tCoffee\n1017\t24-01-2021\t103.1\tCoffee, tea and cocoa\tCoffee\n1018\t31-01-2021\t102.5\tCoffee, tea and cocoa\tCoffee\n1019\t07-02-2021\t102.2\tCoffee, tea and cocoa\tCoffee\n1020\t14-02-2021\t102.4\tCoffee, tea and cocoa\tCoffee\n1021\t21-02-2021\t102.3\tCoffee, tea and cocoa\tCoffee\n1022\t28-02-2021\t101.2\tCoffee, tea and cocoa\tCoffee\n1023\t07-03-2021\t100.9\tCoffee, tea and cocoa\tCoffee\n1024\t14-03-2021\t101.3\tCoffee, tea and cocoa\tCoffee\n1025\t07-06-2020\t100.0\tCoffee, tea and cocoa\tFlavoured tea\n1026\t14-06-2020\t99.5\tCoffee, tea and cocoa\tFlavoured tea\n1027\t21-06-2020\t98.5\tCoffee, tea and cocoa\tFlavoured tea\n1028\t28-06-2020\t97.4\tCoffee, tea and cocoa\tFlavoured tea\n1029\t05-07-2020\t100.0\tCoffee, tea and cocoa\tFlavoured tea\n1030\t12-07-2020\t102.3\tCoffee, tea and cocoa\tFlavoured tea\n1031\t19-07-2020\t100.9\tCoffee, tea and cocoa\tFlavoured tea\n1032\t26-07-2020\t100.7\tCoffee, tea and cocoa\tFlavoured tea\n1033\t02-08-2020\t100.7\tCoffee, tea and cocoa\tFlavoured tea\n1034\t09-08-2020\t99.6\tCoffee, tea and cocoa\tFlavoured tea\n1035\t16-08-2020\t99.8\tCoffee, tea and cocoa\tFlavoured tea\n1036\t23-08-2020\t98.8\tCoffee, tea and cocoa\tFlavoured tea\n1037\t30-08-2020\t98.1\tCoffee, tea and cocoa\tFlavoured tea\n1038\t06-09-2020\t98.5\tCoffee, tea and cocoa\tFlavoured tea\n1039\t13-09-2020\t98.4\tCoffee, tea and cocoa\tFlavoured tea\n1040\t20-09-2020\t95.8\tCoffee, tea and cocoa\tFlavoured tea\n1041\t27-09-2020\t96.1\tCoffee, tea and cocoa\tFlavoured tea\n1042\t04-10-2020\t97.5\tCoffee, tea and cocoa\tFlavoured tea\n1043\t11-10-2020\t98.8\tCoffee, tea and cocoa\tFlavoured tea\n1044\t18-10-2020\t100.0\tCoffee, tea and cocoa\tFlavoured tea\n1045\t25-10-2020\t100.3\tCoffee, tea and cocoa\tFlavoured tea\n1046\t01-11-2020\t99.5\tCoffee, tea and cocoa\tFlavoured tea\n1047\t08-11-2020\t99.4\tCoffee, tea and cocoa\tFlavoured tea\n1048\t15-11-2020\t99.3\tCoffee, tea and cocoa\tFlavoured tea\n1049\t22-11-2020\t99.0\tCoffee, tea and cocoa\tFlavoured tea\n1050\t29-11-2020\t99.0\tCoffee, tea and cocoa\tFlavoured tea\n1051\t06-12-2020\t99.4\tCoffee, tea and cocoa\tFlavoured tea\n1052\t13-12-2020\t100.6\tCoffee, tea and cocoa\tFlavoured tea\n1053\t20-12-2020\t101.0\tCoffee, tea and cocoa\tFlavoured tea\n1054\t27-12-2020\t101.4\tCoffee, tea and cocoa\tFlavoured tea\n1055\t03-01-2021\t99.6\tCoffee, tea and cocoa\tFlavoured tea\n1056\t10-01-2021\t97.2\tCoffee, tea and cocoa\tFlavoured tea\n1057\t17-01-2021\t97.2\tCoffee, tea and cocoa\tFlavoured tea\n1058\t24-01-2021\t97.5\tCoffee, tea and cocoa\tFlavoured tea\n1059\t31-01-2021\t97.3\tCoffee, tea and cocoa\tFlavoured tea\n1060\t07-02-2021\t98.1\tCoffee, tea and cocoa\tFlavoured tea\n1061\t14-02-2021\t96.9\tCoffee, tea and cocoa\tFlavoured tea\n1062\t21-02-2021\t98.2\tCoffee, tea and cocoa\tFlavoured tea\n1063\t28-02-2021\t99.0\tCoffee, tea and cocoa\tFlavoured tea\n1064\t07-03-2021\t100.9\tCoffee, tea and cocoa\tFlavoured tea\n1065\t14-03-2021\t99.9\tCoffee, tea and cocoa\tFlavoured tea\n1066\t07-06-2020\t100.0\tCoffee, tea and cocoa\tHot chocolate drink\n1067\t14-06-2020\t100.0\tCoffee, tea and cocoa\tHot chocolate drink\n1068\t21-06-2020\t99.3\tCoffee, tea and cocoa\tHot chocolate drink\n1069\t28-06-2020\t99.2\tCoffee, tea and cocoa\tHot chocolate drink\n1070\t05-07-2020\t99.7\tCoffee, tea and cocoa\tHot chocolate drink\n1071\t12-07-2020\t100.2\tCoffee, tea and cocoa\tHot chocolate drink\n1072\t19-07-2020\t100.2\tCoffee, tea and cocoa\tHot chocolate drink\n1073\t26-07-2020\t100.2\tCoffee, tea and cocoa\tHot chocolate drink\n1074\t02-08-2020\t99.5\tCoffee, tea and cocoa\tHot chocolate drink\n1075\t09-08-2020\t99.3\tCoffee, tea and cocoa\tHot chocolate drink\n1076\t16-08-2020\t99.8\tCoffee, tea and cocoa\tHot chocolate drink\n1077\t23-08-2020\t100.5\tCoffee, tea and cocoa\tHot chocolate drink\n1078\t30-08-2020\t99.2\tCoffee, tea and cocoa\tHot chocolate drink\n1079\t06-09-2020\t97.2\tCoffee, tea and cocoa\tHot chocolate drink\n1080\t13-09-2020\t95.7\tCoffee, tea and cocoa\tHot chocolate drink\n1081\t20-09-2020\t93.0\tCoffee, tea and cocoa\tHot chocolate drink\n1082\t27-09-2020\t94.1\tCoffee, tea and cocoa\tHot chocolate drink\n1083\t04-10-2020\t95.9\tCoffee, tea and cocoa\tHot chocolate drink\n1084\t11-10-2020\t97.1\tCoffee, tea and cocoa\tHot chocolate drink\n1085\t18-10-2020\t96.7\tCoffee, tea and cocoa\tHot chocolate drink\n1086\t25-10-2020\t96.6\tCoffee, tea and cocoa\tHot chocolate drink\n1087\t01-11-2020\t97.0\tCoffee, tea and cocoa\tHot chocolate drink\n1088\t08-11-2020\t95.2\tCoffee, tea and cocoa\tHot chocolate drink\n1089\t15-11-2020\t94.5\tCoffee, tea and cocoa\tHot chocolate drink\n1090\t22-11-2020\t95.2\tCoffee, tea and cocoa\tHot chocolate drink\n1091\t29-11-2020\t95.8\tCoffee, tea and cocoa\tHot chocolate drink\n1092\t06-12-2020\t95.7\tCoffee, tea and cocoa\tHot chocolate drink\n1093\t13-12-2020\t96.0\tCoffee, tea and cocoa\tHot chocolate drink\n1094\t20-12-2020\t96.1\tCoffee, tea and cocoa\tHot chocolate drink\n1095\t27-12-2020\t96.4\tCoffee, tea and cocoa\tHot chocolate drink\n1096\t03-01-2021\t96.5\tCoffee, tea and cocoa\tHot chocolate drink\n1097\t10-01-2021\t96.9\tCoffee, tea and cocoa\tHot chocolate drink\n1098\t17-01-2021\t97.0\tCoffee, tea and cocoa\tHot chocolate drink\n1099\t24-01-2021\t97.5\tCoffee, tea and cocoa\tHot chocolate drink\n1100\t31-01-2021\t95.8\tCoffee, tea and cocoa\tHot chocolate drink\n1101\t07-02-2021\t96.7\tCoffee, tea and cocoa\tHot chocolate drink\n1102\t14-02-2021\t95.9\tCoffee, tea and cocoa\tHot chocolate drink\n1103\t21-02-2021\t97.0\tCoffee, tea and cocoa\tHot chocolate drink\n1104\t28-02-2021\t97.3\tCoffee, tea and cocoa\tHot chocolate drink\n1105\t07-03-2021\t97.3\tCoffee, tea and cocoa\tHot chocolate drink\n1106\t14-03-2021\t98.6\tCoffee, tea and cocoa\tHot chocolate drink\n1107\t07-06-2020\t100.0\tCoffee, tea and cocoa\tTea\n1108\t14-06-2020\t100.4\tCoffee, tea and cocoa\tTea\n1109\t21-06-2020\t99.8\tCoffee, tea and cocoa\tTea\n1110\t28-06-2020\t99.5\tCoffee, tea and cocoa\tTea\n1111\t05-07-2020\t98.2\tCoffee, tea and cocoa\tTea\n1112\t12-07-2020\t97.5\tCoffee, tea and cocoa\tTea\n1113\t19-07-2020\t97.3\tCoffee, tea and cocoa\tTea\n1114\t26-07-2020\t96.2\tCoffee, tea and cocoa\tTea\n1115\t02-08-2020\t96.7\tCoffee, tea and cocoa\tTea\n1116\t09-08-2020\t97.6\tCoffee, tea and cocoa\tTea\n1117\t16-08-2020\t98.2\tCoffee, tea and cocoa\tTea\n1118\t23-08-2020\t98.1\tCoffee, tea and cocoa\tTea\n1119\t30-08-2020\t97.0\tCoffee, tea and cocoa\tTea\n1120\t06-09-2020\t96.3\tCoffee, tea and cocoa\tTea\n1121\t13-09-2020\t95.2\tCoffee, tea and cocoa\tTea\n1122\t20-09-2020\t95.7\tCoffee, tea and cocoa\tTea\n1123\t27-09-2020\t95.5\tCoffee, tea and cocoa\tTea\n1124\t04-10-2020\t96.2\tCoffee, tea and cocoa\tTea\n1125\t11-10-2020\t96.7\tCoffee, tea and cocoa\tTea\n1126\t18-10-2020\t97.0\tCoffee, tea and cocoa\tTea\n1127\t25-10-2020\t96.7\tCoffee, tea and cocoa\tTea\n1128\t01-11-2020\t96.8\tCoffee, tea and cocoa\tTea\n1129\t08-11-2020\t96.2\tCoffee, tea and cocoa\tTea\n1130\t15-11-2020\t95.9\tCoffee, tea and cocoa\tTea\n1131\t22-11-2020\t96.6\tCoffee, tea and cocoa\tTea\n1132\t29-11-2020\t96.4\tCoffee, tea and cocoa\tTea\n1133\t06-12-2020\t97.0\tCoffee, tea and cocoa\tTea\n1134\t13-12-2020\t97.6\tCoffee, tea and cocoa\tTea\n1135\t20-12-2020\t97.5\tCoffee, tea and cocoa\tTea\n1136\t27-12-2020\t97.2\tCoffee, tea and cocoa\tTea\n1137\t03-01-2021\t97.1\tCoffee, tea and cocoa\tTea\n1138\t10-01-2021\t97.2\tCoffee, tea and cocoa\tTea\n1139\t17-01-2021\t97.0\tCoffee, tea and cocoa\tTea\n1140\t24-01-2021\t96.6\tCoffee, tea and cocoa\tTea\n1141\t31-01-2021\t97.7\tCoffee, tea and cocoa\tTea\n1142\t07-02-2021\t97.8\tCoffee, tea and cocoa\tTea\n1143\t14-02-2021\t97.9\tCoffee, tea and cocoa\tTea\n1144\t21-02-2021\t98.8\tCoffee, tea and cocoa\tTea\n1145\t28-02-2021\t98.8\tCoffee, tea and cocoa\tTea\n1146\t07-03-2021\t98.3\tCoffee, tea and cocoa\tTea\n1147\t14-03-2021\t98.5\tCoffee, tea and cocoa\tTea\n1189\t07-06-2020\t100.0\tFish\tBattered fish\n1190\t14-06-2020\t98.8\tFish\tBattered fish\n1191\t21-06-2020\t98.6\tFish\tBattered fish\n1192\t28-06-2020\t100.6\tFish\tBattered fish\n1193\t05-07-2020\t101.4\tFish\tBattered fish\n1194\t12-07-2020\t99.7\tFish\tBattered fish\n1195\t19-07-2020\t98.4\tFish\tBattered fish\n1196\t26-07-2020\t97.2\tFish\tBattered fish\n1197\t02-08-2020\t99.4\tFish\tBattered fish\n1198\t09-08-2020\t99.5\tFish\tBattered fish\n1199\t16-08-2020\t101.1\tFish\tBattered fish\n1200\t23-08-2020\t100.6\tFish\tBattered fish\n1201\t30-08-2020\t97.3\tFish\tBattered fish\n1202\t06-09-2020\t97.1\tFish\tBattered fish\n1203\t13-09-2020\t97.0\tFish\tBattered fish\n1204\t20-09-2020\t99.8\tFish\tBattered fish\n1205\t27-09-2020\t99.9\tFish\tBattered fish\n1206\t04-10-2020\t99.1\tFish\tBattered fish\n1207\t11-10-2020\t98.2\tFish\tBattered fish\n1208\t18-10-2020\t97.8\tFish\tBattered fish\n1209\t25-10-2020\t98.1\tFish\tBattered fish\n1210\t01-11-2020\t99.6\tFish\tBattered fish\n1211\t08-11-2020\t99.6\tFish\tBattered fish\n1212\t15-11-2020\t99.7\tFish\tBattered fish\n1213\t22-11-2020\t97.5\tFish\tBattered fish\n1214\t29-11-2020\t96.9\tFish\tBattered fish\n1215\t06-12-2020\t97.2\tFish\tBattered fish\n1216\t13-12-2020\t99.9\tFish\tBattered fish\n1217\t20-12-2020\t100.3\tFish\tBattered fish\n1218\t27-12-2020\t100.3\tFish\tBattered fish\n1219\t03-01-2021\t100.0\tFish\tBattered fish\n1220\t10-01-2021\t99.6\tFish\tBattered fish\n1221\t17-01-2021\t99.7\tFish\tBattered fish\n1222\t24-01-2021\t100.9\tFish\tBattered fish\n1223\t31-01-2021\t101.9\tFish\tBattered fish\n1224\t07-02-2021\t101.7\tFish\tBattered fish\n1225\t14-02-2021\t98.9\tFish\tBattered fish\n1226\t21-02-2021\t97.7\tFish\tBattered fish\n1227\t28-02-2021\t97.8\tFish\tBattered fish\n1228\t07-03-2021\t98.4\tFish\tBattered fish\n1229\t14-03-2021\t99.4\tFish\tBattered fish\n1230\t07-06-2020\t100.0\tFish\tCanned tuna\n1231\t14-06-2020\t99.7\tFish\tCanned tuna\n1232\t21-06-2020\t98.3\tFish\tCanned tuna\n1233\t28-06-2020\t98.2\tFish\tCanned tuna\n1234\t05-07-2020\t97.6\tFish\tCanned tuna\n1235\t12-07-2020\t98.7\tFish\tCanned tuna\n1236\t19-07-2020\t99.2\tFish\tCanned tuna\n1237\t26-07-2020\t99.2\tFish\tCanned tuna\n1238\t02-08-2020\t97.5\tFish\tCanned tuna\n1239\t09-08-2020\t96.8\tFish\tCanned tuna\n1240\t16-08-2020\t98.6\tFish\tCanned tuna\n1241\t23-08-2020\t98.9\tFish\tCanned tuna\n1242\t30-08-2020\t97.7\tFish\tCanned tuna\n1243\t06-09-2020\t96.7\tFish\tCanned tuna\n1244\t13-09-2020\t95.8\tFish\tCanned tuna\n1245\t20-09-2020\t96.6\tFish\tCanned tuna\n1246\t27-09-2020\t97.3\tFish\tCanned tuna\n1247\t04-10-2020\t98.0\tFish\tCanned tuna\n1248\t11-10-2020\t96.1\tFish\tCanned tuna\n1249\t18-10-2020\t95.9\tFish\tCanned tuna\n1250\t25-10-2020\t95.5\tFish\tCanned tuna\n1251\t01-11-2020\t96.3\tFish\tCanned tuna\n1252\t08-11-2020\t96.0\tFish\tCanned tuna\n1253\t15-11-2020\t96.3\tFish\tCanned tuna\n1254\t22-11-2020\t95.2\tFish\tCanned tuna\n1255\t29-11-2020\t93.9\tFish\tCanned tuna\n1256\t06-12-2020\t93.2\tFish\tCanned tuna\n1257\t13-12-2020\t95.0\tFish\tCanned tuna\n1258\t20-12-2020\t95.5\tFish\tCanned tuna\n1259\t27-12-2020\t95.4\tFish\tCanned tuna\n1260\t03-01-2021\t95.6\tFish\tCanned tuna\n1261\t10-01-2021\t95.7\tFish\tCanned tuna\n1262\t17-01-2021\t95.2\tFish\tCanned tuna\n1263\t24-01-2021\t94.8\tFish\tCanned tuna\n1264\t31-01-2021\t92.6\tFish\tCanned tuna\n1265\t07-02-2021\t92.3\tFish\tCanned tuna\n1266\t14-02-2021\t93.7\tFish\tCanned tuna\n1267\t21-02-2021\t95.6\tFish\tCanned tuna\n1268\t28-02-2021\t96.1\tFish\tCanned tuna\n1269\t07-03-2021\t96.2\tFish\tCanned tuna\n1270\t14-03-2021\t96.2\tFish\tCanned tuna\n1271\t07-06-2020\t100.0\tFish\tFish fingers\n1272\t14-06-2020\t100.0\tFish\tFish fingers\n1273\t21-06-2020\t100.3\tFish\tFish fingers\n1274\t28-06-2020\t100.3\tFish\tFish fingers\n1275\t05-07-2020\t100.3\tFish\tFish fingers\n1276\t12-07-2020\t99.7\tFish\tFish fingers\n1277\t19-07-2020\t98.9\tFish\tFish fingers\n1278\t26-07-2020\t98.0\tFish\tFish fingers\n1279\t02-08-2020\t97.9\tFish\tFish fingers\n1280\t09-08-2020\t98.0\tFish\tFish fingers\n1281\t16-08-2020\t98.2\tFish\tFish fingers\n1282\t23-08-2020\t98.1\tFish\tFish fingers\n1283\t30-08-2020\t97.7\tFish\tFish fingers\n1284\t06-09-2020\t96.8\tFish\tFish fingers\n1285\t13-09-2020\t97.0\tFish\tFish fingers\n1286\t20-09-2020\t98.5\tFish\tFish fingers\n1287\t27-09-2020\t99.1\tFish\tFish fingers\n1288\t04-10-2020\t97.5\tFish\tFish fingers\n1289\t11-10-2020\t96.6\tFish\tFish fingers\n1290\t18-10-2020\t97.4\tFish\tFish fingers\n1291\t25-10-2020\t97.5\tFish\tFish fingers\n1292\t01-11-2020\t97.8\tFish\tFish fingers\n1293\t08-11-2020\t96.9\tFish\tFish fingers\n1294\t15-11-2020\t96.2\tFish\tFish fingers\n1295\t22-11-2020\t96.6\tFish\tFish fingers\n1296\t29-11-2020\t97.2\tFish\tFish fingers\n1297\t06-12-2020\t97.5\tFish\tFish fingers\n1298\t13-12-2020\t97.0\tFish\tFish fingers\n1299\t20-12-2020\t97.4\tFish\tFish fingers\n1300\t27-12-2020\t97.2\tFish\tFish fingers\n1301\t03-01-2021\t97.3\tFish\tFish fingers\n1302\t10-01-2021\t97.1\tFish\tFish fingers\n1303\t17-01-2021\t97.1\tFish\tFish fingers\n1304\t24-01-2021\t97.4\tFish\tFish fingers\n1305\t31-01-2021\t97.2\tFish\tFish fingers\n1306\t07-02-2021\t96.8\tFish\tFish fingers\n1307\t14-02-2021\t99.2\tFish\tFish fingers\n1308\t21-02-2021\t100.6\tFish\tFish fingers\n1309\t28-02-2021\t100.6\tFish\tFish fingers\n1310\t07-03-2021\t100.4\tFish\tFish fingers\n1311\t14-03-2021\t100.2\tFish\tFish fingers\n1312\t07-06-2020\t100.0\tFish\tFresh fish\n1313\t14-06-2020\t99.8\tFish\tFresh fish\n1314\t21-06-2020\t99.6\tFish\tFresh fish\n1315\t28-06-2020\t99.5\tFish\tFresh fish\n1316\t05-07-2020\t100.2\tFish\tFresh fish\n1317\t12-07-2020\t100.2\tFish\tFresh fish\n1318\t19-07-2020\t100.2\tFish\tFresh fish\n1319\t26-07-2020\t99.8\tFish\tFresh fish\n1320\t02-08-2020\t99.7\tFish\tFresh fish\n1321\t09-08-2020\t99.5\tFish\tFresh fish\n1322\t16-08-2020\t99.7\tFish\tFresh fish\n1323\t23-08-2020\t99.9\tFish\tFresh fish\n1324\t30-08-2020\t99.6\tFish\tFresh fish\n1325\t06-09-2020\t99.7\tFish\tFresh fish\n1326\t13-09-2020\t100.0\tFish\tFresh fish\n1327\t20-09-2020\t99.9\tFish\tFresh fish\n1328\t27-09-2020\t100.3\tFish\tFresh fish\n1329\t04-10-2020\t100.1\tFish\tFresh fish\n1330\t11-10-2020\t100.2\tFish\tFresh fish\n1331\t18-10-2020\t100.0\tFish\tFresh fish\n1332\t25-10-2020\t100.1\tFish\tFresh fish\n1333\t01-11-2020\t99.9\tFish\tFresh fish\n1334\t08-11-2020\t100.4\tFish\tFresh fish\n1335\t15-11-2020\t100.6\tFish\tFresh fish\n1336\t22-11-2020\t100.7\tFish\tFresh fish\n1337\t29-11-2020\t100.6\tFish\tFresh fish\n1338\t06-12-2020\t100.4\tFish\tFresh fish\n1339\t13-12-2020\t100.5\tFish\tFresh fish\n1340\t20-12-2020\t100.5\tFish\tFresh fish\n1341\t27-12-2020\t100.6\tFish\tFresh fish\n1342\t03-01-2021\t99.9\tFish\tFresh fish\n1343\t10-01-2021\t99.8\tFish\tFresh fish\n1344\t17-01-2021\t99.7\tFish\tFresh fish\n1345\t24-01-2021\t99.9\tFish\tFresh fish\n1346\t31-01-2021\t99.6\tFish\tFresh fish\n1347\t07-02-2021\t99.6\tFish\tFresh fish\n1348\t14-02-2021\t99.9\tFish\tFresh fish\n1349\t21-02-2021\t100.0\tFish\tFresh fish\n1350\t28-02-2021\t100.1\tFish\tFresh fish\n1351\t07-03-2021\t99.5\tFish\tFresh fish\n1352\t14-03-2021\t99.6\tFish\tFresh fish\n1353\t07-06-2020\t100.0\tFish\tFrozen prawns\n1354\t14-06-2020\t99.9\tFish\tFrozen prawns\n1355\t21-06-2020\t99.8\tFish\tFrozen prawns\n1356\t28-06-2020\t100.0\tFish\tFrozen prawns\n1357\t05-07-2020\t100.7\tFish\tFrozen prawns\n1358\t12-07-2020\t100.6\tFish\tFrozen prawns\n1359\t19-07-2020\t100.5\tFish\tFrozen prawns\n1360\t26-07-2020\t100.4\tFish\tFrozen prawns\n1361\t02-08-2020\t100.7\tFish\tFrozen prawns\n1362\t09-08-2020\t100.7\tFish\tFrozen prawns\n1363\t16-08-2020\t100.6\tFish\tFrozen prawns\n1364\t23-08-2020\t100.6\tFish\tFrozen prawns\n1365\t30-08-2020\t100.1\tFish\tFrozen prawns\n1366\t06-09-2020\t99.9\tFish\tFrozen prawns\n1367\t13-09-2020\t99.9\tFish\tFrozen prawns\n1368\t20-09-2020\t100.5\tFish\tFrozen prawns\n1369\t27-09-2020\t100.5\tFish\tFrozen prawns\n1370\t04-10-2020\t100.4\tFish\tFrozen prawns\n1371\t11-10-2020\t100.6\tFish\tFrozen prawns\n1372\t18-10-2020\t100.5\tFish\tFrozen prawns\n1373\t25-10-2020\t100.3\tFish\tFrozen prawns\n1374\t01-11-2020\t100.2\tFish\tFrozen prawns\n1375\t08-11-2020\t100.7\tFish\tFrozen prawns\n1376\t15-11-2020\t100.9\tFish\tFrozen prawns\n1377\t22-11-2020\t100.5\tFish\tFrozen prawns\n1378\t29-11-2020\t100.5\tFish\tFrozen prawns\n1379\t06-12-2020\t99.6\tFish\tFrozen prawns\n1380\t13-12-2020\t99.3\tFish\tFrozen prawns\n1381\t20-12-2020\t99.1\tFish\tFrozen prawns\n1382\t27-12-2020\t99.2\tFish\tFrozen prawns\n1383\t03-01-2021\t98.9\tFish\tFrozen prawns\n1384\t10-01-2021\t99.2\tFish\tFrozen prawns\n1385\t17-01-2021\t99.7\tFish\tFrozen prawns\n1386\t24-01-2021\t99.7\tFish\tFrozen prawns\n1387\t31-01-2021\t99.9\tFish\tFrozen prawns\n1388\t07-02-2021\t99.8\tFish\tFrozen prawns\n1389\t14-02-2021\t99.9\tFish\tFrozen prawns\n1390\t21-02-2021\t100.4\tFish\tFrozen prawns\n1391\t28-02-2021\t100.5\tFish\tFrozen prawns\n1392\t07-03-2021\t100.4\tFish\tFrozen prawns\n1393\t14-03-2021\t99.9\tFish\tFrozen prawns\n1435\t07-06-2020\t100.0\tFood products (not elsewhere covered)\tCook-in sauce\n1436\t14-06-2020\t99.4\tFood products (not elsewhere covered)\tCook-in sauce\n1437\t21-06-2020\t99.8\tFood products (not elsewhere covered)\tCook-in sauce\n1438\t28-06-2020\t99.6\tFood products (not elsewhere covered)\tCook-in sauce\n1439\t05-07-2020\t99.8\tFood products (not elsewhere covered)\tCook-in sauce\n1440\t12-07-2020\t99.1\tFood products (not elsewhere covered)\tCook-in sauce\n1441\t19-07-2020\t98.7\tFood products (not elsewhere covered)\tCook-in sauce\n1442\t26-07-2020\t98.9\tFood products (not elsewhere covered)\tCook-in sauce\n1443\t02-08-2020\t98.6\tFood products (not elsewhere covered)\tCook-in sauce\n1444\t09-08-2020\t98.8\tFood products (not elsewhere covered)\tCook-in sauce\n1445\t16-08-2020\t97.3\tFood products (not elsewhere covered)\tCook-in sauce\n1446\t23-08-2020\t97.4\tFood products (not elsewhere covered)\tCook-in sauce\n1447\t30-08-2020\t96.2\tFood products (not elsewhere covered)\tCook-in sauce\n1448\t06-09-2020\t95.6\tFood products (not elsewhere covered)\tCook-in sauce\n1449\t13-09-2020\t94.6\tFood products (not elsewhere covered)\tCook-in sauce\n1450\t20-09-2020\t94.2\tFood products (not elsewhere covered)\tCook-in sauce\n1451\t27-09-2020\t95.4\tFood products (not elsewhere covered)\tCook-in sauce\n1452\t04-10-2020\t96.6\tFood products (not elsewhere covered)\tCook-in sauce\n1453\t11-10-2020\t95.7\tFood products (not elsewhere covered)\tCook-in sauce\n1454\t18-10-2020\t95.6\tFood products (not elsewhere covered)\tCook-in sauce\n1455\t25-10-2020\t95.4\tFood products (not elsewhere covered)\tCook-in sauce\n1456\t01-11-2020\t96.6\tFood products (not elsewhere covered)\tCook-in sauce\n1457\t08-11-2020\t97.3\tFood products (not elsewhere covered)\tCook-in sauce\n1458\t15-11-2020\t97.8\tFood products (not elsewhere covered)\tCook-in sauce\n1459\t22-11-2020\t98.9\tFood products (not elsewhere covered)\tCook-in sauce\n1460\t29-11-2020\t100.1\tFood products (not elsewhere covered)\tCook-in sauce\n1461\t06-12-2020\t99.2\tFood products (not elsewhere covered)\tCook-in sauce\n1462\t13-12-2020\t98.6\tFood products (not elsewhere covered)\tCook-in sauce\n1463\t20-12-2020\t98.7\tFood products (not elsewhere covered)\tCook-in sauce\n1464\t27-12-2020\t98.2\tFood products (not elsewhere covered)\tCook-in sauce\n1465\t03-01-2021\t97.4\tFood products (not elsewhere covered)\tCook-in sauce\n1466\t10-01-2021\t96.9\tFood products (not elsewhere covered)\tCook-in sauce\n1467\t17-01-2021\t96.7\tFood products (not elsewhere covered)\tCook-in sauce\n1468\t24-01-2021\t96.8\tFood products (not elsewhere covered)\tCook-in sauce\n1469\t31-01-2021\t95.8\tFood products (not elsewhere covered)\tCook-in sauce\n1470\t07-02-2021\t95.5\tFood products (not elsewhere covered)\tCook-in sauce\n1471\t14-02-2021\t94.6\tFood products (not elsewhere covered)\tCook-in sauce\n1472\t21-02-2021\t96.1\tFood products (not elsewhere covered)\tCook-in sauce\n1473\t28-02-2021\t98.3\tFood products (not elsewhere covered)\tCook-in sauce\n1474\t07-03-2021\t99.4\tFood products (not elsewhere covered)\tCook-in sauce\n1475\t14-03-2021\t99.4\tFood products (not elsewhere covered)\tCook-in sauce\n1476\t07-06-2020\t100.0\tFood products (not elsewhere covered)\tMayonnaise\n1477\t14-06-2020\t100.0\tFood products (not elsewhere covered)\tMayonnaise\n1478\t21-06-2020\t99.6\tFood products (not elsewhere covered)\tMayonnaise\n1479\t28-06-2020\t100.2\tFood products (not elsewhere covered)\tMayonnaise\n1480\t05-07-2020\t100.1\tFood products (not elsewhere covered)\tMayonnaise\n1481\t12-07-2020\t100.3\tFood products (not elsewhere covered)\tMayonnaise\n1482\t19-07-2020\t100.2\tFood products (not elsewhere covered)\tMayonnaise\n1483\t26-07-2020\t100.0\tFood products (not elsewhere covered)\tMayonnaise\n1484\t02-08-2020\t100.9\tFood products (not elsewhere covered)\tMayonnaise\n1485\t09-08-2020\t101.4\tFood products (not elsewhere covered)\tMayonnaise\n1486\t16-08-2020\t101.2\tFood products (not elsewhere covered)\tMayonnaise\n1487\t23-08-2020\t100.7\tFood products (not elsewhere covered)\tMayonnaise\n1488\t30-08-2020\t99.3\tFood products (not elsewhere covered)\tMayonnaise\n1489\t06-09-2020\t98.7\tFood products (not elsewhere covered)\tMayonnaise\n1490\t13-09-2020\t98.4\tFood products (not elsewhere covered)\tMayonnaise\n1491\t20-09-2020\t98.5\tFood products (not elsewhere covered)\tMayonnaise\n1492\t27-09-2020\t100.1\tFood products (not elsewhere covered)\tMayonnaise\n1493\t04-10-2020\t101.1\tFood products (not elsewhere covered)\tMayonnaise\n1494\t11-10-2020\t100.6\tFood products (not elsewhere covered)\tMayonnaise\n1495\t18-10-2020\t99.4\tFood products (not elsewhere covered)\tMayonnaise\n1496\t25-10-2020\t99.5\tFood products (not elsewhere covered)\tMayonnaise\n1497\t01-11-2020\t97.6\tFood products (not elsewhere covered)\tMayonnaise\n1498\t08-11-2020\t96.5\tFood products (not elsewhere covered)\tMayonnaise\n1499\t15-11-2020\t96.2\tFood products (not elsewhere covered)\tMayonnaise\n1500\t22-11-2020\t97.7\tFood products (not elsewhere covered)\tMayonnaise\n1501\t29-11-2020\t98.1\tFood products (not elsewhere covered)\tMayonnaise\n1502\t06-12-2020\t98.1\tFood products (not elsewhere covered)\tMayonnaise\n1503\t13-12-2020\t96.3\tFood products (not elsewhere covered)\tMayonnaise\n1504\t20-12-2020\t96.1\tFood products (not elsewhere covered)\tMayonnaise\n1505\t27-12-2020\t96.0\tFood products (not elsewhere covered)\tMayonnaise\n1506\t03-01-2021\t96.5\tFood products (not elsewhere covered)\tMayonnaise\n1507\t10-01-2021\t96.4\tFood products (not elsewhere covered)\tMayonnaise\n1508\t17-01-2021\t96.4\tFood products (not elsewhere covered)\tMayonnaise\n1509\t24-01-2021\t96.5\tFood products (not elsewhere covered)\tMayonnaise\n1510\t31-01-2021\t96.8\tFood products (not elsewhere covered)\tMayonnaise\n1511\t07-02-2021\t96.6\tFood products (not elsewhere covered)\tMayonnaise\n1512\t14-02-2021\t96.0\tFood products (not elsewhere covered)\tMayonnaise\n1513\t21-02-2021\t97.3\tFood products (not elsewhere covered)\tMayonnaise\n1514\t28-02-2021\t97.4\tFood products (not elsewhere covered)\tMayonnaise\n1515\t07-03-2021\t97.6\tFood products (not elsewhere covered)\tMayonnaise\n1516\t14-03-2021\t97.4\tFood products (not elsewhere covered)\tMayonnaise\n1517\t07-06-2020\t100.0\tFood products (not elsewhere covered)\tProtein powder\n1518\t14-06-2020\t99.9\tFood products (not elsewhere covered)\tProtein powder\n1519\t21-06-2020\t101.7\tFood products (not elsewhere covered)\tProtein powder\n1520\t28-06-2020\t103.0\tFood products (not elsewhere covered)\tProtein powder\n1521\t05-07-2020\t101.3\tFood products (not elsewhere covered)\tProtein powder\n1522\t12-07-2020\t100.2\tFood products (not elsewhere covered)\tProtein powder\n1523\t19-07-2020\t97.4\tFood products (not elsewhere covered)\tProtein powder\n1524\t26-07-2020\t96.0\tFood products (not elsewhere covered)\tProtein powder\n1525\t02-08-2020\t96.8\tFood products (not elsewhere covered)\tProtein powder\n1526\t09-08-2020\t97.9\tFood products (not elsewhere covered)\tProtein powder\n1527\t16-08-2020\t98.4\tFood products (not elsewhere covered)\tProtein powder\n1528\t23-08-2020\t100.7\tFood products (not elsewhere covered)\tProtein powder\n1529\t30-08-2020\t96.8\tFood products (not elsewhere covered)\tProtein powder\n1530\t06-09-2020\t95.2\tFood products (not elsewhere covered)\tProtein powder\n1531\t13-09-2020\t95.4\tFood products (not elsewhere covered)\tProtein powder\n1532\t20-09-2020\t97.4\tFood products (not elsewhere covered)\tProtein powder\n1533\t27-09-2020\t97.3\tFood products (not elsewhere covered)\tProtein powder\n1534\t04-10-2020\t96.7\tFood products (not elsewhere covered)\tProtein powder\n1535\t11-10-2020\t98.3\tFood products (not elsewhere covered)\tProtein powder\n1536\t18-10-2020\t98.4\tFood products (not elsewhere covered)\tProtein powder\n1537\t25-10-2020\t98.6\tFood products (not elsewhere covered)\tProtein powder\n1538\t01-11-2020\t97.1\tFood products (not elsewhere covered)\tProtein powder\n1539\t08-11-2020\t96.9\tFood products (not elsewhere covered)\tProtein powder\n1540\t15-11-2020\t96.3\tFood products (not elsewhere covered)\tProtein powder\n1541\t22-11-2020\t98.8\tFood products (not elsewhere covered)\tProtein powder\n1542\t29-11-2020\t98.7\tFood products (not elsewhere covered)\tProtein powder\n1543\t06-12-2020\t98.8\tFood products (not elsewhere covered)\tProtein powder\n1544\t13-12-2020\t101.1\tFood products (not elsewhere covered)\tProtein powder\n1545\t20-12-2020\t101.6\tFood products (not elsewhere covered)\tProtein powder\n1546\t27-12-2020\t101.0\tFood products (not elsewhere covered)\tProtein powder\n1547\t03-01-2021\t97.9\tFood products (not elsewhere covered)\tProtein powder\n1548\t10-01-2021\t94.9\tFood products (not elsewhere covered)\tProtein powder\n1549\t17-01-2021\t94.9\tFood products (not elsewhere covered)\tProtein powder\n1550\t24-01-2021\t95.3\tFood products (not elsewhere covered)\tProtein powder\n1551\t31-01-2021\t96.0\tFood products (not elsewhere covered)\tProtein powder\n1552\t07-02-2021\t96.9\tFood products (not elsewhere covered)\tProtein powder\n1553\t14-02-2021\t98.8\tFood products (not elsewhere covered)\tProtein powder\n1554\t21-02-2021\t99.8\tFood products (not elsewhere covered)\tProtein powder\n1555\t28-02-2021\t99.3\tFood products (not elsewhere covered)\tProtein powder\n1556\t07-03-2021\t100.6\tFood products (not elsewhere covered)\tProtein powder\n1557\t14-03-2021\t101.0\tFood products (not elsewhere covered)\tProtein powder\n1558\t07-06-2020\t100.0\tFood products (not elsewhere covered)\tReady meal\n1559\t14-06-2020\t99.7\tFood products (not elsewhere covered)\tReady meal\n1560\t21-06-2020\t99.4\tFood products (not elsewhere covered)\tReady meal\n1561\t28-06-2020\t99.4\tFood products (not elsewhere covered)\tReady meal\n1562\t05-07-2020\t98.1\tFood products (not elsewhere covered)\tReady meal\n1563\t12-07-2020\t97.8\tFood products (not elsewhere covered)\tReady meal\n1564\t19-07-2020\t97.9\tFood products (not elsewhere covered)\tReady meal\n1565\t26-07-2020\t97.9\tFood products (not elsewhere covered)\tReady meal\n1566\t02-08-2020\t98.8\tFood products (not elsewhere covered)\tReady meal\n1567\t09-08-2020\t99.3\tFood products (not elsewhere covered)\tReady meal\n1568\t16-08-2020\t99.8\tFood products (not elsewhere covered)\tReady meal\n1569\t23-08-2020\t99.8\tFood products (not elsewhere covered)\tReady meal\n1570\t30-08-2020\t99.1\tFood products (not elsewhere covered)\tReady meal\n1571\t06-09-2020\t98.7\tFood products (not elsewhere covered)\tReady meal\n1572\t13-09-2020\t98.5\tFood products (not elsewhere covered)\tReady meal\n1573\t20-09-2020\t97.2\tFood products (not elsewhere covered)\tReady meal\n1574\t27-09-2020\t99.0\tFood products (not elsewhere covered)\tReady meal\n1575\t04-10-2020\t99.7\tFood products (not elsewhere covered)\tReady meal\n1576\t11-10-2020\t100.4\tFood products (not elsewhere covered)\tReady meal\n1577\t18-10-2020\t100.4\tFood products (not elsewhere covered)\tReady meal\n1578\t25-10-2020\t100.6\tFood products (not elsewhere covered)\tReady meal\n1579\t01-11-2020\t99.7\tFood products (not elsewhere covered)\tReady meal\n1580\t08-11-2020\t98.3\tFood products (not elsewhere covered)\tReady meal\n1581\t15-11-2020\t97.7\tFood products (not elsewhere covered)\tReady meal\n1582\t22-11-2020\t98.0\tFood products (not elsewhere covered)\tReady meal\n1583\t29-11-2020\t98.4\tFood products (not elsewhere covered)\tReady meal\n1584\t06-12-2020\t99.8\tFood products (not elsewhere covered)\tReady meal\n1585\t13-12-2020\t100.5\tFood products (not elsewhere covered)\tReady meal\n1586\t20-12-2020\t100.7\tFood products (not elsewhere covered)\tReady meal\n1587\t27-12-2020\t100.6\tFood products (not elsewhere covered)\tReady meal\n1588\t03-01-2021\t100.6\tFood products (not elsewhere covered)\tReady meal\n1589\t10-01-2021\t99.9\tFood products (not elsewhere covered)\tReady meal\n1590\t17-01-2021\t99.9\tFood products (not elsewhere covered)\tReady meal\n1591\t24-01-2021\t99.7\tFood products (not elsewhere covered)\tReady meal\n1592\t31-01-2021\t98.4\tFood products (not elsewhere covered)\tReady meal\n1593\t07-02-2021\t0.0\tFood products (not elsewhere covered)\tReady meal\n1594\t14-02-2021\t0.0\tFood products (not elsewhere covered)\tReady meal\n1595\t21-02-2021\t0.0\tFood products (not elsewhere covered)\tReady meal\n1596\t28-02-2021\t0.0\tFood products (not elsewhere covered)\tReady meal\n1597\t07-03-2021\t0.0\tFood products (not elsewhere covered)\tReady meal\n1598\t14-03-2021\t0.0\tFood products (not elsewhere covered)\tReady meal\n1599\t07-06-2020\t100.0\tFood products (not elsewhere covered)\tSoup\n1600\t14-06-2020\t100.0\tFood products (not elsewhere covered)\tSoup\n1601\t21-06-2020\t100.4\tFood products (not elsewhere covered)\tSoup\n1602\t28-06-2020\t100.7\tFood products (not elsewhere covered)\tSoup\n1603\t05-07-2020\t100.2\tFood products (not elsewhere covered)\tSoup\n1604\t12-07-2020\t99.5\tFood products (not elsewhere covered)\tSoup\n1605\t19-07-2020\t99.5\tFood products (not elsewhere covered)\tSoup\n1606\t26-07-2020\t99.5\tFood products (not elsewhere covered)\tSoup\n1607\t02-08-2020\t99.9\tFood products (not elsewhere covered)\tSoup\n1608\t09-08-2020\t100.2\tFood products (not elsewhere covered)\tSoup\n1609\t16-08-2020\t99.8\tFood products (not elsewhere covered)\tSoup\n1610\t23-08-2020\t99.7\tFood products (not elsewhere covered)\tSoup\n1611\t30-08-2020\t98.2\tFood products (not elsewhere covered)\tSoup\n1612\t06-09-2020\t97.7\tFood products (not elsewhere covered)\tSoup\n1613\t13-09-2020\t97.4\tFood products (not elsewhere covered)\tSoup\n1614\t20-09-2020\t96.1\tFood products (not elsewhere covered)\tSoup\n1615\t27-09-2020\t97.1\tFood products (not elsewhere covered)\tSoup\n1616\t04-10-2020\t97.5\tFood products (not elsewhere covered)\tSoup\n1617\t11-10-2020\t96.5\tFood products (not elsewhere covered)\tSoup\n1618\t18-10-2020\t95.8\tFood products (not elsewhere covered)\tSoup\n1619\t25-10-2020\t96.1\tFood products (not elsewhere covered)\tSoup\n1620\t01-11-2020\t95.7\tFood products (not elsewhere covered)\tSoup\n1621\t08-11-2020\t96.1\tFood products (not elsewhere covered)\tSoup\n1622\t15-11-2020\t96.2\tFood products (not elsewhere covered)\tSoup\n1623\t22-11-2020\t96.5\tFood products (not elsewhere covered)\tSoup\n1624\t29-11-2020\t96.1\tFood products (not elsewhere covered)\tSoup\n1625\t06-12-2020\t95.8\tFood products (not elsewhere covered)\tSoup\n1626\t13-12-2020\t96.6\tFood products (not elsewhere covered)\tSoup\n1627\t20-12-2020\t97.2\tFood products (not elsewhere covered)\tSoup\n1628\t27-12-2020\t97.0\tFood products (not elsewhere covered)\tSoup\n1629\t03-01-2021\t95.9\tFood products (not elsewhere covered)\tSoup\n1630\t10-01-2021\t94.4\tFood products (not elsewhere covered)\tSoup\n1631\t17-01-2021\t94.1\tFood products (not elsewhere covered)\tSoup\n1632\t24-01-2021\t94.2\tFood products (not elsewhere covered)\tSoup\n1633\t31-01-2021\t96.0\tFood products (not elsewhere covered)\tSoup\n1634\t07-02-2021\t97.3\tFood products (not elsewhere covered)\tSoup\n1635\t14-02-2021\t97.0\tFood products (not elsewhere covered)\tSoup\n1636\t21-02-2021\t96.3\tFood products (not elsewhere covered)\tSoup\n1637\t28-02-2021\t96.7\tFood products (not elsewhere covered)\tSoup\n1638\t07-03-2021\t97.1\tFood products (not elsewhere covered)\tSoup\n1639\t14-03-2021\t97.2\tFood products (not elsewhere covered)\tSoup\n1640\t07-06-2020\t100.0\tFood products (not elsewhere covered)\tTomato ketchup\n1641\t14-06-2020\t100.6\tFood products (not elsewhere covered)\tTomato ketchup\n1642\t21-06-2020\t100.6\tFood products (not elsewhere covered)\tTomato ketchup\n1643\t28-06-2020\t100.6\tFood products (not elsewhere covered)\tTomato ketchup\n1644\t05-07-2020\t101.0\tFood products (not elsewhere covered)\tTomato ketchup\n1645\t12-07-2020\t100.7\tFood products (not elsewhere covered)\tTomato ketchup\n1646\t19-07-2020\t100.7\tFood products (not elsewhere covered)\tTomato ketchup\n1647\t26-07-2020\t100.7\tFood products (not elsewhere covered)\tTomato ketchup\n1648\t02-08-2020\t101.1\tFood products (not elsewhere covered)\tTomato ketchup\n1649\t09-08-2020\t101.3\tFood products (not elsewhere covered)\tTomato ketchup\n1650\t16-08-2020\t100.1\tFood products (not elsewhere covered)\tTomato ketchup\n1651\t23-08-2020\t99.4\tFood products (not elsewhere covered)\tTomato ketchup\n1652\t30-08-2020\t100.5\tFood products (not elsewhere covered)\tTomato ketchup\n1653\t06-09-2020\t100.6\tFood products (not elsewhere covered)\tTomato ketchup\n1654\t13-09-2020\t100.2\tFood products (not elsewhere covered)\tTomato ketchup\n1655\t20-09-2020\t100.2\tFood products (not elsewhere covered)\tTomato ketchup\n1656\t27-09-2020\t99.4\tFood products (not elsewhere covered)\tTomato ketchup\n1657\t04-10-2020\t99.0\tFood products (not elsewhere covered)\tTomato ketchup\n1658\t11-10-2020\t98.7\tFood products (not elsewhere covered)\tTomato ketchup\n1659\t18-10-2020\t98.8\tFood products (not elsewhere covered)\tTomato ketchup\n1660\t25-10-2020\t98.7\tFood products (not elsewhere covered)\tTomato ketchup\n1661\t01-11-2020\t98.2\tFood products (not elsewhere covered)\tTomato ketchup\n1662\t08-11-2020\t97.6\tFood products (not elsewhere covered)\tTomato ketchup\n1663\t15-11-2020\t97.9\tFood products (not elsewhere covered)\tTomato ketchup\n1664\t22-11-2020\t99.0\tFood products (not elsewhere covered)\tTomato ketchup\n1665\t29-11-2020\t99.0\tFood products (not elsewhere covered)\tTomato ketchup\n1666\t06-12-2020\t99.2\tFood products (not elsewhere covered)\tTomato ketchup\n1667\t13-12-2020\t98.3\tFood products (not elsewhere covered)\tTomato ketchup\n1668\t20-12-2020\t98.1\tFood products (not elsewhere covered)\tTomato ketchup\n1669\t27-12-2020\t98.1\tFood products (not elsewhere covered)\tTomato ketchup\n1670\t03-01-2021\t98.6\tFood products (not elsewhere covered)\tTomato ketchup\n1671\t10-01-2021\t99.0\tFood products (not elsewhere covered)\tTomato ketchup\n1672\t17-01-2021\t98.8\tFood products (not elsewhere covered)\tTomato ketchup\n1673\t24-01-2021\t98.7\tFood products (not elsewhere covered)\tTomato ketchup\n1674\t31-01-2021\t98.7\tFood products (not elsewhere covered)\tTomato ketchup\n1675\t07-02-2021\t99.0\tFood products (not elsewhere covered)\tTomato ketchup\n1676\t14-02-2021\t98.7\tFood products (not elsewhere covered)\tTomato ketchup\n1677\t21-02-2021\t98.5\tFood products (not elsewhere covered)\tTomato ketchup\n1678\t28-02-2021\t98.3\tFood products (not elsewhere covered)\tTomato ketchup\n1679\t07-03-2021\t98.2\tFood products (not elsewhere covered)\tTomato ketchup\n1680\t14-03-2021\t98.8\tFood products (not elsewhere covered)\tTomato ketchup\n1722\t07-06-2020\t100.0\tFruit\tApples\n1723\t14-06-2020\t99.9\tFruit\tApples\n1724\t21-06-2020\t100.3\tFruit\tApples\n1725\t28-06-2020\t100.0\tFruit\tApples\n1726\t05-07-2020\t100.3\tFruit\tApples\n1727\t12-07-2020\t99.9\tFruit\tApples\n1728\t19-07-2020\t100.0\tFruit\tApples\n1729\t26-07-2020\t99.2\tFruit\tApples\n1730\t02-08-2020\t99.0\tFruit\tApples\n1731\t09-08-2020\t99.2\tFruit\tApples\n1732\t16-08-2020\t99.6\tFruit\tApples\n1733\t23-08-2020\t99.2\tFruit\tApples\n1734\t30-08-2020\t98.9\tFruit\tApples\n1735\t06-09-2020\t98.0\tFruit\tApples\n1736\t13-09-2020\t97.6\tFruit\tApples\n1737\t20-09-2020\t98.3\tFruit\tApples\n1738\t27-09-2020\t98.5\tFruit\tApples\n1739\t04-10-2020\t98.8\tFruit\tApples\n1740\t11-10-2020\t98.2\tFruit\tApples\n1741\t18-10-2020\t97.9\tFruit\tApples\n1742\t25-10-2020\t97.0\tFruit\tApples\n1743\t01-11-2020\t97.2\tFruit\tApples\n1744\t08-11-2020\t97.2\tFruit\tApples\n1745\t15-11-2020\t97.3\tFruit\tApples\n1746\t22-11-2020\t96.2\tFruit\tApples\n1747\t29-11-2020\t96.0\tFruit\tApples\n1748\t06-12-2020\t96.3\tFruit\tApples\n1749\t13-12-2020\t96.7\tFruit\tApples\n1750\t20-12-2020\t97.1\tFruit\tApples\n1751\t27-12-2020\t97.5\tFruit\tApples\n1752\t03-01-2021\t97.6\tFruit\tApples\n1753\t10-01-2021\t98.3\tFruit\tApples\n1754\t17-01-2021\t98.7\tFruit\tApples\n1755\t24-01-2021\t98.8\tFruit\tApples\n1756\t31-01-2021\t98.7\tFruit\tApples\n1757\t07-02-2021\t98.4\tFruit\tApples\n1758\t14-02-2021\t98.3\tFruit\tApples\n1759\t21-02-2021\t97.9\tFruit\tApples\n1760\t28-02-2021\t98.1\tFruit\tApples\n1761\t07-03-2021\t98.7\tFruit\tApples\n1762\t14-03-2021\t99.3\tFruit\tApples\n1763\t07-06-2020\t100.0\tFruit\tAvocado\n1764\t14-06-2020\t99.5\tFruit\tAvocado\n1765\t21-06-2020\t97.9\tFruit\tAvocado\n1766\t28-06-2020\t97.3\tFruit\tAvocado\n1767\t05-07-2020\t97.8\tFruit\tAvocado\n1768\t12-07-2020\t98.9\tFruit\tAvocado\n1769\t19-07-2020\t98.7\tFruit\tAvocado\n1770\t26-07-2020\t98.8\tFruit\tAvocado\n1771\t02-08-2020\t98.7\tFruit\tAvocado\n1772\t09-08-2020\t98.7\tFruit\tAvocado\n1773\t16-08-2020\t99.2\tFruit\tAvocado\n1774\t23-08-2020\t99.4\tFruit\tAvocado\n1775\t30-08-2020\t98.4\tFruit\tAvocado\n1776\t06-09-2020\t97.8\tFruit\tAvocado\n1777\t13-09-2020\t97.4\tFruit\tAvocado\n1778\t20-09-2020\t97.3\tFruit\tAvocado\n1779\t27-09-2020\t98.9\tFruit\tAvocado\n1780\t04-10-2020\t99.2\tFruit\tAvocado\n1781\t11-10-2020\t98.9\tFruit\tAvocado\n1782\t18-10-2020\t98.7\tFruit\tAvocado\n1783\t25-10-2020\t98.4\tFruit\tAvocado\n1784\t01-11-2020\t97.9\tFruit\tAvocado\n1785\t08-11-2020\t97.8\tFruit\tAvocado\n1786\t15-11-2020\t97.9\tFruit\tAvocado\n1787\t22-11-2020\t96.8\tFruit\tAvocado\n1788\t29-11-2020\t95.9\tFruit\tAvocado\n1789\t06-12-2020\t95.9\tFruit\tAvocado\n1790\t13-12-2020\t97.2\tFruit\tAvocado\n1791\t20-12-2020\t97.0\tFruit\tAvocado\n1792\t27-12-2020\t96.6\tFruit\tAvocado\n1793\t03-01-2021\t95.7\tFruit\tAvocado\n1794\t10-01-2021\t95.9\tFruit\tAvocado\n1795\t17-01-2021\t95.9\tFruit\tAvocado\n1796\t24-01-2021\t95.6\tFruit\tAvocado\n1797\t31-01-2021\t96.6\tFruit\tAvocado\n1798\t07-02-2021\t96.8\tFruit\tAvocado\n1799\t14-02-2021\t98.3\tFruit\tAvocado\n1800\t21-02-2021\t98.5\tFruit\tAvocado\n1801\t28-02-2021\t98.3\tFruit\tAvocado\n1802\t07-03-2021\t98.2\tFruit\tAvocado\n1803\t14-03-2021\t98.9\tFruit\tAvocado\n1804\t07-06-2020\t100.0\tFruit\tBananas\n1805\t14-06-2020\t99.5\tFruit\tBananas\n1806\t21-06-2020\t98.2\tFruit\tBananas\n1807\t28-06-2020\t98.2\tFruit\tBananas\n1808\t05-07-2020\t98.2\tFruit\tBananas\n1809\t12-07-2020\t98.2\tFruit\tBananas\n1810\t19-07-2020\t98.2\tFruit\tBananas\n1811\t26-07-2020\t98.1\tFruit\tBananas\n1812\t02-08-2020\t98.1\tFruit\tBananas\n1813\t09-08-2020\t97.9\tFruit\tBananas\n1814\t16-08-2020\t97.9\tFruit\tBananas\n1815\t23-08-2020\t98.0\tFruit\tBananas\n1816\t30-08-2020\t97.6\tFruit\tBananas\n1817\t06-09-2020\t97.6\tFruit\tBananas\n1818\t13-09-2020\t97.6\tFruit\tBananas\n1819\t20-09-2020\t97.8\tFruit\tBananas\n1820\t27-09-2020\t97.5\tFruit\tBananas\n1821\t04-10-2020\t97.0\tFruit\tBananas\n1822\t11-10-2020\t96.9\tFruit\tBananas\n1823\t18-10-2020\t96.9\tFruit\tBananas\n1824\t25-10-2020\t96.9\tFruit\tBananas\n1825\t01-11-2020\t96.8\tFruit\tBananas\n1826\t08-11-2020\t96.8\tFruit\tBananas\n1827\t15-11-2020\t96.7\tFruit\tBananas\n1828\t22-11-2020\t96.7\tFruit\tBananas\n1829\t29-11-2020\t96.7\tFruit\tBananas\n1830\t06-12-2020\t96.7\tFruit\tBananas\n1831\t13-12-2020\t95.8\tFruit\tBananas\n1832\t20-12-2020\t95.9\tFruit\tBananas\n1833\t27-12-2020\t96.1\tFruit\tBananas\n1834\t03-01-2021\t96.3\tFruit\tBananas\n1835\t10-01-2021\t96.5\tFruit\tBananas\n1836\t17-01-2021\t96.5\tFruit\tBananas\n1837\t24-01-2021\t96.5\tFruit\tBananas\n1838\t31-01-2021\t96.5\tFruit\tBananas\n1839\t07-02-2021\t96.1\tFruit\tBananas\n1840\t14-02-2021\t95.6\tFruit\tBananas\n1841\t21-02-2021\t95.3\tFruit\tBananas\n1842\t28-02-2021\t95.3\tFruit\tBananas\n1843\t07-03-2021\t95.3\tFruit\tBananas\n1844\t14-03-2021\t95.3\tFruit\tBananas\n1845\t07-06-2020\t100.0\tFruit\tBlueberries\n1846\t14-06-2020\t100.5\tFruit\tBlueberries\n1847\t21-06-2020\t101.6\tFruit\tBlueberries\n1848\t28-06-2020\t101.6\tFruit\tBlueberries\n1849\t05-07-2020\t101.6\tFruit\tBlueberries\n1850\t12-07-2020\t102.0\tFruit\tBlueberries\n1851\t19-07-2020\t101.9\tFruit\tBlueberries\n1852\t26-07-2020\t101.3\tFruit\tBlueberries\n1853\t02-08-2020\t100.9\tFruit\tBlueberries\n1854\t09-08-2020\t102.6\tFruit\tBlueberries\n1855\t16-08-2020\t100.2\tFruit\tBlueberries\n1856\t23-08-2020\t100.7\tFruit\tBlueberries\n1857\t30-08-2020\t104.6\tFruit\tBlueberries\n1858\t06-09-2020\t104.5\tFruit\tBlueberries\n1859\t13-09-2020\t104.3\tFruit\tBlueberries\n1860\t20-09-2020\t104.8\tFruit\tBlueberries\n1861\t27-09-2020\t104.5\tFruit\tBlueberries\n1862\t04-10-2020\t104.2\tFruit\tBlueberries\n1863\t11-10-2020\t103.1\tFruit\tBlueberries\n1864\t18-10-2020\t102.6\tFruit\tBlueberries\n1865\t25-10-2020\t101.4\tFruit\tBlueberries\n1866\t01-11-2020\t102.2\tFruit\tBlueberries\n1867\t08-11-2020\t101.5\tFruit\tBlueberries\n1868\t15-11-2020\t100.6\tFruit\tBlueberries\n1869\t22-11-2020\t101.0\tFruit\tBlueberries\n1870\t29-11-2020\t100.5\tFruit\tBlueberries\n1871\t06-12-2020\t100.7\tFruit\tBlueberries\n1872\t13-12-2020\t100.5\tFruit\tBlueberries\n1873\t20-12-2020\t100.1\tFruit\tBlueberries\n1874\t27-12-2020\t101.0\tFruit\tBlueberries\n1875\t03-01-2021\t100.2\tFruit\tBlueberries\n1876\t10-01-2021\t99.5\tFruit\tBlueberries\n1877\t17-01-2021\t98.9\tFruit\tBlueberries\n1878\t24-01-2021\t99.1\tFruit\tBlueberries\n1879\t31-01-2021\t99.1\tFruit\tBlueberries\n1880\t07-02-2021\t99.2\tFruit\tBlueberries\n1881\t14-02-2021\t98.6\tFruit\tBlueberries\n1882\t21-02-2021\t98.0\tFruit\tBlueberries\n1883\t28-02-2021\t99.1\tFruit\tBlueberries\n1884\t07-03-2021\t100.3\tFruit\tBlueberries\n1885\t14-03-2021\t100.6\tFruit\tBlueberries\n1886\t07-06-2020\t100.0\tFruit\tCanned fruit\n1887\t14-06-2020\t99.9\tFruit\tCanned fruit\n1888\t21-06-2020\t99.3\tFruit\tCanned fruit\n1889\t28-06-2020\t99.3\tFruit\tCanned fruit\n1890\t05-07-2020\t99.2\tFruit\tCanned fruit\n1891\t12-07-2020\t99.9\tFruit\tCanned fruit\n1892\t19-07-2020\t100.0\tFruit\tCanned fruit\n1893\t26-07-2020\t100.0\tFruit\tCanned fruit\n1894\t02-08-2020\t100.0\tFruit\tCanned fruit\n1895\t09-08-2020\t100.0\tFruit\tCanned fruit\n1896\t16-08-2020\t100.0\tFruit\tCanned fruit\n1897\t23-08-2020\t100.1\tFruit\tCanned fruit\n1898\t30-08-2020\t100.2\tFruit\tCanned fruit\n1899\t06-09-2020\t100.3\tFruit\tCanned fruit\n1900\t13-09-2020\t100.4\tFruit\tCanned fruit\n1901\t20-09-2020\t100.2\tFruit\tCanned fruit\n1902\t27-09-2020\t100.2\tFruit\tCanned fruit\n1903\t04-10-2020\t100.2\tFruit\tCanned fruit\n1904\t11-10-2020\t100.6\tFruit\tCanned fruit\n1905\t18-10-2020\t100.5\tFruit\tCanned fruit\n1906\t25-10-2020\t100.6\tFruit\tCanned fruit\n1907\t01-11-2020\t100.6\tFruit\tCanned fruit\n1908\t08-11-2020\t100.6\tFruit\tCanned fruit\n1909\t15-11-2020\t100.5\tFruit\tCanned fruit\n1910\t22-11-2020\t100.5\tFruit\tCanned fruit\n1911\t29-11-2020\t100.5\tFruit\tCanned fruit\n1912\t06-12-2020\t100.4\tFruit\tCanned fruit\n1913\t13-12-2020\t100.3\tFruit\tCanned fruit\n1914\t20-12-2020\t100.0\tFruit\tCanned fruit\n1915\t27-12-2020\t100.4\tFruit\tCanned fruit\n1916\t03-01-2021\t100.1\tFruit\tCanned fruit\n1917\t10-01-2021\t100.0\tFruit\tCanned fruit\n1918\t17-01-2021\t100.0\tFruit\tCanned fruit\n1919\t24-01-2021\t100.1\tFruit\tCanned fruit\n1920\t31-01-2021\t100.4\tFruit\tCanned fruit\n1921\t07-02-2021\t100.4\tFruit\tCanned fruit\n1922\t14-02-2021\t100.3\tFruit\tCanned fruit\n1923\t21-02-2021\t100.3\tFruit\tCanned fruit\n1924\t28-02-2021\t100.2\tFruit\tCanned fruit\n1925\t07-03-2021\t100.2\tFruit\tCanned fruit\n1926\t14-03-2021\t100.3\tFruit\tCanned fruit\n1927\t07-06-2020\t100.0\tFruit\tDried fruit\n1928\t14-06-2020\t99.4\tFruit\tDried fruit\n1929\t21-06-2020\t96.4\tFruit\tDried fruit\n1930\t28-06-2020\t95.9\tFruit\tDried fruit\n1931\t05-07-2020\t95.1\tFruit\tDried fruit\n1932\t12-07-2020\t97.3\tFruit\tDried fruit\n1933\t19-07-2020\t97.3\tFruit\tDried fruit\n1934\t26-07-2020\t97.6\tFruit\tDried fruit\n1935\t02-08-2020\t99.1\tFruit\tDried fruit\n1936\t09-08-2020\t99.3\tFruit\tDried fruit\n1937\t16-08-2020\t99.2\tFruit\tDried fruit\n1938\t23-08-2020\t97.0\tFruit\tDried fruit\n1939\t30-08-2020\t94.2\tFruit\tDried fruit\n1940\t06-09-2020\t92.4\tFruit\tDried fruit\n1941\t13-09-2020\t92.8\tFruit\tDried fruit\n1942\t20-09-2020\t93.3\tFruit\tDried fruit\n1943\t27-09-2020\t93.4\tFruit\tDried fruit\n1944\t04-10-2020\t94.5\tFruit\tDried fruit\n1945\t11-10-2020\t95.2\tFruit\tDried fruit\n1946\t18-10-2020\t95.3\tFruit\tDried fruit\n1947\t25-10-2020\t95.6\tFruit\tDried fruit\n1948\t01-11-2020\t95.4\tFruit\tDried fruit\n1949\t08-11-2020\t95.7\tFruit\tDried fruit\n1950\t15-11-2020\t95.8\tFruit\tDried fruit\n1951\t22-11-2020\t95.7\tFruit\tDried fruit\n1952\t29-11-2020\t95.7\tFruit\tDried fruit\n1953\t06-12-2020\t95.6\tFruit\tDried fruit\n1954\t13-12-2020\t96.1\tFruit\tDried fruit\n1955\t20-12-2020\t96.3\tFruit\tDried fruit\n1956\t27-12-2020\t96.1\tFruit\tDried fruit\n1957\t03-01-2021\t95.7\tFruit\tDried fruit\n1958\t10-01-2021\t93.9\tFruit\tDried fruit\n1959\t17-01-2021\t94.4\tFruit\tDried fruit\n1960\t24-01-2021\t94.2\tFruit\tDried fruit\n1961\t31-01-2021\t94.5\tFruit\tDried fruit\n1962\t07-02-2021\t94.7\tFruit\tDried fruit\n1963\t14-02-2021\t94.7\tFruit\tDried fruit\n1964\t21-02-2021\t95.5\tFruit\tDried fruit\n1965\t28-02-2021\t95.5\tFruit\tDried fruit\n1966\t07-03-2021\t95.4\tFruit\tDried fruit\n1967\t14-03-2021\t95.2\tFruit\tDried fruit\n1968\t07-06-2020\t100.0\tFruit\tGrapefruit\n1969\t14-06-2020\t100.0\tFruit\tGrapefruit\n1970\t21-06-2020\t100.0\tFruit\tGrapefruit\n1971\t28-06-2020\t100.0\tFruit\tGrapefruit\n1972\t05-07-2020\t97.9\tFruit\tGrapefruit\n1973\t12-07-2020\t97.5\tFruit\tGrapefruit\n1974\t19-07-2020\t97.5\tFruit\tGrapefruit\n1975\t26-07-2020\t93.5\tFruit\tGrapefruit\n1976\t02-08-2020\t93.5\tFruit\tGrapefruit\n1977\t09-08-2020\t99.1\tFruit\tGrapefruit\n1978\t16-08-2020\t99.1\tFruit\tGrapefruit\n1979\t23-08-2020\t99.1\tFruit\tGrapefruit\n1980\t30-08-2020\t99.4\tFruit\tGrapefruit\n1981\t06-09-2020\t99.3\tFruit\tGrapefruit\n1982\t13-09-2020\t98.6\tFruit\tGrapefruit\n1983\t20-09-2020\t97.0\tFruit\tGrapefruit\n1984\t27-09-2020\t96.6\tFruit\tGrapefruit\n1985\t04-10-2020\t96.6\tFruit\tGrapefruit\n1986\t11-10-2020\t96.6\tFruit\tGrapefruit\n1987\t18-10-2020\t96.6\tFruit\tGrapefruit\n1988\t25-10-2020\t96.6\tFruit\tGrapefruit\n1989\t01-11-2020\t98.6\tFruit\tGrapefruit\n1990\t08-11-2020\t98.6\tFruit\tGrapefruit\n1991\t15-11-2020\t98.8\tFruit\tGrapefruit\n1992\t22-11-2020\t98.7\tFruit\tGrapefruit\n1993\t29-11-2020\t98.7\tFruit\tGrapefruit\n1994\t06-12-2020\t98.8\tFruit\tGrapefruit\n1995\t13-12-2020\t98.9\tFruit\tGrapefruit\n1996\t20-12-2020\t98.9\tFruit\tGrapefruit\n1997\t27-12-2020\t98.9\tFruit\tGrapefruit\n1998\t03-01-2021\t96.1\tFruit\tGrapefruit\n1999\t10-01-2021\t95.0\tFruit\tGrapefruit\n2000\t17-01-2021\t95.0\tFruit\tGrapefruit\n2001\t24-01-2021\t95.0\tFruit\tGrapefruit\n2002\t31-01-2021\t95.0\tFruit\tGrapefruit\n2003\t07-02-2021\t95.0\tFruit\tGrapefruit\n2004\t14-02-2021\t95.0\tFruit\tGrapefruit\n2005\t21-02-2021\t95.0\tFruit\tGrapefruit\n2006\t28-02-2021\t95.0\tFruit\tGrapefruit\n2007\t07-03-2021\t93.7\tFruit\tGrapefruit\n2008\t14-03-2021\t93.5\tFruit\tGrapefruit\n2009\t07-06-2020\t100.0\tFruit\tGrapes\n2010\t14-06-2020\t99.4\tFruit\tGrapes\n2011\t21-06-2020\t99.2\tFruit\tGrapes\n2012\t28-06-2020\t97.7\tFruit\tGrapes\n2013\t05-07-2020\t98.4\tFruit\tGrapes\n2014\t12-07-2020\t98.0\tFruit\tGrapes\n2015\t19-07-2020\t98.0\tFruit\tGrapes\n2016\t26-07-2020\t98.0\tFruit\tGrapes\n2017\t02-08-2020\t97.6\tFruit\tGrapes\n2018\t09-08-2020\t97.7\tFruit\tGrapes\n2019\t16-08-2020\t96.9\tFruit\tGrapes\n2020\t23-08-2020\t96.4\tFruit\tGrapes\n2021\t30-08-2020\t95.5\tFruit\tGrapes\n2022\t06-09-2020\t95.2\tFruit\tGrapes\n2023\t13-09-2020\t95.2\tFruit\tGrapes\n2024\t20-09-2020\t93.7\tFruit\tGrapes\n2025\t27-09-2020\t93.7\tFruit\tGrapes\n2026\t04-10-2020\t95.2\tFruit\tGrapes\n2027\t11-10-2020\t96.1\tFruit\tGrapes\n2028\t18-10-2020\t96.2\tFruit\tGrapes\n2029\t25-10-2020\t97.8\tFruit\tGrapes\n2030\t01-11-2020\t98.5\tFruit\tGrapes\n2031\t08-11-2020\t98.4\tFruit\tGrapes\n2032\t15-11-2020\t99.0\tFruit\tGrapes\n2033\t22-11-2020\t99.2\tFruit\tGrapes\n2034\t29-11-2020\t99.8\tFruit\tGrapes\n2035\t06-12-2020\t99.8\tFruit\tGrapes\n2036\t13-12-2020\t99.8\tFruit\tGrapes\n2037\t20-12-2020\t99.9\tFruit\tGrapes\n2038\t27-12-2020\t99.7\tFruit\tGrapes\n2039\t03-01-2021\t99.4\tFruit\tGrapes\n2040\t10-01-2021\t100.0\tFruit\tGrapes\n2041\t17-01-2021\t100.7\tFruit\tGrapes\n2042\t24-01-2021\t100.4\tFruit\tGrapes\n2043\t31-01-2021\t100.2\tFruit\tGrapes\n2044\t07-02-2021\t100.0\tFruit\tGrapes\n2045\t14-02-2021\t99.7\tFruit\tGrapes\n2046\t21-02-2021\t99.4\tFruit\tGrapes\n2047\t28-02-2021\t99.1\tFruit\tGrapes\n2048\t07-03-2021\t99.5\tFruit\tGrapes\n2049\t14-03-2021\t99.7\tFruit\tGrapes\n2050\t07-06-2020\t100.0\tFruit\tKiwi\n2051\t14-06-2020\t100.0\tFruit\tKiwi\n2052\t21-06-2020\t100.0\tFruit\tKiwi\n2053\t28-06-2020\t102.6\tFruit\tKiwi\n2054\t05-07-2020\t103.2\tFruit\tKiwi\n2055\t12-07-2020\t103.1\tFruit\tKiwi\n2056\t19-07-2020\t102.9\tFruit\tKiwi\n2057\t26-07-2020\t102.6\tFruit\tKiwi\n2058\t02-08-2020\t101.9\tFruit\tKiwi\n2059\t09-08-2020\t101.8\tFruit\tKiwi\n2060\t16-08-2020\t102.4\tFruit\tKiwi\n2061\t23-08-2020\t102.5\tFruit\tKiwi\n2062\t30-08-2020\t102.8\tFruit\tKiwi\n2063\t06-09-2020\t103.1\tFruit\tKiwi\n2064\t13-09-2020\t103.6\tFruit\tKiwi\n2065\t20-09-2020\t102.5\tFruit\tKiwi\n2066\t27-09-2020\t101.8\tFruit\tKiwi\n2067\t04-10-2020\t101.7\tFruit\tKiwi\n2068\t11-10-2020\t102.3\tFruit\tKiwi\n2069\t18-10-2020\t102.4\tFruit\tKiwi\n2070\t25-10-2020\t102.1\tFruit\tKiwi\n2071\t01-11-2020\t100.7\tFruit\tKiwi\n2072\t08-11-2020\t98.9\tFruit\tKiwi\n2073\t15-11-2020\t98.0\tFruit\tKiwi\n2074\t22-11-2020\t97.3\tFruit\tKiwi\n2075\t29-11-2020\t97.0\tFruit\tKiwi\n2076\t06-12-2020\t97.3\tFruit\tKiwi\n2077\t13-12-2020\t98.6\tFruit\tKiwi\n2078\t20-12-2020\t98.8\tFruit\tKiwi\n2079\t27-12-2020\t98.1\tFruit\tKiwi\n2080\t03-01-2021\t96.2\tFruit\tKiwi\n2081\t10-01-2021\t95.9\tFruit\tKiwi\n2082\t17-01-2021\t96.0\tFruit\tKiwi\n2083\t24-01-2021\t96.8\tFruit\tKiwi\n2084\t31-01-2021\t98.8\tFruit\tKiwi\n2085\t07-02-2021\t99.1\tFruit\tKiwi\n2086\t14-02-2021\t98.6\tFruit\tKiwi\n2087\t21-02-2021\t98.6\tFruit\tKiwi\n2088\t28-02-2021\t98.4\tFruit\tKiwi\n2089\t07-03-2021\t98.6\tFruit\tKiwi\n2090\t14-03-2021\t98.6\tFruit\tKiwi\n2091\t07-06-2020\t100.0\tFruit\tLemon\n2092\t14-06-2020\t100.8\tFruit\tLemon\n2093\t21-06-2020\t99.7\tFruit\tLemon\n2094\t28-06-2020\t100.3\tFruit\tLemon\n2095\t05-07-2020\t100.3\tFruit\tLemon\n2096\t12-07-2020\t100.7\tFruit\tLemon\n2097\t19-07-2020\t101.0\tFruit\tLemon\n2098\t26-07-2020\t101.1\tFruit\tLemon\n2099\t02-08-2020\t101.1\tFruit\tLemon\n2100\t09-08-2020\t99.9\tFruit\tLemon\n2101\t16-08-2020\t99.7\tFruit\tLemon\n2102\t23-08-2020\t100.0\tFruit\tLemon\n2103\t30-08-2020\t100.7\tFruit\tLemon\n2104\t06-09-2020\t100.8\tFruit\tLemon\n2105\t13-09-2020\t100.8\tFruit\tLemon\n2106\t20-09-2020\t101.6\tFruit\tLemon\n2107\t27-09-2020\t101.6\tFruit\tLemon\n2108\t04-10-2020\t101.2\tFruit\tLemon\n2109\t11-10-2020\t98.9\tFruit\tLemon\n2110\t18-10-2020\t94.5\tFruit\tLemon\n2111\t25-10-2020\t93.7\tFruit\tLemon\n2112\t01-11-2020\t93.3\tFruit\tLemon\n2113\t08-11-2020\t90.8\tFruit\tLemon\n2114\t15-11-2020\t88.2\tFruit\tLemon\n2115\t22-11-2020\t87.6\tFruit\tLemon\n2116\t29-11-2020\t86.2\tFruit\tLemon\n2117\t06-12-2020\t88.0\tFruit\tLemon\n2118\t13-12-2020\t87.1\tFruit\tLemon\n2119\t20-12-2020\t86.0\tFruit\tLemon\n2120\t27-12-2020\t85.3\tFruit\tLemon\n2121\t03-01-2021\t86.9\tFruit\tLemon\n2122\t10-01-2021\t88.8\tFruit\tLemon\n2123\t17-01-2021\t88.0\tFruit\tLemon\n2124\t24-01-2021\t88.5\tFruit\tLemon\n2125\t31-01-2021\t88.2\tFruit\tLemon\n2126\t07-02-2021\t88.8\tFruit\tLemon\n2127\t14-02-2021\t86.5\tFruit\tLemon\n2128\t21-02-2021\t85.7\tFruit\tLemon\n2129\t28-02-2021\t87.7\tFruit\tLemon\n2130\t07-03-2021\t88.5\tFruit\tLemon\n2131\t14-03-2021\t88.9\tFruit\tLemon\n2132\t07-06-2020\t100.0\tFruit\tMelon\n2133\t14-06-2020\t99.7\tFruit\tMelon\n2134\t21-06-2020\t95.5\tFruit\tMelon\n2135\t28-06-2020\t91.1\tFruit\tMelon\n2136\t05-07-2020\t91.2\tFruit\tMelon\n2137\t12-07-2020\t90.6\tFruit\tMelon\n2138\t19-07-2020\t91.2\tFruit\tMelon\n2139\t26-07-2020\t91.3\tFruit\tMelon\n2140\t02-08-2020\t90.9\tFruit\tMelon\n2141\t09-08-2020\t91.5\tFruit\tMelon\n2142\t16-08-2020\t90.9\tFruit\tMelon\n2143\t23-08-2020\t91.8\tFruit\tMelon\n2144\t30-08-2020\t92.0\tFruit\tMelon\n2145\t06-09-2020\t94.9\tFruit\tMelon\n2146\t13-09-2020\t98.3\tFruit\tMelon\n2147\t20-09-2020\t99.3\tFruit\tMelon\n2148\t27-09-2020\t99.0\tFruit\tMelon\n2149\t04-10-2020\t99.5\tFruit\tMelon\n2150\t11-10-2020\t101.6\tFruit\tMelon\n2151\t18-10-2020\t101.5\tFruit\tMelon\n2152\t25-10-2020\t101.4\tFruit\tMelon\n2153\t01-11-2020\t101.1\tFruit\tMelon\n2154\t08-11-2020\t100.4\tFruit\tMelon\n2155\t15-11-2020\t100.0\tFruit\tMelon\n2156\t22-11-2020\t99.7\tFruit\tMelon\n2157\t29-11-2020\t99.8\tFruit\tMelon\n2158\t06-12-2020\t100.1\tFruit\tMelon\n2159\t13-12-2020\t100.6\tFruit\tMelon\n2160\t20-12-2020\t100.4\tFruit\tMelon\n2161\t27-12-2020\t99.7\tFruit\tMelon\n2162\t03-01-2021\t100.4\tFruit\tMelon\n2163\t10-01-2021\t100.3\tFruit\tMelon\n2164\t17-01-2021\t100.3\tFruit\tMelon\n2165\t24-01-2021\t100.5\tFruit\tMelon\n2166\t31-01-2021\t100.9\tFruit\tMelon\n2167\t07-02-2021\t101.0\tFruit\tMelon\n2168\t14-02-2021\t101.1\tFruit\tMelon\n2169\t21-02-2021\t100.9\tFruit\tMelon\n2170\t28-02-2021\t101.0\tFruit\tMelon\n2171\t07-03-2021\t101.4\tFruit\tMelon\n2172\t14-03-2021\t101.7\tFruit\tMelon\n2173\t07-06-2020\t100.0\tFruit\tOranges\n2174\t14-06-2020\t101.0\tFruit\tOranges\n2175\t21-06-2020\t101.7\tFruit\tOranges\n2176\t28-06-2020\t101.8\tFruit\tOranges\n2177\t05-07-2020\t101.3\tFruit\tOranges\n2178\t12-07-2020\t101.8\tFruit\tOranges\n2179\t19-07-2020\t101.6\tFruit\tOranges\n2180\t26-07-2020\t101.8\tFruit\tOranges\n2181\t02-08-2020\t101.5\tFruit\tOranges\n2182\t09-08-2020\t102.1\tFruit\tOranges\n2183\t16-08-2020\t99.8\tFruit\tOranges\n2184\t23-08-2020\t98.3\tFruit\tOranges\n2185\t30-08-2020\t99.0\tFruit\tOranges\n2186\t06-09-2020\t98.3\tFruit\tOranges\n2187\t13-09-2020\t97.9\tFruit\tOranges\n2188\t20-09-2020\t97.8\tFruit\tOranges\n2189\t27-09-2020\t97.8\tFruit\tOranges\n2190\t04-10-2020\t97.5\tFruit\tOranges\n2191\t11-10-2020\t97.0\tFruit\tOranges\n2192\t18-10-2020\t96.9\tFruit\tOranges\n2193\t25-10-2020\t96.1\tFruit\tOranges\n2194\t01-11-2020\t94.9\tFruit\tOranges\n2195\t08-11-2020\t94.4\tFruit\tOranges\n2196\t15-11-2020\t94.1\tFruit\tOranges\n2197\t22-11-2020\t92.9\tFruit\tOranges\n2198\t29-11-2020\t92.4\tFruit\tOranges\n2199\t06-12-2020\t92.2\tFruit\tOranges\n2200\t13-12-2020\t91.6\tFruit\tOranges\n2201\t20-12-2020\t91.2\tFruit\tOranges\n2202\t27-12-2020\t91.7\tFruit\tOranges\n2203\t03-01-2021\t93.5\tFruit\tOranges\n2204\t10-01-2021\t95.0\tFruit\tOranges\n2205\t17-01-2021\t95.5\tFruit\tOranges\n2206\t24-01-2021\t95.2\tFruit\tOranges\n2207\t31-01-2021\t95.5\tFruit\tOranges\n2208\t07-02-2021\t96.2\tFruit\tOranges\n2209\t14-02-2021\t96.4\tFruit\tOranges\n2210\t21-02-2021\t96.6\tFruit\tOranges\n2211\t28-02-2021\t96.1\tFruit\tOranges\n2212\t07-03-2021\t96.1\tFruit\tOranges\n2213\t14-03-2021\t96.3\tFruit\tOranges\n2214\t07-06-2020\t100.0\tFruit\tPeanuts\n2215\t14-06-2020\t100.2\tFruit\tPeanuts\n2216\t21-06-2020\t103.6\tFruit\tPeanuts\n2217\t28-06-2020\t103.5\tFruit\tPeanuts\n2218\t05-07-2020\t103.1\tFruit\tPeanuts\n2219\t12-07-2020\t100.8\tFruit\tPeanuts\n2220\t19-07-2020\t99.9\tFruit\tPeanuts\n2221\t26-07-2020\t100.4\tFruit\tPeanuts\n2222\t02-08-2020\t102.1\tFruit\tPeanuts\n2223\t09-08-2020\t103.6\tFruit\tPeanuts\n2224\t16-08-2020\t102.1\tFruit\tPeanuts\n2225\t23-08-2020\t101.4\tFruit\tPeanuts\n2226\t30-08-2020\t103.5\tFruit\tPeanuts\n2227\t06-09-2020\t103.3\tFruit\tPeanuts\n2228\t13-09-2020\t102.5\tFruit\tPeanuts\n2229\t20-09-2020\t102.0\tFruit\tPeanuts\n2230\t27-09-2020\t102.9\tFruit\tPeanuts\n2231\t04-10-2020\t104.5\tFruit\tPeanuts\n2232\t11-10-2020\t102.5\tFruit\tPeanuts\n2233\t18-10-2020\t101.5\tFruit\tPeanuts\n2234\t25-10-2020\t101.4\tFruit\tPeanuts\n2235\t01-11-2020\t103.4\tFruit\tPeanuts\n2236\t08-11-2020\t103.5\tFruit\tPeanuts\n2237\t15-11-2020\t104.5\tFruit\tPeanuts\n2238\t22-11-2020\t102.6\tFruit\tPeanuts\n2239\t29-11-2020\t101.9\tFruit\tPeanuts\n2240\t06-12-2020\t101.4\tFruit\tPeanuts\n2241\t13-12-2020\t102.6\tFruit\tPeanuts\n2242\t20-12-2020\t103.0\tFruit\tPeanuts\n2243\t27-12-2020\t102.5\tFruit\tPeanuts\n2244\t03-01-2021\t102.8\tFruit\tPeanuts\n2245\t10-01-2021\t103.1\tFruit\tPeanuts\n2246\t17-01-2021\t103.3\tFruit\tPeanuts\n2247\t24-01-2021\t104.1\tFruit\tPeanuts\n2248\t31-01-2021\t105.0\tFruit\tPeanuts\n2249\t07-02-2021\t105.3\tFruit\tPeanuts\n2250\t14-02-2021\t106.0\tFruit\tPeanuts\n2251\t21-02-2021\t105.8\tFruit\tPeanuts\n2252\t28-02-2021\t104.2\tFruit\tPeanuts\n2253\t07-03-2021\t100.7\tFruit\tPeanuts\n2254\t14-03-2021\t100.7\tFruit\tPeanuts\n2255\t07-06-2020\t100.0\tFruit\tPears\n2256\t14-06-2020\t100.2\tFruit\tPears\n2257\t21-06-2020\t101.5\tFruit\tPears\n2258\t28-06-2020\t100.9\tFruit\tPears\n2259\t05-07-2020\t100.3\tFruit\tPears\n2260\t12-07-2020\t100.3\tFruit\tPears\n2261\t19-07-2020\t100.4\tFruit\tPears\n2262\t26-07-2020\t101.8\tFruit\tPears\n2263\t02-08-2020\t102.6\tFruit\tPears\n2264\t09-08-2020\t103.0\tFruit\tPears\n2265\t16-08-2020\t103.2\tFruit\tPears\n2266\t23-08-2020\t103.7\tFruit\tPears\n2267\t30-08-2020\t103.7\tFruit\tPears\n2268\t06-09-2020\t102.1\tFruit\tPears\n2269\t13-09-2020\t100.3\tFruit\tPears\n2270\t20-09-2020\t96.8\tFruit\tPears\n2271\t27-09-2020\t95.4\tFruit\tPears\n2272\t04-10-2020\t97.1\tFruit\tPears\n2273\t11-10-2020\t96.5\tFruit\tPears\n2274\t18-10-2020\t96.2\tFruit\tPears\n2275\t25-10-2020\t96.0\tFruit\tPears\n2276\t01-11-2020\t95.8\tFruit\tPears\n2277\t08-11-2020\t95.4\tFruit\tPears\n2278\t15-11-2020\t95.1\tFruit\tPears\n2279\t22-11-2020\t94.5\tFruit\tPears\n2280\t29-11-2020\t94.4\tFruit\tPears\n2281\t06-12-2020\t94.0\tFruit\tPears\n2282\t13-12-2020\t94.5\tFruit\tPears\n2283\t20-12-2020\t94.7\tFruit\tPears\n2284\t27-12-2020\t95.2\tFruit\tPears\n2285\t03-01-2021\t95.2\tFruit\tPears\n2286\t10-01-2021\t97.0\tFruit\tPears\n2287\t17-01-2021\t97.1\tFruit\tPears\n2288\t24-01-2021\t96.5\tFruit\tPears\n2289\t31-01-2021\t96.7\tFruit\tPears\n2290\t07-02-2021\t96.9\tFruit\tPears\n2291\t14-02-2021\t96.6\tFruit\tPears\n2292\t21-02-2021\t96.6\tFruit\tPears\n2293\t28-02-2021\t96.4\tFruit\tPears\n2294\t07-03-2021\t96.5\tFruit\tPears\n2295\t14-03-2021\t97.6\tFruit\tPears\n2296\t07-06-2020\t100.0\tFruit\tPineapple\n2297\t14-06-2020\t99.7\tFruit\tPineapple\n2298\t21-06-2020\t98.4\tFruit\tPineapple\n2299\t28-06-2020\t94.5\tFruit\tPineapple\n2300\t05-07-2020\t93.9\tFruit\tPineapple\n2301\t12-07-2020\t99.8\tFruit\tPineapple\n2302\t19-07-2020\t99.8\tFruit\tPineapple\n2303\t26-07-2020\t98.0\tFruit\tPineapple\n2304\t02-08-2020\t98.2\tFruit\tPineapple\n2305\t09-08-2020\t100.1\tFruit\tPineapple\n2306\t16-08-2020\t100.2\tFruit\tPineapple\n2307\t23-08-2020\t98.4\tFruit\tPineapple\n2308\t30-08-2020\t96.0\tFruit\tPineapple\n2309\t06-09-2020\t97.2\tFruit\tPineapple\n2310\t13-09-2020\t96.9\tFruit\tPineapple\n2311\t20-09-2020\t97.1\tFruit\tPineapple\n2312\t27-09-2020\t97.7\tFruit\tPineapple\n2313\t04-10-2020\t97.5\tFruit\tPineapple\n2314\t11-10-2020\t96.8\tFruit\tPineapple\n2315\t18-10-2020\t96.4\tFruit\tPineapple\n2316\t25-10-2020\t96.4\tFruit\tPineapple\n2317\t01-11-2020\t95.3\tFruit\tPineapple\n2318\t08-11-2020\t94.5\tFruit\tPineapple\n2319\t15-11-2020\t94.9\tFruit\tPineapple\n2320\t22-11-2020\t95.7\tFruit\tPineapple\n2321\t29-11-2020\t96.0\tFruit\tPineapple\n2322\t06-12-2020\t94.9\tFruit\tPineapple\n2323\t13-12-2020\t93.1\tFruit\tPineapple\n2324\t20-12-2020\t93.1\tFruit\tPineapple\n2325\t27-12-2020\t93.3\tFruit\tPineapple\n2326\t03-01-2021\t94.1\tFruit\tPineapple\n2327\t10-01-2021\t94.2\tFruit\tPineapple\n2328\t17-01-2021\t94.3\tFruit\tPineapple\n2329\t24-01-2021\t93.5\tFruit\tPineapple\n2330\t31-01-2021\t92.8\tFruit\tPineapple\n2331\t07-02-2021\t93.7\tFruit\tPineapple\n2332\t14-02-2021\t95.7\tFruit\tPineapple\n2333\t21-02-2021\t95.8\tFruit\tPineapple\n2334\t28-02-2021\t95.5\tFruit\tPineapple\n2335\t07-03-2021\t95.0\tFruit\tPineapple\n2336\t14-03-2021\t95.4\tFruit\tPineapple\n2337\t07-06-2020\t100.0\tFruit\tPlums\n2338\t14-06-2020\t99.5\tFruit\tPlums\n2339\t21-06-2020\t99.5\tFruit\tPlums\n2340\t28-06-2020\t99.3\tFruit\tPlums\n2341\t05-07-2020\t97.3\tFruit\tPlums\n2342\t12-07-2020\t92.6\tFruit\tPlums\n2343\t19-07-2020\t92.0\tFruit\tPlums\n2344\t26-07-2020\t90.4\tFruit\tPlums\n2345\t02-08-2020\t90.8\tFruit\tPlums\n2346\t09-08-2020\t91.2\tFruit\tPlums\n2347\t16-08-2020\t93.1\tFruit\tPlums\n2348\t23-08-2020\t92.1\tFruit\tPlums\n2349\t30-08-2020\t92.1\tFruit\tPlums\n2350\t06-09-2020\t92.4\tFruit\tPlums\n2351\t13-09-2020\t91.6\tFruit\tPlums\n2352\t20-09-2020\t93.2\tFruit\tPlums\n2353\t27-09-2020\t92.8\tFruit\tPlums\n2354\t04-10-2020\t94.5\tFruit\tPlums\n2355\t11-10-2020\t95.2\tFruit\tPlums\n2356\t18-10-2020\t94.9\tFruit\tPlums\n2357\t25-10-2020\t95.4\tFruit\tPlums\n2358\t01-11-2020\t95.9\tFruit\tPlums\n2359\t08-11-2020\t96.0\tFruit\tPlums\n2360\t15-11-2020\t96.1\tFruit\tPlums\n2361\t22-11-2020\t98.6\tFruit\tPlums\n2362\t29-11-2020\t97.0\tFruit\tPlums\n2363\t06-12-2020\t97.0\tFruit\tPlums\n2364\t13-12-2020\t98.4\tFruit\tPlums\n2365\t20-12-2020\t98.3\tFruit\tPlums\n2366\t27-12-2020\t96.5\tFruit\tPlums\n2367\t03-01-2021\t94.8\tFruit\tPlums\n2368\t10-01-2021\t94.5\tFruit\tPlums\n2369\t17-01-2021\t94.5\tFruit\tPlums\n2370\t24-01-2021\t94.5\tFruit\tPlums\n2371\t31-01-2021\t92.7\tFruit\tPlums\n2372\t07-02-2021\t90.5\tFruit\tPlums\n2373\t14-02-2021\t88.2\tFruit\tPlums\n2374\t21-02-2021\t88.9\tFruit\tPlums\n2375\t28-02-2021\t88.7\tFruit\tPlums\n2376\t07-03-2021\t89.8\tFruit\tPlums\n2377\t14-03-2021\t89.7\tFruit\tPlums\n2378\t07-06-2020\t100.0\tFruit\tRaspberries\n2379\t14-06-2020\t98.9\tFruit\tRaspberries\n2380\t21-06-2020\t98.8\tFruit\tRaspberries\n2381\t28-06-2020\t97.7\tFruit\tRaspberries\n2382\t05-07-2020\t97.5\tFruit\tRaspberries\n2383\t12-07-2020\t97.0\tFruit\tRaspberries\n2384\t19-07-2020\t96.9\tFruit\tRaspberries\n2385\t26-07-2020\t96.9\tFruit\tRaspberries\n2386\t02-08-2020\t95.0\tFruit\tRaspberries\n2387\t09-08-2020\t94.5\tFruit\tRaspberries\n2388\t16-08-2020\t94.6\tFruit\tRaspberries\n2389\t23-08-2020\t94.7\tFruit\tRaspberries\n2390\t30-08-2020\t95.5\tFruit\tRaspberries\n2391\t06-09-2020\t94.8\tFruit\tRaspberries\n2392\t13-09-2020\t96.2\tFruit\tRaspberries\n2393\t20-09-2020\t97.4\tFruit\tRaspberries\n2394\t27-09-2020\t98.3\tFruit\tRaspberries\n2395\t04-10-2020\t99.3\tFruit\tRaspberries\n2396\t11-10-2020\t99.3\tFruit\tRaspberries\n2397\t18-10-2020\t99.0\tFruit\tRaspberries\n2398\t25-10-2020\t98.8\tFruit\tRaspberries\n2399\t01-11-2020\t100.8\tFruit\tRaspberries\n2400\t08-11-2020\t101.3\tFruit\tRaspberries\n2401\t15-11-2020\t101.4\tFruit\tRaspberries\n2402\t22-11-2020\t100.9\tFruit\tRaspberries\n2403\t29-11-2020\t101.1\tFruit\tRaspberries\n2404\t06-12-2020\t101.2\tFruit\tRaspberries\n2405\t13-12-2020\t101.9\tFruit\tRaspberries\n2406\t20-12-2020\t102.0\tFruit\tRaspberries\n2407\t27-12-2020\t101.8\tFruit\tRaspberries\n2408\t03-01-2021\t102.0\tFruit\tRaspberries\n2409\t10-01-2021\t102.4\tFruit\tRaspberries\n2410\t17-01-2021\t102.8\tFruit\tRaspberries\n2411\t24-01-2021\t102.7\tFruit\tRaspberries\n2412\t31-01-2021\t103.6\tFruit\tRaspberries\n2413\t07-02-2021\t103.6\tFruit\tRaspberries\n2414\t14-02-2021\t103.0\tFruit\tRaspberries\n2415\t21-02-2021\t103.0\tFruit\tRaspberries\n2416\t28-02-2021\t103.7\tFruit\tRaspberries\n2417\t07-03-2021\t104.7\tFruit\tRaspberries\n2418\t14-03-2021\t104.7\tFruit\tRaspberries\n2419\t07-06-2020\t100.0\tFruit\tStrawberries\n2420\t14-06-2020\t98.9\tFruit\tStrawberries\n2421\t21-06-2020\t98.9\tFruit\tStrawberries\n2422\t28-06-2020\t100.2\tFruit\tStrawberries\n2423\t05-07-2020\t99.6\tFruit\tStrawberries\n2424\t12-07-2020\t99.0\tFruit\tStrawberries\n2425\t19-07-2020\t98.8\tFruit\tStrawberries\n2426\t26-07-2020\t98.9\tFruit\tStrawberries\n2427\t02-08-2020\t94.1\tFruit\tStrawberries\n2428\t09-08-2020\t93.4\tFruit\tStrawberries\n2429\t16-08-2020\t94.0\tFruit\tStrawberries\n2430\t23-08-2020\t94.1\tFruit\tStrawberries\n2431\t30-08-2020\t96.5\tFruit\tStrawberries\n2432\t06-09-2020\t96.2\tFruit\tStrawberries\n2433\t13-09-2020\t96.8\tFruit\tStrawberries\n2434\t20-09-2020\t101.7\tFruit\tStrawberries\n2435\t27-09-2020\t104.0\tFruit\tStrawberries\n2436\t04-10-2020\t103.9\tFruit\tStrawberries\n2437\t11-10-2020\t108.8\tFruit\tStrawberries\n2438\t18-10-2020\t112.9\tFruit\tStrawberries\n2439\t25-10-2020\t113.0\tFruit\tStrawberries\n2440\t01-11-2020\t115.0\tFruit\tStrawberries\n2441\t08-11-2020\t114.7\tFruit\tStrawberries\n2442\t15-11-2020\t114.5\tFruit\tStrawberries\n2443\t22-11-2020\t114.8\tFruit\tStrawberries\n2444\t29-11-2020\t115.3\tFruit\tStrawberries\n2445\t06-12-2020\t115.5\tFruit\tStrawberries\n2446\t13-12-2020\t115.7\tFruit\tStrawberries\n2447\t20-12-2020\t115.3\tFruit\tStrawberries\n2448\t27-12-2020\t115.4\tFruit\tStrawberries\n2449\t03-01-2021\t113.5\tFruit\tStrawberries\n2450\t10-01-2021\t112.8\tFruit\tStrawberries\n2451\t17-01-2021\t113.4\tFruit\tStrawberries\n2452\t24-01-2021\t115.4\tFruit\tStrawberries\n2453\t31-01-2021\t114.6\tFruit\tStrawberries\n2454\t07-02-2021\t115.3\tFruit\tStrawberries\n2455\t14-02-2021\t115.3\tFruit\tStrawberries\n2456\t21-02-2021\t116.8\tFruit\tStrawberries\n2457\t28-02-2021\t116.6\tFruit\tStrawberries\n2458\t07-03-2021\t115.6\tFruit\tStrawberries\n2459\t14-03-2021\t112.7\tFruit\tStrawberries\n2501\t07-06-2020\t100.0\tMeat\tBacon\n2502\t14-06-2020\t100.1\tMeat\tBacon\n2503\t21-06-2020\t100.1\tMeat\tBacon\n2504\t28-06-2020\t99.9\tMeat\tBacon\n2505\t05-07-2020\t99.5\tMeat\tBacon\n2506\t12-07-2020\t98.9\tMeat\tBacon\n2507\t19-07-2020\t98.8\tMeat\tBacon\n2508\t26-07-2020\t98.5\tMeat\tBacon\n2509\t02-08-2020\t99.1\tMeat\tBacon\n2510\t09-08-2020\t99.3\tMeat\tBacon\n2511\t16-08-2020\t99.7\tMeat\tBacon\n2512\t23-08-2020\t99.8\tMeat\tBacon\n2513\t30-08-2020\t99.0\tMeat\tBacon\n2514\t06-09-2020\t98.3\tMeat\tBacon\n2515\t13-09-2020\t99.0\tMeat\tBacon\n2516\t20-09-2020\t98.3\tMeat\tBacon\n2517\t27-09-2020\t98.9\tMeat\tBacon\n2518\t04-10-2020\t99.0\tMeat\tBacon\n2519\t11-10-2020\t98.1\tMeat\tBacon\n2520\t18-10-2020\t98.1\tMeat\tBacon\n2521\t25-10-2020\t98.3\tMeat\tBacon\n2522\t01-11-2020\t98.4\tMeat\tBacon\n2523\t08-11-2020\t98.1\tMeat\tBacon\n2524\t15-11-2020\t97.9\tMeat\tBacon\n2525\t22-11-2020\t97.7\tMeat\tBacon\n2526\t29-11-2020\t97.7\tMeat\tBacon\n2527\t06-12-2020\t97.9\tMeat\tBacon\n2528\t13-12-2020\t98.6\tMeat\tBacon\n2529\t20-12-2020\t98.7\tMeat\tBacon\n2530\t27-12-2020\t98.8\tMeat\tBacon\n2531\t03-01-2021\t97.6\tMeat\tBacon\n2532\t10-01-2021\t97.0\tMeat\tBacon\n2533\t17-01-2021\t97.0\tMeat\tBacon\n2534\t24-01-2021\t97.0\tMeat\tBacon\n2535\t31-01-2021\t96.9\tMeat\tBacon\n2536\t07-02-2021\t96.6\tMeat\tBacon\n2537\t14-02-2021\t96.3\tMeat\tBacon\n2538\t21-02-2021\t97.2\tMeat\tBacon\n2539\t28-02-2021\t97.4\tMeat\tBacon\n2540\t07-03-2021\t97.3\tMeat\tBacon\n2541\t14-03-2021\t96.6\tMeat\tBacon\n2542\t07-06-2020\t100.0\tMeat\tBeef\n2543\t14-06-2020\t100.3\tMeat\tBeef\n2544\t21-06-2020\t100.4\tMeat\tBeef\n2545\t28-06-2020\t100.2\tMeat\tBeef\n2546\t05-07-2020\t100.2\tMeat\tBeef\n2547\t12-07-2020\t99.9\tMeat\tBeef"
+          },
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"result-alert alert-warning\" role\u003d\"alert\"\u003e\u003cbutton type\u003d\"button\" class\u003d\"close\" data-dismiss\u003d\"alert\" aria-label\u003d\"Close\"\u003e\u003cspan aria-hidden\u003d\"true\"\u003e\u0026times;\u003c/span\u003e\u003c/button\u003e\u003cstrong\u003eOutput is truncated\u003c/strong\u003e to 102400 bytes. Learn more about \u003cstrong\u003eZEPPELIN_INTERPRETER_OUTPUT_LIMIT\u003c/strong\u003e\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://2047ded1d673:4040/jobs/job?id\u003d25"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616518417314_459495344",
+      "id": "paragraph_1616518417314_459495344",
+      "dateCreated": "2021-03-23 16:53:37.315",
+      "dateStarted": "2021-03-26 09:43:45.186",
+      "dateFinished": "2021-03-26 09:43:45.412",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\nA price index was calculated by taking the average weekly price for each unique product, and the change in the average weekly price over time. From the diagram above, we witness a few fluctuations in price indexes for most products, with some showing a strange behaviour maybe due to lack of data or data anomalies",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:02:15.238",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eA price index was calculated by taking the average weekly price for each unique product, and the change in the average weekly price over time. From the diagram above, we witness a few fluctuations in price indexes for most products, with some showing a strange behaviour maybe due to lack of data or data anomalies\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616751857344_1183073082",
+      "id": "paragraph_1616751857344_1183073082",
+      "dateCreated": "2021-03-26 09:44:17.344",
+      "dateStarted": "2021-03-26 10:02:15.243",
+      "dateFinished": "2021-03-26 10:02:15.256",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n# Conclusion\n\nWe have observed data collected during the Corona Virus period and have made a few observartions. \n\n- Women seem to be infected more than men.\n- COVID19 is the main cause of deaths in the UK as at 2020\n- There were price fluctuations across products during the pandemic,however, most of them were somewhat stable",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:06:52.810",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eConclusion\u003c/h1\u003e\n\u003cp\u003eWe have observed data collected during the Corona Virus period and have made a few observartions.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eWomen seem to be infected more than men.\u003c/li\u003e\n\u003cli\u003eCOVID19 is the main cause of deaths in the UK as at 2020\u003c/li\u003e\n\u003cli\u003eThere were price fluctuations across products during the pandemic,however, most of them were somewhat stable\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616753003764_628868046",
+      "id": "paragraph_1616753003764_628868046",
+      "dateCreated": "2021-03-26 10:03:23.768",
+      "dateStarted": "2021-03-26 10:06:52.812",
+      "dateFinished": "2021-03-26 10:06:52.832",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-03-26 10:06:52.808",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1616753212808_2055134878",
+      "id": "paragraph_1616753212808_2055134878",
+      "dateCreated": "2021-03-26 10:06:52.808",
+      "status": "READY"
+    }
+  ],
+  "name": "CoronaAnalysis",
+  "id": "2G3PSQA9U",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {
+    "isRunning": false
+  }
+}

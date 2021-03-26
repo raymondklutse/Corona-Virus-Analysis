@@ -1,0 +1,24 @@
+"Mortality rates due to COVID-19 in February 2021 significantly decreased in both England and Wales ",""
+"Age-standardised mortality rates for deaths due to COVID-19, per 100,000 people, England and Wales, deaths registered in March 2020 to February 2021 ",""
+"",""
+"Notes","1. Age-standardised mortality rates per 100,000 people, standardised to the 2013 European Standard Population. Monthly rates in this bulletin are adjusted to allow for comparisons with annual rates. For more information, see Monthly mortality analysis, England and Wales: February 2021 Section 11: Measuring the data. 
+2. Figures are for deaths registered rather than deaths occurring in each period. 
+3. Figures for 2020 and 2021 are based on provisional mortality data and projected populations. 
+4. Figures exclude non-residents of England and Wales. 
+5. Deaths ""due to COVID-19"" include only deaths where COVID-19 was the underlying cause of death. Age-standardised mortality rates for all deaths involving COVID-19 are available in the accompanying dataset. 
+6. The International Classification of Diseases, 10th Edition (ICD-10) definitions are as follows: coronavirus (COVID-19) (U07.1, U07.2 and U10.9). For more information on our definitions of COVID-19 deaths, see Monthly mortality analysis, England and Wales: February 2021, Section 11: Measuring the Data. "
+"Unit","Age-standardised mortality rates"
+"",""
+"Month","England","Wales"
+"Mar 2020","33.8","22.1"
+"April 2020","623.2","495.1"
+"May 2020","244.8","209.2"
+"June 2020","76.3","69.0"
+"July 2020","21.6","16.7"
+"Aug 2020","7.8","11.0"
+"Sept 2020","13.0","10.8"
+"Oct 2020","64.1","81.9"
+"Nov 2020","192.6","260.6"
+"Dec 2020","233.6","374.4"
+"Jan 2021","549.6","541.7"
+"Feb 2021","392.3","272.2"
