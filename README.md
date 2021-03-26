@@ -2,7 +2,7 @@
 
 ## Context
 
-Corona Virus has made waves all over the world since it's appearance on December 2019. This virus has taken the lives of many people and also had a huge impact on economies world wide. Amongst these economies, the UK has been hit hard by this pandemic in terms of the lives lost and the economic strain it has left of the government. In this project, we analyse some data made available on [The Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases), to gain insights into how the pandemic is spreading and also its economic impacts.
+Corona Virus has made waves all over the world since its appearance in December 2019. This virus has taken the lives of many people and also had a huge impact on economies world wide. Amongst these economies, the UK has been hit hard by this pandemic in terms of the lives lost and the economic strain. In this project, we analyse some data made available on [The Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases), to gain insights into how the pandemic is spreading and also its economic impacts.
 
 ## Getting started
 
